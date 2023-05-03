@@ -1,51 +1,34 @@
 {
   "project_info": {
-    "project_number": "849058498762",
-    "firebase_url": "https://openhab-mobile.firebaseio.com",
-    "project_id": "openhab-mobile",
-    "storage_bucket": "openhab-mobile.appspot.com"
+    "project_number": "935016311171",
+    "project_id": "openhab-cloud-ca4d5",
+    "storage_bucket": "openhab-cloud-ca4d5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:849058498762:android:9fcb28f91e1b4abb",
+        "mobilesdk_app_id": "1:935016311171:android:06ea29c09a5d62c8cdaeb6",
         "android_client_info": {
-          "package_name": "org.openhab.habdroid"
+          "package_name": "cloud.esafe"
         }
       },
       "oauth_client": [
         {
-          "client_id": "849058498762-079qmadgd5f5hkdve7lkrbubfi842afj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.openhab.habdroid",
-            "certificate_hash": "28e3a41b7c84483ded3df7b8fc2789b5c912badd"
-          }
-        },
-        {
-          "client_id": "849058498762-bc6nbdk0aercq1e5utj1so77e390cr5j.apps.googleusercontent.com",
+          "client_id": "935016311171-lgq49bt9dcc5ffrbvheq7qmqn9v14mih.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBtollIxWyEIm3ni68CaoDJgZuUqoYC2Zw"
+          "current_key": "AIzaSyBmodZlMOzHXBl6GVpnhhvpExTw02jhjXQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "849058498762-bc6nbdk0aercq1e5utj1so77e390cr5j.apps.googleusercontent.com",
+              "client_id": "935016311171-lgq49bt9dcc5ffrbvheq7qmqn9v14mih.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "849058498762-3m681ei7b78ajqt9gmvt2gumah724v7q.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "es.spaphone.openhab",
-                "app_store_id": "492054521"
-              }
             }
           ]
         }
@@ -53,44 +36,86 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:849058498762:android:1e73d9e722953c8b",
+        "mobilesdk_app_id": "1:935016311171:android:a2a0c33eb72bb9facdaeb6",
         "android_client_info": {
-          "package_name": "org.openhab.habdroid.beta"
+          "package_name": "esafe.sampas"
         }
       },
       "oauth_client": [
         {
-          "client_id": "849058498762-b49s5qfketdcojkrue5mo1geh0k5q4pm.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.openhab.habdroid.beta",
-            "certificate_hash": "28e3a41b7c84483ded3df7b8fc2789b5c912badd"
-          }
-        },
-        {
-          "client_id": "849058498762-bc6nbdk0aercq1e5utj1so77e390cr5j.apps.googleusercontent.com",
+          "client_id": "935016311171-lgq49bt9dcc5ffrbvheq7qmqn9v14mih.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBtollIxWyEIm3ni68CaoDJgZuUqoYC2Zw"
+          "current_key": "AIzaSyBmodZlMOzHXBl6GVpnhhvpExTw02jhjXQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "849058498762-bc6nbdk0aercq1e5utj1so77e390cr5j.apps.googleusercontent.com",
+              "client_id": "935016311171-lgq49bt9dcc5ffrbvheq7qmqn9v14mih.apps.googleusercontent.com",
               "client_type": 3
-            },
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935016311171:android:8074a68720691122cdaeb6",
+        "android_client_info": {
+          "package_name": "org.openhab.habdroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935016311171-lgq49bt9dcc5ffrbvheq7qmqn9v14mih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmodZlMOzHXBl6GVpnhhvpExTw02jhjXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
             {
-              "client_id": "849058498762-3m681ei7b78ajqt9gmvt2gumah724v7q.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "es.spaphone.openhab",
-                "app_store_id": "492054521"
-              }
+              "client_id": "935016311171-lgq49bt9dcc5ffrbvheq7qmqn9v14mih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935016311171:android:6de4935c0c0f83c9cdaeb6",
+        "android_client_info": {
+          "package_name": "org.openhab.habdroid.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935016311171-lgq49bt9dcc5ffrbvheq7qmqn9v14mih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmodZlMOzHXBl6GVpnhhvpExTw02jhjXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935016311171-lgq49bt9dcc5ffrbvheq7qmqn9v14mih.apps.googleusercontent.com",
+              "client_type": 3
             }
           ]
         }
