@@ -895,10 +895,6 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
                     startActivity(intent)
                     handled = true
                 }
-                R.id.habpanel -> {
-                    openWebViewUi(WebViewUi.HABPANEL, false, null)
-                    handled = true
-                }
                 R.id.oh3_ui -> {
                     openWebViewUi(WebViewUi.OH3_UI, false, null)
                     handled = true
@@ -911,11 +907,6 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
                     val settingsIntent = Intent(this@MainActivity, PreferencesActivity::class.java)
                     settingsIntent.putExtra(PreferencesActivity.START_EXTRA_SERVER_PROPERTIES, serverProperties)
                     preferenceActivityCallback.launch(settingsIntent)
-                    handled = true
-                }
-                R.id.about -> {
-                    val aboutIntent = Intent(this, AboutActivity::class.java)
-                    startActivity(aboutIntent)
                     handled = true
                 }
                 R.id.default_sitemap -> {
@@ -1047,11 +1038,11 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
             val notificationsItem = drawerMenu.findItem(R.id.notifications)
             notificationsItem.isVisible = ConnectionFactory.activeCloudConnection?.connection != null
 
-            val habPanelItem = drawerMenu.findItem(R.id.habpanel)
+           /* val habPanelItem = drawerMenu.findItem(R.id.habpanel)
             habPanelItem.isVisible = serverProperties?.hasWebViewUiInstalled(WebViewUi.HABPANEL) == true &&
-                prefs.getBoolean(PrefKeys.DRAWER_ENTRY_HABPANEL, true)
+               prefs.getBoolean(PrefKeys.DRAWER_ENTRY_HABPANEL, true)
             manageHabPanelShortcut(serverProperties?.hasWebViewUiInstalled(WebViewUi.HABPANEL) == true)
-
+*/
             val oh3UiItem = drawerMenu.findItem(R.id.oh3_ui)
             oh3UiItem.isVisible = serverProperties?.hasWebViewUiInstalled(WebViewUi.OH3_UI) == true &&
                 prefs.getBoolean(PrefKeys.DRAWER_ENTRY_OH3_UI, true)

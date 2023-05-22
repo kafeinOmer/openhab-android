@@ -11,6 +11,8 @@
             android:key="default_openhab_demomode"
             android:summary="@string/settings_openhab_demomode_summary"
             android:title="@string/settings_openhab_demomode"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:order="0" />
         <Preference
             android:key="add_server"
