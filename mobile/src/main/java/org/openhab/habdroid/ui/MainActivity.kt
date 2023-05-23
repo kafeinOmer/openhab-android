@@ -40,7 +40,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
+import android.widget.Button
 import android.widget.ImageView
+import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.contract.ActivityResultContracts
@@ -194,6 +196,8 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
         processIntent(intent)
     }
 
+    lateinit var btnMainUI: Button
+    lateinit var layoutMainUI: RelativeLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         CrashReportingHelper.d(TAG, "onCreate()")
 
@@ -214,6 +218,13 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
         setContentView(R.layout.activity_main)
         // inflate the controller dependent content view
         controller.inflateViews(findViewById(R.id.content_stub))
+
+        layoutMainUI = findViewById(R.id.layout_main_ui)
+        btnMainUI = findViewById(R.id.button_open_main_ui)
+        btnMainUI.setOnClickListener {
+            layoutMainUI.visibility = View.GONE
+            openWebViewUi(WebViewUi.OH3_UI, false, null)
+        }
 
         supportActionBar?.setHomeButtonEnabled(true)
 
@@ -747,11 +758,16 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
                     updateSitemapDrawerEntries()
                     if (result.props.sitemaps.isEmpty()) {
                         Log.e(TAG, "openHAB returned empty Sitemap list")
-                        controller.indicateServerCommunicationFailure(getString(R.string.error_empty_sitemap_list))
+                        Log.e(TAG, "sitemaps isEmpty temporary null " + controller.nullCheckTemporaryPage())
+                        //controller.indicateServerCommunicationFailure(getString(R.string.error_empty_sitemap_list))
+                        if (controller.nullCheckTemporaryPage())
+                            layoutMainUI.visibility = View.VISIBLE
+
                         scheduleRetry {
                             retryServerPropertyQuery()
                         }
                     } else {
+                        layoutMainUI.visibility = View.GONE
                         chooseSitemap()
                     }
                     if (connection !is DemoConnection) {
@@ -1222,6 +1238,7 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
     }
 
     private fun openNotifications(highlightedId: String?, primaryServer: Boolean) {
+        layoutMainUI.visibility = View.GONE
         controller.openNotifications(highlightedId, primaryServer)
         drawerToggle.isDrawerIndicatorEnabled = false
     }

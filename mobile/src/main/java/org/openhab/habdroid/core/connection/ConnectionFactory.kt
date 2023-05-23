@@ -421,7 +421,8 @@ class ConnectionFactory internal constructor(
                     type is ConnectionManagerHelper.ConnectionType.Wifi ||
                         type is ConnectionManagerHelper.ConnectionType.Bluetooth ||
                         type is ConnectionManagerHelper.ConnectionType.Ethernet ||
-                        type is ConnectionManagerHelper.ConnectionType.Vpn
+                        type is ConnectionManagerHelper.ConnectionType.Vpn ||
+                        type is ConnectionManagerHelper.ConnectionType.Mobile
                 }
             for (type in localCandidates) {
                 if (type is ConnectionManagerHelper.ConnectionType.Wifi && !serverMayUseWifi()) {

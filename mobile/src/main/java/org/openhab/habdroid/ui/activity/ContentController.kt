@@ -870,4 +870,8 @@ abstract class ContentController protected constructor(private val activity: Mai
             }
         }
     }
+
+    fun nullCheckTemporaryPage() : Boolean {
+        return temporaryPage == null
+    }
 }
