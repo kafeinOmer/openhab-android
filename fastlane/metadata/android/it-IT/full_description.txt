@@ -1,8 +1,8 @@
-openHAB - "empowering the smart home" - open source home automation indipendente da tecnologia e produttore
+ e-Safe  - "empowering the smart home" - open source home automation indipendente da tecnologia e produttore
 
-Le build su F-Droid hanno rimosso FCM e quindi non saranno in grado di ricevere notifiche push da openHAB Cloud. Invece, le notifiche sono controllate su base regolare in questi compilati.
+Le build su F-Droid hanno rimosso FCM e quindi non saranno in grado di ricevere notifiche push da e-Safe Cloud. Invece, le notifiche sono controllate su base regolare in questi compilati.
 
-openHAB e' una piattaforma open-source basata su java, che integra e combina una vasta gamma di diversi smart home systems e tecnologie in un'unica soluzione.
+ e-Safe  e' una piattaforma open-source basata su java, che integra e combina una vasta gamma di diversi smart home systems e tecnologie in un'unica soluzione.
 Usando un livello unificato di astrazione, tutti i dispositivi collegati sono disponibili per le regole di automazione e per diverse interfacce utente.
 
 <b>Prodotti supportati</b>
@@ -12,16 +12,16 @@ L'app ha un plugin di azione per Tasker e Locale incluso.
 
 <b>Comunità Open Source</b>
 
-L’iniziativa openHAB open source è fortemente supportata dalla sua vivace community. Il forum con oltre 13.000 utenti registrati è un posto dove trovare la guida, l'aiuto e l'ispirazione. Partecipa al forum della comunità openHAB a https://community.openhab.org
+L’iniziativa e-Safe open source è fortemente supportata dalla sua vivace community. Il forum con oltre 13.000 utenti registrati è un posto dove trovare la guida, l'aiuto e l'ispirazione. Partecipa al forum della comunità e-Safe a https://community.openhab.org
 Quando si verifica un problema, segnalalo nel forum o al https://github.com/openhab/openhab-android/issues
 Se vuoi aiutare a tradurre l'applicazione nella tua lingua, visita https://crowdin.com/project/openhab-android
 
-<b>openHAB Foundation</b>
+<b> e-Safe  Foundation</b>
 
-openHAB Foundation e.V. è una organizzazione nonprofit, con la missione di educare il pubblico sulle possibilità e benefici di una soluzione domotica libera e aperta. Approfondisci la missione e i servizi della fondazione a https://www.openhabfoundation.org
+ e-Safe  Foundation e.V. è una organizzazione nonprofit, con la missione di educare il pubblico sulle possibilità e benefici di una soluzione domotica libera e aperta. Approfondisci la missione e i servizi della fondazione a https://www.openhabfoundation.org
 
 <b>Nota importante</b>
 
-Hai bisogno di un server openHAB per questa app.
+Hai bisogno di un server e-Safe per questa app.
 
 Informativa sulla privacy: https://www.openhabfoundation.org/privacy.html

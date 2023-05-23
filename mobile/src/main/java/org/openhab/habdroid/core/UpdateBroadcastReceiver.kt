@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the openHAB project
+ * Copyright (c) 2010-2023 Contributors to the e-Safe project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -115,7 +115,7 @@ class UpdateBroadcastReceiver : BroadcastReceiver() {
                 ItemUpdateWidget.updateAllWidgets(context)
             }
             if (comparableVersion <= MULTI_SERVER_SUPPORT) {
-                // if local or remote server URL are set, convert them to a server named 'openHAB'
+                // if local or remote server URL are set, convert them to a server named ' e-Safe '
                 val localUrl = prefs.getStringOrNull("default_openhab_url")
                 val remoteUrl = prefs.getStringOrNull("default_openhab_alturl")
                 if (localUrl != null || remoteUrl != null) {
@@ -143,7 +143,7 @@ class UpdateBroadcastReceiver : BroadcastReceiver() {
                     }
                     val config = ServerConfiguration(
                         1,
-                        "openHAB",
+                        " e-Safe ",
                         localPath,
                         remotePath,
                         prefs.getStringOrNull("default_openhab_sslclientcert"),

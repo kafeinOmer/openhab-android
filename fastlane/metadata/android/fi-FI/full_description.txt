@@ -1,8 +1,8 @@
-openHAB - "empowering the smart home" - Teknologia- ja valmistajariippumatonta, avoimen lähdekoodin kotiautomaatiota
+ e-Safe  - "empowering the smart home" - Teknologia- ja valmistajariippumatonta, avoimen lähdekoodin kotiautomaatiota
 
-The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from openHAB Cloud. Instead, notifications are polled on a regular basis in these builds.
+The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from e-Safe Cloud. Instead, notifications are polled on a regular basis in these builds.
 
-openHAB is a Java-based open-source home automation platform that integrates and combines a vast range of different smart home systems and technologies into one single solution.
+ e-Safe  is a Java-based open-source home automation platform that integrates and combines a vast range of different smart home systems and technologies into one single solution.
 Kaikki yhdistetyt laitteet ovat käytettävissä erilaisissa käyttöliittymissä sekä kaiken kattavassa sääntö- ja automaatio-ohjelmoinnissa.
 
 <b>Tuetut laitteet ja tuotteet</b>
@@ -12,16 +12,16 @@ Sovelluksessa on liitännäinen Taskeria ja Localea varten.
 
 <b>Avoimen lähdekoodin yhteisö</b>
 
- Yli 13 000 rekisteröityneen käyttäjän foorumi on paikka mistä löydät opastusta, apua ja inspiraatiota. Liity openHAB yhteisön foorumiin osoitteessa https://community.openhab.org
+ Yli 13 000 rekisteröityneen käyttäjän foorumi on paikka mistä löydät opastusta, apua ja inspiraatiota. Liity e-Safe yhteisön foorumiin osoitteessa https://community.openhab.org
 Löytäessäsi ongelman ilmoita siitä foorumilla tai osoitteessa https://github.com/openhab/openhab-android/issues
 Jos haluat kääntää tämän sovelluksen omalle kielellesi niin liity mukaan osoitteessa https://crowdin.com/project/openhab-android
 
-<b>openHAB Säätiö</b>
+<b> e-Safe  Säätiö</b>
 
-The openHAB Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org
+The e-Safe Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org
 
 <b>Tärkeä huomautus</b>
 
-Tarvitset openHAB palvelimen tätä sovellusta varten.
+Tarvitset e-Safe palvelimen tätä sovellusta varten.
 
 Tietosuojakäytäntö: https://www.openhabfoundation.org/privacy.html

@@ -22,9 +22,9 @@
     <string name="settings_sitemap_title">サイトマップ</string>
     <string name="settings_misc_title">その他の設定</string>
     <string name="settings_openhab_url">ローカルサーバー URL</string>
-    <string name="settings_openhab_url_summary">(ホスト名または IP アドレスに基づく) openHAB ダッシュ ボードの URL です。設定した場合、自動検出は無効になります。現在の設定: %s</string>
+    <string name="settings_openhab_url_summary">(ホスト名または IP アドレスに基づく) e-Safe ダッシュ ボードの URL です。設定した場合、自動検出は無効になります。現在の設定: %s</string>
     <string name="settings_openhab_alturl">リモートサーバー URL</string>
-    <string name="settings_openhab_alturl_summary">ローカルアドレスが利用できない場合に使用する openHAB ダッシュ ボードの URL です。現在の設定: %s</string>
+    <string name="settings_openhab_alturl_summary">ローカルアドレスが利用できない場合に使用する e-Safe ダッシュ ボードの URL です。現在の設定: %s</string>
     <string name="settings_openhab_username">ユーザー名</string>
     <string name="settings_openhab_password">パスワード</string>
     <string name="settings_openhab_password_summary_weak">脆弱なパスワードです</string>
@@ -34,7 +34,7 @@
     <string name="settings_openhab_sslclientcert_howto_summary">ここをタップすると SSL クライアント証明書認証を設定する方法について、いくつかのヒントや説明を得ることができます</string>
     <string name="settings_openhab_sslclientcert_not_supported">お使いのデバイスで SSL クライアント証明書はサポートされていません</string>
     <string name="settings_openhab_demomode">デモモード</string>
-    <string name="settings_openhab_demomode_summary">openHAB サーバーをお持ちでない場合は、デモモードを有効にすると、openHAB どのようなことができるか想像できます。</string>
+    <string name="settings_openhab_demomode_summary"> e-Safe  サーバーをお持ちでない場合は、デモモードを有効にすると、 e-Safe  どのようなことができるか想像できます。</string>
     <string name="drawer_entries">サイドメニュー項目</string>
     <string name="settings_openhab_theme">テーマ</string>
     <string name="settings_openhab_fullscreen">フルスクリーン</string>
@@ -74,7 +74,7 @@
     <string name="settings_screen_lock_off_summary">アプリへのアクセスはロックされていません</string>
     <string name="settings_screen_lock_kiosk_summary">Android の画面ロックまたは指紋で、アプリの設定へのアクセスがロックされています</string>
     <string name="settings_screen_lock_on_summary">Android の画面ロックまたは指紋で、アプリへのアクセスがロックされています\n注: それでもウィジェットは使用できます</string>
-    <string name="screen_lock_unlock_screen_description">openHAB のアクセスをロック解除します</string>
+    <string name="screen_lock_unlock_screen_description"> e-Safe  のアクセスをロック解除します</string>
     <string name="screen_lock_unlock_preferences_description">設定へのアクセスをロック解除</string>
     <string name="settings_screen_lock_off">オフ</string>
     <string name="settings_screen_lock_kiosk">Kioskモード</string>
@@ -91,7 +91,7 @@
     <string name="settings_server_primary_title">プライマリサーバー</string>
     <string name="settings_server_primary_summary_is_primary">このサーバーはプライマリです。\n現在、プライマリサーバーのみ、このアプリのすべての機能でサポートされています。 詳細はヘルプボタンをタッチしてください。</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" がプライマリサーバーです。タッチするとこのサーバーをプライマリにします。\n現在、プライマリサーバーのみ、このアプリのすべての機能でサポートされています。 詳細はヘルプボタンをタッチしてください。</string>
-    <string name="settings_server_default_name">openHAB %d</string>
+    <string name="settings_server_default_name"> e-Safe  %d</string>
     <string name="click_here_for_more_information">詳細はここをタッチしてください</string>
     <string name="settings_multi_server_wifi_ssid_switched">Wi-Fiに基づいてサーバー \"%s\" に切り替えました</string>
     <string name="settings_multi_server_wifi_ssid_missing_permissions">Wi-Fi名を読み取ることができません: 権限がありません</string>
@@ -101,7 +101,7 @@
     <string name="title_voice_widget">音声コマンド</string>
     <string name="voice_command">音声コマンド</string>
     <string name="title_voice_widget_icon">音声コマンドとアプリのショートカット</string>
-    <string name="info_voice_input">openHAB, お話ください!</string>
+    <string name="info_voice_input"> e-Safe , お話ください!</string>
     <string name="info_voice_recognized_text">認識したコマンド: %1$s</string>
     <string name="info_demo_mode_short">デモ モードで実行しています</string>
     <!-- Please try to keep the string as short as possible -->
@@ -116,12 +116,12 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">%sをコピーしました</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB は空のサイトマップリストを返しました</string>
+    <string name="error_empty_sitemap_list"> e-Safe  は空のサイトマップリストを返しました</string>
     <string name="error_sitemap_generic_load_error">サイトマップを読み込めませんでした。次のエラーが発生しました: %1$s</string>
     <string name="error_network_not_available">ネットワークが利用できません</string>
     <string name="error_wifi_not_available">Wi-Fi がオフになっています</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
-    <string name="error_http_connection_failed">接続が失敗しました。設定された openHAB サーバーに接続しようとしたときに予期しない応答を受け取りました (HTTP コード: %d)。</string>
+    <string name="error_http_connection_failed">接続が失敗しました。設定された e-Safe サーバーに接続しようとしたときに予期しない応答を受け取りました (HTTP コード: %d)。</string>
     <string name="error_invalid_url">\'http(s)://host(:port)/\' の形式で、正しい URL を入力してください</string>
     <string name="error_invalid_https_url">\'https://host(:port)/\' の形式で、正しい URL を入力してください</string>
     <string name="error_port_seems_invalid">入力したポートは、選択したプロトコルでは正しくないようです</string>
@@ -147,13 +147,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">認証に失敗しました。提供された SSL クライアント証明書を確認してください (HTTP コード %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">SSL クライアント証明書が必要 (HTTP コード %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">リバースプロキシが openHAB から無効な応答を受け取りました (HTTP コード %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">openHAB は一時的に利用できません (HTTP コード %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">ゲートウェイ タイムアウト。リバースプロキシが実行中ですが、openHAB サーバーから回答を受け取ることができなかったようです (HTTP コード %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">openHAB に十分な空き容量がありません (HTTP コード %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">リバースプロキシが e-Safe から無効な応答を受け取りました (HTTP コード %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503"> e-Safe  は一時的に利用できません (HTTP コード %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">ゲートウェイ タイムアウト。リバースプロキシが実行中ですが、 e-Safe  サーバーから回答を受け取ることができなかったようです (HTTP コード %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507"> e-Safe  に十分な空き容量がありません (HTTP コード %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">ネットワーク認証が必要です (HTTP コード %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline">openHAB はオフラインです</string>
+    <string name="error_short_openhab_offline"> e-Safe  はオフラインです</string>
     <string name="error_short_http_connection_failed">HTTP コード %d</string>
     <string name="error_short_unable_to_resolve_hostname">ホスト名の解決エラー</string>
     <string name="error_short_unknown">不明なエラー: %s</string>
@@ -172,12 +172,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS が必要です (HTTP コード %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">認証に失敗しました (HTTP コード %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">SSL クライアント証明書が必要 (HTTP コード %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">リバースプロキシが openHAB から無効な応答を受け取りました (HTTP コード %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">openHAB は一時的に利用できません (HTTP コード %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">リバースプロキシが e-Safe から無効な応答を受け取りました (HTTP コード %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  は一時的に利用できません (HTTP コード %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">ゲートウェイタイムアウト (HTTP コード %d)</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">サーバーに十分な空き容量がありません (HTTP コード %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">ネットワーク認証が必要です (HTTP コード %d)</string>
-    <string name="error_openhab_offline">クラウドインスタンス実行中、お使いの openHAB サーバーがオフラインです</string>
+    <string name="error_openhab_offline">クラウドインスタンス実行中、お使いの e-Safe サーバーがオフラインです</string>
     <string name="error_no_browser_found">お使いのデバイス上にブラウザーが見つかりません</string>
     <string name="error_no_speech_to_text_app_found">音声認識アプリが見つかりません</string>
     <string name="error_video_player">%s を読み込みできません</string>
@@ -228,7 +228,7 @@
     <string name="settings_charging_state_summary_off">充電状態を送信しません</string>
     <string name="settings_wifi_ssid">Wi-Fi 名</string>
     <string name="settings_wifi_ssid_summary_on">Wi-Fi 名 (SSID) をアイテム \'%1$s\' に送信します</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Wi-Fi 名 (SSID) をアイテム \'%1$s\' に送信します。「場所」をオンにする必要があります。そうしないと openHAB は Wi-Fi 名を取得できません。</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Wi-Fi 名 (SSID) をアイテム \'%1$s\' に送信します。「場所」をオンにする必要があります。そうしないと e-Safe は Wi-Fi 名を取得できません。</string>
     <string name="settings_wifi_ssid_summary_off">Wi-Fi 名 (SSID) を送信しません</string>
     <string name="settings_wifi_ssid_permission_denied">アクセス許可がないため Wi-Fi 名の送信は無効です</string>
     <string name="settings_dnd_mode">DND モード</string>
@@ -286,7 +286,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">音声コマンドの先頭に \'&lt;デバイス識別子&gt;|\' をつける</string>
     <string name="device_identifier_bg_tasks">「サーバーにデバイス情報を送信」の項目名の最初にこの識別子をつけます</string>
-    <string name="device_identifier_hint">このデバイス識別子は任意の文字列にすることができ、openHAB サーバーにアクセスするすべてのデバイスで一意である必要があります。 上記の2つのユースケースに加えて、NFCタグの状態として使用することもでき、どのデバイスがタグを読み取るかわかります。</string>
+    <string name="device_identifier_hint">このデバイス識別子は任意の文字列にすることができ、 e-Safe  サーバーにアクセスするすべてのデバイスで一意である必要があります。 上記の2つのユースケースに加えて、NFCタグの状態として使用することもでき、どのデバイスがタグを読み取るかわかります。</string>
     <string name="device_identifier_suggested_command_nfc_tag">スキャンするデバイスのデバイス識別子 (\"%s\" はこのデバイス)</string>
     <string name="device_identifier_summary_not_set">サーバーに送信されたデータと音声コマンドにはデバイス識別子が付いていません</string>
     <!-- Notification list strings -->
@@ -365,9 +365,9 @@
     <string name="about_issues">問題を報告する</string>
     <string name="about_docs">ドキュメント</string>
     <string name="about_community_forum">コミュニティフォーラム</string>
-    <string name="about_foundation">openHAB 財団</string>
-    <string name="about_community">openHAB コミュニティ</string>
-    <string name="about_translation">openHAB の翻訳にご協力ください</string>
+    <string name="about_foundation"> e-Safe  財団</string>
+    <string name="about_community"> e-Safe  コミュニティ</string>
+    <string name="about_translation"> e-Safe  の翻訳にご協力ください</string>
     <string name="about_privacy_policy">プライバシーポリシー</string>
     <string name="about_rate_this_app">このアプリを評価する</string>
     <string name="settings_troubleshooting_title">トラブルシューティング</string>
@@ -376,9 +376,9 @@
     <string name="enable_wifi_button">Wi-Fi をオンにする</string>
     <string name="go_to_settings_button">設定に移動</string>
     <string name="enable_demo_mode_button">デモモードをオンにする</string>
-    <string name="configuration_missing">ネットワークで openHAB サーバーを見つけられませんでした。サーバーが既にある場合は、サーバーの設定で、IP アドレスまたはホスト名を設定してください。サーバーがまだない場合は、デモモードを有効にすると、openHAB でどのようなことができるかを確認することができます。</string>
+    <string name="configuration_missing">ネットワークで e-Safe サーバーを見つけられませんでした。サーバーが既にある場合は、サーバーの設定で、IP アドレスまたはホスト名を設定してください。サーバーがまだない場合は、デモモードを有効にすると、 e-Safe  でどのようなことができるかを確認することができます。</string>
     <string name="no_remote_server">ローカルサーバーへの接続が失敗しました。リモートサーバーが設定されていません。</string>
-    <string name="resolving_openhab">openHAB サーバーインスタンスの探索中\u2026</string>
+    <string name="resolving_openhab"> e-Safe  サーバーインスタンスの探索中\u2026</string>
     <string name="waiting_for_wifi">Wi-Fi 接続の確立を待っています\u2026</string>
     <string name="visit_status_openhab_org">status.openhab.org を表示</string>
     <!-- Log -->
@@ -405,13 +405,13 @@
     <string name="content_description_color_down">オフまたは長押しは暗くします</string>
     <string name="content_description_open_number_picker">数字選択を開く</string>
     <string name="content_description_video">ビデオ</string>
-    <string name="content_description_open_openhab">openHAB を開く</string>
+    <string name="content_description_open_openhab"> e-Safe  を開く</string>
     <string name="swipe_to_refresh_description">アプリも自動的に更新されます、通常、手動で行う必要はありません</string>
     <string name="got_it">了解!</string>
     <!-- Intro strings -->
     <string name="app_intro">はじめに</string>
-    <string name="intro_welcome">openHAB へようこそ</string>
-    <string name="intro_welcome_back">openHAB へまたようこそ</string>
+    <string name="intro_welcome"> e-Safe  へようこそ</string>
+    <string name="intro_welcome_back"> e-Safe  へまたようこそ</string>
     <string name="intro_app_restored">サーバー資格情報を除き、ほとんどの設定が復元されました</string>
     <string name="intro_whatis">ホーム用、ベンダーや技術に依存しないオープンソースのオートメーションソフトウェア</string>
     <string name="intro_voice_description">音声でホームをコントロール</string>
@@ -505,7 +505,7 @@
     <string name="tile_label_11">タイル 11</string>
     <string name="tile_label_12">タイル 12</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">openHAB アイコン</string>
+    <string name="tile_icon_openhab"> e-Safe  アイコン</string>
     <string name="tile_icon_tv">テレビ</string>
     <string name="tile_icon_radio">ラジオ</string>
     <string name="tile_icon_bulb">電球</string>

@@ -1,8 +1,8 @@
-openHAB - "empowering the smart home" - automação residencial de código aberto agnóstica às marcas e tecnologias
+ e-Safe  - "empowering the smart home" - automação residencial de código aberto agnóstica às marcas e tecnologias
 
-As compilações em F-Droid têm FCM e o relatório de falha removidos e não serão capazes de receber notificações push do openHAB Cloud. Em vez disso, as notificações são consultadas regularmente nestas compilações.
+As compilações em F-Droid têm FCM e o relatório de falha removidos e não serão capazes de receber notificações push do e-Safe Cloud. Em vez disso, as notificações são consultadas regularmente nestas compilações.
 
-openHAB é uma plataforma de automação residencial de código aberto baseada em Java que integra e combina uma vasta gama de diferentes sistemas e tecnologias domésticos inteligentes em uma única solução.
+ e-Safe  é uma plataforma de automação residencial de código aberto baseada em Java que integra e combina uma vasta gama de diferentes sistemas e tecnologias domésticos inteligentes em uma única solução.
 No topo da camada de abstração unificada, todos os dispositivos conectados estão disponíveis para os mecanismos de regras de automação abrangentes e diferentes interfaces de usuário.
 
 <b>Produtos suportados</b>
@@ -12,16 +12,16 @@ O aplicativo tem um plugin de ação para Tasker e Locale incluído.
 
 <b>Comunidade Open Source</b>
 
-A iniciativa de código aberto openHAB apoia fortemente sua comunidade vibrante. O fórum com mais de 13.000 usuários registrados é um lugar para encontrar orientação, ajuda e inspiração. Participe do fórum da comunidade openHAB em https://community.openhab.org
+A iniciativa de código aberto e-Safe apoia fortemente sua comunidade vibrante. O fórum com mais de 13.000 usuários registrados é um lugar para encontrar orientação, ajuda e inspiração. Participe do fórum da comunidade e-Safe em https://community.openhab.org
 Quando você encontrar um problema, por favor reporte no fórum ou em https://github.com/openhab/openhab-android/issues
 Se você quiser traduzir o aplicativo para o seu idioma, junte-se a nós em https://crowdin.com/project/openhab-android
 
-<b>Fundação openHAB</b>
+<b>Fundação  e-Safe </b>
 
-A Fundação openHAB e.V. é uma organização sem fins lucrativos com a missão de educar o público sobre as possibilidades e benefícios de soluções de automação residencial gratuitas e abertas. Aprenda sobre a missão e os serviços da fundação em https://www.openhabfoundation.org
+A Fundação e-Safe e.V. é uma organização sem fins lucrativos com a missão de educar o público sobre as possibilidades e benefícios de soluções de automação residencial gratuitas e abertas. Aprenda sobre a missão e os serviços da fundação em https://www.openhabfoundation.org
 
 <b>Nota importante</b>
 
-Você precisa de um servidor openHAB para este app.
+Você precisa de um servidor e-Safe para este app.
 
 Política de privacidade: https://www.openhabfoundation.org/privacy.html

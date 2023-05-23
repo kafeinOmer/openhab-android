@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the openHAB project
+ * Copyright (c) 2010-2023 Contributors to the e-Safe project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -361,7 +361,7 @@ fun Context.getHumanReadableErrorMessage(url: String, httpCode: Int, error: Thro
     } else if (error.hasCause(IOException::class.java) && error.hasCause(EOFException::class.java)) {
         getString(if (short) R.string.error_short_http_to_https_port else R.string.error_http_to_https_port)
     } else if (httpCode >= 400) {
-        if (error?.message == "openHAB is offline") {
+        if (error?.message == " e-Safe  is offline") {
             getString(if (short) R.string.error_short_openhab_offline else R.string.error_openhab_offline)
         } else {
             try {

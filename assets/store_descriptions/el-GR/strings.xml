@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <strings>
-    <intro>openHAB - "empowering the smart home" - Ανοικτού κώδικα, ανεξάρτητο κατασκευαστή και τεχνολογίας λογισμικό αυτοματοποίησης σπιτιού</intro>
-    <whatis>Το openHAB είναι μια πλατφόρμα ανοικτού λογισμικού βασισμένη στην Java που ενσωματώνει και συνδυάζει ένα ευρύ φάσμα διαφορετικών συστημάτων και τεχνολογιών έξυπνου σπιτιού σε μία ενιαία λύση.</whatis>
+    <intro> e-Safe  - "empowering the smart home" - Ανοικτού κώδικα, ανεξάρτητο κατασκευαστή και τεχνολογίας λογισμικό αυτοματοποίησης σπιτιού</intro>
+    <whatis>Το e-Safe είναι μια πλατφόρμα ανοικτού λογισμικού βασισμένη στην Java που ενσωματώνει και συνδυάζει ένα ευρύ φάσμα διαφορετικών συστημάτων και τεχνολογιών έξυπνου σπιτιού σε μία ενιαία λύση.</whatis>
     <rules>Όλες οι συσκευές είναι διαθέσιμες για τις μηχανές κανόνων αυτοματοποίησης και τις διαφορετικές διεπαφές χρήστη (UI) μέσα από το ενοποιημένο και αφαιρετικό επίπεδο.</rules>
     <supported>Υποστηριζόμενα προϊόντα</supported>
     <bindings>  </bindings>
@@ -12,10 +12,10 @@
 
     <report_issues>Όταν βρείτε ένα πρόβλημα παρακαλώ αναφέρετε το στο φόρουμ ή στο https://github.com/openhab/openhab-android/issues</report_issues>
     <translation>Εάν θέλετε να μεταφράσετε την εφαρμογή στην γλώσσα σας δηλώστε συμμετοχή στο https://crowdin.com/project/openhab-android</translation>
-    <foundation>Ίδρυμα openHAB</foundation>
+    <foundation>Ίδρυμα  e-Safe </foundation>
     <about_foundation> </about_foundation>
     <important_note>Σημαντική Σημείωση</important_note>
-    <oh_server>Χρειάζεστε έναν διακομιστή openHAB για αυτό το app.</oh_server>
+    <oh_server>Χρειάζεστε έναν διακομιστή e-Safe για αυτό το app.</oh_server>
     <short_description>Ανεξάρτητο τεχνολογίας &amp; κατασκευαστή ανοικτό λογισμικό αυτοματοποίησης σπιτιού</short_description>
     <fdroid> </fdroid>
     <fdroid_beta><![CDATA[Μπορείτε να εγκαταστήσετε την έκδοση beta παράλληλα με την <a href="https://f-droid.org/packages/org.openhab.habdroid/">σταθερή έκδοση</a>.]]></fdroid_beta>

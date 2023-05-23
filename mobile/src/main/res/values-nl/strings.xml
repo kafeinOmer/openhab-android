@@ -15,7 +15,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Notificaties</string>
     <string name="habpanel_error">Er is een fout opgetreden tijdens het laden van HABPanel</string>
-    <string name="frontail_error">Er is een fout opgetreden tijdens het laden van Frontail. Houd er rekening mee dat het niet beschikbaar is via openHAB Cloud.</string>
+    <string name="frontail_error">Er is een fout opgetreden tijdens het laden van Frontail. Houd er rekening mee dat het niet beschikbaar is via e-Safe Cloud.</string>
     <string name="mainmenu_openhab_selectsitemap">Selecteer standaard Sitemap</string>
     <string name="mainmenu_openhab_clearcache">Verwijder afbeeldingscache</string>
     <!-- App settings strings -->
@@ -24,9 +24,9 @@
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Overige Instellingen</string>
     <string name="settings_openhab_url">Lokale server URL</string>
-    <string name="settings_openhab_url_summary">De URL van het dashboard van de openHAB (gebaseerd op hostnaam of IP). Indien geconfigureerd, is automatische detectie uitgeschakeld. Huidige instelling: %s</string>
+    <string name="settings_openhab_url_summary">De URL van het dashboard van de e-Safe (gebaseerd op hostnaam of IP). Indien geconfigureerd, is automatische detectie uitgeschakeld. Huidige instelling: %s</string>
     <string name="settings_openhab_alturl">Externe server-URL</string>
-    <string name="settings_openhab_alturl_summary">Externe openHAB URL (wordt alleen gebruikt wanneer het lokale adres niet beschikbaar is). Huidige instelling: %s</string>
+    <string name="settings_openhab_alturl_summary">Externe e-Safe URL (wordt alleen gebruikt wanneer het lokale adres niet beschikbaar is). Huidige instelling: %s</string>
     <string name="settings_openhab_username">Gebruikersnaam</string>
     <string name="settings_openhab_password">Wachtwoord</string>
     <string name="settings_openhab_password_summary_weak">Zwak wachtwoord ingesteld</string>
@@ -36,9 +36,9 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Tik hier voor enkele tips en uitleg over het instellen van SSL certificaat authenticatie</string>
     <string name="settings_openhab_sslclientcert_not_supported">SSL-cliëntcertificaten worden niet ondersteund door uw apparaat</string>
     <string name="settings_openhab_screentimeroff">Schermtimeout uitschakelen</string>
-    <string name="settings_openhab_screentimeroff_summary">Het scherm wordt niet uitgeschakeld als openHAB wordt uitgevoerd</string>
+    <string name="settings_openhab_screentimeroff_summary">Het scherm wordt niet uitgeschakeld als e-Safe wordt uitgevoerd</string>
     <string name="settings_openhab_demomode">Demonstratiemodus</string>
-    <string name="settings_openhab_demomode_summary">Als je geen openHAB server hebt, schakel dan de demo-modus in, om een idee te krijgen wat openHAB allemaal kan.</string>
+    <string name="settings_openhab_demomode_summary">Als je geen e-Safe server hebt, schakel dan de demo-modus in, om een idee te krijgen wat e-Safe allemaal kan.</string>
     <string name="start_page_title">Startpagina</string>
     <string name="drawer_entries">Zijmenu items</string>
     <string name="settings_openhab_theme">Thema</string>
@@ -82,7 +82,7 @@
     <string name="settings_screen_lock_off_summary">Toegang tot de app is niet vergrendeld</string>
     <string name="settings_screen_lock_kiosk_summary">Toegang tot de app instellingen is vergrendeld met Android-schermvergrendeling of vingerafdruk</string>
     <string name="settings_screen_lock_on_summary">Toegang tot de app is vergrendeld met Android schermvergrendeling of vingerafdruk\nOpmerking: Widgets kunnen nog steeds gebruikt worden</string>
-    <string name="screen_lock_unlock_screen_description">Ontgrendel voor toegang tot openHAB</string>
+    <string name="screen_lock_unlock_screen_description">Ontgrendel voor toegang tot  e-Safe </string>
     <string name="screen_lock_unlock_preferences_description">Ontgrendel voor toegang tot instellingen</string>
     <string name="settings_screen_lock_off">Uit</string>
     <string name="settings_screen_lock_kiosk">Kioskmodus</string>
@@ -99,7 +99,7 @@
     <string name="settings_server_primary_title">Primaire server</string>
     <string name="settings_server_primary_summary_is_primary">Deze server is de primaire server.\nMomenteel wordt alleen de primaire server ondersteund in alle functies van deze app. Gebruik de help-knop voor meer informatie.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" is de primaire server. Raak aan om deze server de primaire te maken.\nMomenteel wordt alleen de primaire server ondersteund in alle functies van deze app. Raak de help knop aan voor meer informatie.</string>
-    <string name="settings_server_default_name">openHAB %d</string>
+    <string name="settings_server_default_name"> e-Safe  %d</string>
     <string name="settings_advanced">Geavanceerd</string>
     <string name="click_here_for_more_information">Tik hier voor meer informatie</string>
     <string name="settings_multi_server_wifi_ssid_summary_hint">De app selecteert deze server wanneer verbonden met een van deze wifi-namen. Meerdere wifi-namen kunnen worden ingevoerd op afzonderlijke regels.</string>
@@ -114,7 +114,7 @@
     <string name="title_voice_widget">Spraakcommando\'s</string>
     <string name="voice_command">Spraakcommando</string>
     <string name="title_voice_widget_icon">Spraakcommando\'s en app snelkoppeling</string>
-    <string name="info_voice_input">openHAB, tot uw dienst!</string>
+    <string name="info_voice_input"> e-Safe , tot uw dienst!</string>
     <string name="info_voice_recognized_text">Herkend commando: %1$s</string>
     <string name="info_demo_mode_short">Uitgevoerd in de demomodus</string>
     <!-- Please try to keep the string as short as possible -->
@@ -129,13 +129,13 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">Gekopieerd \"%s\"</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB heeft een lege Sitemap geladen</string>
+    <string name="error_empty_sitemap_list"> e-Safe  heeft een lege Sitemap geladen</string>
     <string name="error_sitemap_generic_load_error">De Sitemap kon niet worden geladen. De volgende fout is opgetreden: %1$s</string>
     <string name="error_network_not_available">Netwerk is niet beschikbaar</string>
     <string name="error_wifi_not_available">Wi-Fi is uitgeschakeld</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
     <string name="error_wifi_restricted">Lokale verbindingen met server %1$s zijn beperkt tot de volgende wifi-namen: %2$s</string>
-    <string name="error_http_connection_failed">Verbinding mislukt. Tijdens het verbinden met de ingestelde openHAB server is een onverwachte reactie ontvangen (HTTP Code %d).</string>
+    <string name="error_http_connection_failed">Verbinding mislukt. Tijdens het verbinden met de ingestelde e-Safe server is een onverwachte reactie ontvangen (HTTP Code %d).</string>
     <string name="error_invalid_url">Voer een geldige URL in, formaat \'http(s)://host(:port)/\'</string>
     <string name="error_invalid_https_url">Geef een correcte URL op in de \'https://host(:port)/\' vorm</string>
     <string name="error_port_seems_invalid">De ingevoerde poort lijkt ongeldig voor het geselecteerde protocol</string>
@@ -162,13 +162,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Authenticatie mislukt. Controleer het versterkte SSL certificaat (HTTP Code %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">SSL certificaat vereist (HTTP Code %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Je reverse-proxy heeft een ongeldig antwoord ontvangen van de openHAB server (HTTP-code %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">De openHAB server is tijdelijk niet beschikbaar (HTTP code %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Het lijkt erop dat uw reverse-proxy actief is, maar kon geen antwoord krijgen van de openHAB server (HTTP code %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">De openHAB-server heeft onvoldoende vrije ruimte (HTTP code %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Je reverse-proxy heeft een ongeldig antwoord ontvangen van de e-Safe server (HTTP-code %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">De e-Safe server is tijdelijk niet beschikbaar (HTTP code %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Het lijkt erop dat uw reverse-proxy actief is, maar kon geen antwoord krijgen van de e-Safe server (HTTP code %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">De  e-Safe -server heeft onvoldoende vrije ruimte (HTTP code %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Netwerkverificatie is vereist (HTTP code %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline">openHAB is offline</string>
+    <string name="error_short_openhab_offline"> e-Safe  is offline</string>
     <string name="error_short_http_connection_failed">HTTP code %d</string>
     <string name="error_short_unable_to_resolve_hostname">Fout bij het opzoeken van hostnaam</string>
     <string name="error_short_unknown">Onbekende fout: %s</string>
@@ -187,12 +187,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS vereist (HTTP code %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Authenticatie mislukt (HTTP code %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">SSL-clientcertificaat vereist (HTTP code %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Reverse proxy heeft een ongeldig antwoord ontvangen van openHAB (HTTP code %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">openHAB tijdelijk niet beschikbaar (HTTP code %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Reverse proxy heeft een ongeldig antwoord ontvangen van e-Safe (HTTP code %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  tijdelijk niet beschikbaar (HTTP code %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Gateway time-out (HTTP code %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Niet genoeg vrije ruimte op de server (HTTP code %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Netwerkverificatie vereist (HTTP code %d)</string>
-    <string name="error_openhab_offline">Uw openHAB server is offline terwijl de cloud instance actief is</string>
+    <string name="error_openhab_offline">Uw e-Safe server is offline terwijl de cloud instance actief is</string>
     <string name="error_no_browser_found">Geen browser gevonden op dit apparaat</string>
     <string name="error_no_speech_to_text_app_found">Geen app voor spraakherkenning gevonden</string>
     <string name="error_video_player">%s kon niet worden geladen</string>
@@ -246,7 +246,7 @@
     <string name="settings_charging_state_summary_off">Geen oplaadstatus verzenden</string>
     <string name="settings_wifi_ssid">Wi-Fi naam</string>
     <string name="settings_wifi_ssid_summary_on">Verstuurt Wi-Fi naam (SSID) naar Item \'%1$s\'</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Verstuurt Wi-Fi-naam (SSID) naar Item \'%1$s\'. \"Locatie\" moet ingeschakeld zijn, anders mag openHAB de Wi-Fi-naam niet ophalen.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Verstuurt Wi-Fi-naam (SSID) naar Item \'%1$s\'. \"Locatie\" moet ingeschakeld zijn, anders mag e-Safe de Wi-Fi-naam niet ophalen.</string>
     <string name="settings_wifi_ssid_summary_off">Geen Wi-Fi-naam (SSID) verzenden</string>
     <string name="settings_wifi_ssid_permission_denied">Het verzenden van Wi-Fi-naam is uitgeschakeld vanwege ontbrekende machtigingen</string>
     <string name="settings_wifi_ssid_restrict">Beperken de lokale verbinding tot deze wifi-namen</string>
@@ -284,7 +284,7 @@
     </plurals>
     <string name="push_notification_status_no_remote_configured">Meldingen zijn niet beschikbaar: de externe server is niet ingesteld</string>
     <string name="push_notification_status_http_error">Meldingen zijn niet beschikbaar: Fout bij verbinden met externe server: %s</string>
-    <string name="push_notification_status_remote_no_cloud">Meldingen zijn niet beschikbaar: Externe server is geen openHAB cloud</string>
+    <string name="push_notification_status_remote_no_cloud">Meldingen zijn niet beschikbaar: Externe server is geen e-Safe cloud</string>
     <string name="push_notification_status">Status</string>
     <string name="push_notification_hint">De meldingen worden opgevraagd volgens een schema, welke hetzelfde is als voor \"Apparaatinformatie naar server verzenden\"</string>
     <plurals name="item_update_error_title">
@@ -315,7 +315,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Gebruik \'&lt;Device identifier&gt;\' als voorvoegsel voor spraakcommando\'s</string>
     <string name="device_identifier_bg_tasks">Voorvoegsel voor de Item-namen van \"Apparaatinformatie naar server verzenden\" met deze identificatie</string>
-    <string name="device_identifier_hint">Dit apparaat-id kan een string zijn en moet uniek zijn voor alle apparaten die toegang hebben tot uw openHAB-server. Naast de twee bovengenoemde gevallen kan je het ook als status op NFC-tags gebruiken, zodat je weet welk apparaat de tag leest.</string>
+    <string name="device_identifier_hint">Dit apparaat-id kan een string zijn en moet uniek zijn voor alle apparaten die toegang hebben tot uw  e-Safe -server. Naast de twee bovengenoemde gevallen kan je het ook als status op NFC-tags gebruiken, zodat je weet welk apparaat de tag leest.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Apparaat-Id van scanapparaat (\"%s\" voor dit apparaat)</string>
     <string name="device_identifier_summary_not_set">Gegevens verzonden naar de server en spraakcommando\'s zijn niet voorzien van een apparaatidentificatie</string>
     <!-- Notification list strings -->
@@ -396,9 +396,9 @@
     <string name="about_issues">Een probleem melden</string>
     <string name="about_docs">Documentatie</string>
     <string name="about_community_forum">Community forum</string>
-    <string name="about_foundation">openHAB Foundation</string>
-    <string name="about_community">openHAB community</string>
-    <string name="about_translation">Help ons met het vertalen van openHAB</string>
+    <string name="about_foundation"> e-Safe  Foundation</string>
+    <string name="about_community"> e-Safe  community</string>
+    <string name="about_translation">Help ons met het vertalen van  e-Safe </string>
     <string name="about_privacy_policy">Privacy beleid</string>
     <string name="about_rate_this_app">Deze app beoordelen</string>
     <string name="settings_debug_messages_title">Toon informatie voor het oplossen van problemen</string>
@@ -409,9 +409,9 @@
     <string name="switch_wifi_button">Verbind met een ander Wi-Fi netwerk</string>
     <string name="go_to_settings_button">Ga naar instellingen</string>
     <string name="enable_demo_mode_button">Demo modus inschakelen</string>
-    <string name="configuration_missing">We hebben geen openHAB-server gevonden in je netwerk. Als je al een server hebt, configureer dan het IP-adres of de hostnaam in de serverinstellingen. Als je nog geen server hebt, kun je de demo modus inschakelen om te zien waartoe openHAB in staat is.</string>
+    <string name="configuration_missing">We hebben geen  e-Safe -server gevonden in je netwerk. Als je al een server hebt, configureer dan het IP-adres of de hostnaam in de serverinstellingen. Als je nog geen server hebt, kun je de demo modus inschakelen om te zien waartoe e-Safe in staat is.</string>
     <string name="no_remote_server">Verbinding met lokale server mislukt en geen externe server geconfigureerd</string>
-    <string name="resolving_openhab">Proberen om openHAB server automatisch te vinden\u2026</string>
+    <string name="resolving_openhab">Proberen om e-Safe server automatisch te vinden\u2026</string>
     <string name="waiting_for_wifi">Wachten op Wi-Fi om verbinding te maken\u2026</string>
     <string name="visit_status_openhab_org">Bezoek status.openhab.org</string>
     <!-- Log -->
@@ -439,13 +439,13 @@
     <string name="content_description_color_down">Uit of ingedrukt houden om minder fel te maken</string>
     <string name="content_description_open_number_picker">Open nummer kiezer</string>
     <string name="content_description_video">Video</string>
-    <string name="content_description_open_openhab">Open openHAB</string>
+    <string name="content_description_open_openhab">Open  e-Safe </string>
     <string name="swipe_to_refresh_description">De app wordt ook automatisch vernieuwd, het is meestal niet nodig om dit handmatig te doen</string>
     <string name="got_it">Begrepen!</string>
     <!-- Intro strings -->
     <string name="app_intro">Introductie</string>
-    <string name="intro_welcome">Welkom bij openHAB</string>
-    <string name="intro_welcome_back">Welkom terug bij openHAB</string>
+    <string name="intro_welcome">Welkom bij  e-Safe </string>
+    <string name="intro_welcome_back">Welkom terug bij  e-Safe </string>
     <string name="intro_app_restored">De meeste instellingen zijn hersteld, behalve de server inloggegevens</string>
     <string name="intro_whatis">Leverancier en technologie onafhankelijke open source domotica software voor jouw huis</string>
     <string name="intro_voice_description">Bestuur uw huis met uw stem</string>
@@ -568,7 +568,7 @@
     <string name="tile_label_12">Tegel 12</string>
     <string name="error_missing_prefs">Vul alstublieft alle instellingen in</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">openHAB pictogram</string>
+    <string name="tile_icon_openhab"> e-Safe  pictogram</string>
     <string name="tile_icon_tv">Televisie</string>
     <string name="tile_icon_radio">Radio</string>
     <string name="tile_icon_bulb">Lamp</string>

@@ -7,7 +7,7 @@
     <string name="save">Guardar</string>
     <string name="discard">Ignorar</string>
     <string name="delete">Eliminar</string>
-    <string name="attribution_tag_discover_server">Descobrir o servidor openHAB</string>
+    <string name="attribution_tag_discover_server">Descobrir o servidor  e-Safe </string>
     <string name="attribution_tag_suggest_turn_on_wifi">Sugerir ativar o Wi-Fi</string>
     <!-- Main menu items -->
     <string name="mainmenu_openhab_sitemaps">Mapa do site</string>
@@ -23,9 +23,9 @@
     <string name="settings_display_title">Definições de Visualização</string>
     <string name="settings_misc_title">Diversos</string>
     <string name="settings_openhab_url">URL do servidor local</string>
-    <string name="settings_openhab_url_summary">A URL do painel openHAB (baseado no nome do host ou IP). Se configurado, está desativada a detecção automática. Configuração atual %s</string>
+    <string name="settings_openhab_url_summary">A URL do painel e-Safe (baseado no nome do host ou IP). Se configurado, está desativada a detecção automática. Configuração atual %s</string>
     <string name="settings_openhab_alturl">URL do servidor remoto</string>
-    <string name="settings_openhab_alturl_summary">A URL do painel openHAB usado quando o endereço local não está disponível. Configuração atual: %s</string>
+    <string name="settings_openhab_alturl_summary">A URL do painel e-Safe usado quando o endereço local não está disponível. Configuração atual: %s</string>
     <string name="settings_openhab_username">Nome de utilizador</string>
     <string name="settings_openhab_password">Palavra passe</string>
     <string name="settings_openhab_password_summary_weak">Password fraca definida</string>
@@ -35,7 +35,7 @@
     <string name="settings_openhab_sslclientcert_not_supported">Certificados de cliente SSL não são suportados pelo seu dispositivo</string>
     <string name="settings_openhab_screentimeroff">Desativar o tempo limite de ecrã</string>
     <string name="settings_openhab_demomode">Modo de demonstração</string>
-    <string name="settings_openhab_demomode_summary">Se não tem um servidor openHAB, habilite o modo demo a obter uma demonstração do que o openHAB é capaz de fazer.</string>
+    <string name="settings_openhab_demomode_summary">Se não tem um servidor  e-Safe , habilite o modo demo a obter uma demonstração do que o e-Safe é capaz de fazer.</string>
     <string name="settings_openhab_theme">Tema</string>
     <string name="settings_openhab_fullscreen">Ecrã inteiro</string>
     <string name="settings_openhab_icon_format">Formato de icone</string>
@@ -70,7 +70,7 @@
     <string name="settings_screen_lock">Bloqueio de ecrã</string>
     <string name="settings_screen_lock_nolock_summary">É necessário ativar o bloqueio de ecrã para permitir o bloqueio de acesso à aplicação</string>
     <string name="settings_screen_lock_off_summary">O acesso à aplicação não está bloqueado</string>
-    <string name="screen_lock_unlock_screen_description">Desbloqueie para acessar o openHAB</string>
+    <string name="screen_lock_unlock_screen_description">Desbloqueie para acessar o  e-Safe </string>
     <string name="settings_screen_lock_off">Desligar</string>
     <string name="settings_screen_lock_kiosk">Modo Kiosk</string>
     <string name="settings_screen_lock_on">Ligar</string>
@@ -82,7 +82,7 @@
     <string name="settings_server_confirm_leave_message">Fez algumas alterações. Deseja salvar ou cancelar as alterações?</string>
     <string name="settings_server_primary_title">Servidor primário</string>
     <string name="settings_server_primary_summary_is_primary">Este é o servidor primário.\nAtualmente, apenas o servidor primário é suportado por todas as funcionalidades desta aplicação. Toque no botão de ajuda para mais informações.</string>
-    <string name="settings_server_default_name">openHAB %d</string>
+    <string name="settings_server_default_name"> e-Safe  %d</string>
     <string name="settings_advanced">Avançado</string>
     <string name="click_here_for_more_information">Toque aqui para mais informação</string>
     <string name="setting_crash_reporting_title">Relatório de falhas</string>
@@ -206,17 +206,17 @@
     <string name="about_issues">Reportar erros</string>
     <string name="about_docs">Documentação</string>
     <string name="about_community_forum">Fórum da Comunidade</string>
-    <string name="about_foundation">Fundação openHAB</string>
-    <string name="about_community">comunidade openHAB</string>
+    <string name="about_foundation">Fundação  e-Safe </string>
+    <string name="about_community">comunidade  e-Safe </string>
     <string name="about_translation">Ajude-nos a traduzir!</string>
     <string name="about_privacy_policy">Política de Privacidade</string>
     <string name="try_again_button">Tentar novamente</string>
     <string name="enable_wifi_button">Ligar o Wi-Fi</string>
     <string name="go_to_settings_button">Ir para as definições</string>
     <string name="enable_demo_mode_button">Executar em modo de demonstração</string>
-    <string name="configuration_missing">Não encontrámos um servidor openHAB na sua rede. Se você já tem um servidor, por favor configure seu endereço IP ou nome de host nas configurações do servidor. Se você ainda não tem um servidor, você pode habilitar o modo demo para ver o que o openHAB é capaz.</string>
+    <string name="configuration_missing">Não encontrámos um servidor e-Safe na sua rede. Se você já tem um servidor, por favor configure seu endereço IP ou nome de host nas configurações do servidor. Se você ainda não tem um servidor, você pode habilitar o modo demo para ver o que o e-Safe é capaz.</string>
     <string name="no_remote_server">Falha na conexão com o servidor local e você não configurou um servidor remoto</string>
-    <string name="resolving_openhab">Tentando descobrir a instância do servidor openHAB\u2026</string>
+    <string name="resolving_openhab">Tentando descobrir a instância do servidor  e-Safe \u2026</string>
     <string name="waiting_for_wifi">Aguardando a conexão Wi-Fi\u2026</string>
     <!-- Log -->
     <string name="view_log">Ver Log</string>
@@ -234,11 +234,11 @@
     <string name="content_description_color_down">Desligar ou mantenha para diminuir o brilho</string>
     <string name="content_description_open_number_picker">Abrir selecção de valor</string>
     <string name="content_description_video">Vídeo</string>
-    <string name="content_description_open_openhab">Abrir openHAB</string>
+    <string name="content_description_open_openhab">Abrir  e-Safe </string>
     <string name="swipe_to_refresh_description">A aplicação também atualiza automaticamente, normalmente não necessita de fazê-lo manualmente</string>
     <!-- Intro strings -->
     <string name="app_intro">Introdução</string>
-    <string name="intro_welcome">Bem-vindo ao openHAB</string>
+    <string name="intro_welcome">Bem-vindo ao  e-Safe </string>
     <string name="intro_whatis">Um software agnóstico e vendedor de automatização de software aberto para a sua casa</string>
     <string name="intro_voice_description">Controle sua casa com sua voz</string>
     <!-- Intro "SKIP" button -->
@@ -263,7 +263,7 @@
     <string name="tile_name">Nome</string>
     <string name="tile_icon">Ícone</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">ícone openHAB</string>
+    <string name="tile_icon_openhab">ícone  e-Safe </string>
     <string name="tile_icon_tv">TV</string>
     <string name="tile_icon_radio">Rádio</string>
     <string name="tile_icon_bulb">Lâmpada</string>

@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: 'Create a report to help us improve the openHAB client for Android'
+about: 'Create a report to help us improve the e-Safe client for Android'
 labels: bug
 
 ---
@@ -14,7 +14,7 @@ Describe us what happens
 ### Expected behaviour
 Describe us what should happen
 
- 
+
 ### Steps to reproduce
 1. Describe us how to reproduce the issue
 2. Use a list for it
@@ -27,21 +27,21 @@ Describe us what should happen
 
 ### Environment data
 #### Client
-* Android version: 
-* Device model: 
-* App version <!-- Can be found under "About" -->: 
-* Build flavor <!-- Play Store and GitHub = "Full", F-Droid = "Foss". If self-built and you haven't changed the flavor, it's Foss -->: 
-* Device language: 
+* Android version:
+* Device model:
+* App version <!-- Can be found under "About" -->:
+* Build flavor <!-- Play Store and GitHub = "Full", F-Droid = "Foss". If self-built and you haven't changed the flavor, it's Foss -->:
+* Device language:
 
 #### Server
-* Server version: 
-* Reverse Proxy: 
-* Authentication method <!--(None, user and password, SSL Client certificate)-->: 
+* Server version:
+* Reverse Proxy:
+* Authentication method <!--(None, user and password, SSL Client certificate)-->:
 
-#### openHAB Cloud
-* Self hosted cloud or myopenhab.org: 
-* openHAB Cloud version <!-- If self hosted -->: 
-* Authentication method <!--(None, user and password, SSL Client certificate)-->: 
+#### e-Safe Cloud
+* Self hosted cloud or myopenhab.org:
+* e-Safe Cloud version <!-- If self hosted -->:
+* Authentication method <!--(None, user and password, SSL Client certificate)-->:
 
 ### Logs
 #### App log
@@ -56,13 +56,13 @@ Open the app, go to `Settings` => `View log` and insert the log here.
 </details>
 
 
-#### openHAB Server log
+#### e-Safe Server log
 <details>
   <summary>Click to expand</summary>
 
 ```
 Not required.
-If you have installed openHAB via `apt-get`, the log is located under `/var/log/openhab2/openhab.log`
+If you have installed e-Safe via `apt-get`, the log is located under `/var/log/openhab2/openhab.log`
 ```
 
 </details>

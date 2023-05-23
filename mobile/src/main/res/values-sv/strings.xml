@@ -28,7 +28,7 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Tryck här för att få några tips och förklaringar på hur du konfigurerar klientautentisering med SSL-certifikat</string>
     <string name="settings_openhab_sslclientcert_not_supported">SSL-klientcertifikat stöds inte av din enhet</string>
     <string name="settings_openhab_demomode">Demoläge</string>
-    <string name="settings_openhab_demomode_summary">Om du inte har en openHAB-server, aktivera demoläget för att få en bild av vad OpanHAB kan göra.</string>
+    <string name="settings_openhab_demomode_summary">Om du inte har en  e-Safe -server, aktivera demoläget för att få en bild av vad OpanHAB kan göra.</string>
     <string name="settings_openhab_theme">Tema</string>
     <string name="settings_openhab_fullscreen">Fullskärm</string>
     <string name="settings_openhab_icon_format">Ikonformat</string>
@@ -61,7 +61,7 @@
     <string name="settings_screen_lock_off_summary">Åtkomst till appen är inte skyddad</string>
     <string name="settings_screen_lock_kiosk_summary">Åtkomst till appinställningar är skyddat med Android skärmlås eller fingeravtryck</string>
     <string name="settings_screen_lock_on_summary">Åtkomst till appen är skyddat med Android skärmlås eller fingeravtryck \n Obs: Widgets kan användas ändå</string>
-    <string name="screen_lock_unlock_screen_description">Lås upp för att komma åt openHAB</string>
+    <string name="screen_lock_unlock_screen_description">Lås upp för att komma åt  e-Safe </string>
     <string name="screen_lock_unlock_preferences_description">Lås upp för att komma åt inställningar</string>
     <string name="settings_screen_lock_off">Av</string>
     <string name="settings_screen_lock_kiosk">Fullskärmsläge</string>
@@ -71,7 +71,7 @@
     <!-- App messages strings -->
     <string name="title_voice_widget">Röstkommandon</string>
     <string name="title_voice_widget_icon">Röstkommandon och appgenväg</string>
-    <string name="info_voice_input">openHAB, på ditt kommando!</string>
+    <string name="info_voice_input"> e-Safe , på ditt kommando!</string>
     <string name="info_voice_recognized_text">Igenkänt kommando: %1$s</string>
     <string name="info_demo_mode_short">Kör i demoläge</string>
     <!-- Please try to keep the string as short as possible -->
@@ -84,12 +84,12 @@
     <string name="no_position_set">Ingen position angiven</string>
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB returnerade en tom Sitemap-lista</string>
+    <string name="error_empty_sitemap_list"> e-Safe  returnerade en tom Sitemap-lista</string>
     <string name="error_sitemap_generic_load_error">Sitemap kunde inte laddas. Följande fel inträffade: %1$s</string>
     <string name="error_network_not_available">Nätverk inte tillgängligt</string>
     <string name="error_wifi_not_available">Wi-Fi är avstängt</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
-    <string name="error_http_connection_failed">Anslutningen misslyckas. Ett oväntat svar mottogs vid anslutningsförsök mot den konfigurerade openHAB-servern (mottagen HTTP-svarskod: %d).</string>
+    <string name="error_http_connection_failed">Anslutningen misslyckas. Ett oväntat svar mottogs vid anslutningsförsök mot den konfigurerade  e-Safe -servern (mottagen HTTP-svarskod: %d).</string>
     <string name="error_invalid_url">Vänligen ange en giltig URL i en formen \' http(s)://host(:port) /\'</string>
     <string name="error_invalid_https_url">Ange en giltig URL i form av \'http(s)://host(:port)/\'</string>
     <string name="error_port_seems_invalid">Den port du har angett verkar ogiltig för det valda protokollet</string>
@@ -113,13 +113,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Autentisering misslyckades. Kontrollera tillhandahållet SSL-klientcertifikat (HTTP-kod %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">SSL-klientcertifikat krävs (HTTP-kod %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Din omvända proxy fick ett ogiltigt svar från openHAB-servern (HTTP-kod %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">openHAB-servern är tillfälligt otillgänglig (HTTP-kod %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Det verkar som din omvända proxy körs, men den får inget svar från openHAB-servern (HTTP-kod %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">openHAB-servern har inte tillräckligt med ledigt diskutrymme (HTTP-kod %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Din omvända proxy fick ett ogiltigt svar från  e-Safe -servern (HTTP-kod %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503"> e-Safe -servern är tillfälligt otillgänglig (HTTP-kod %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Det verkar som din omvända proxy körs, men den får inget svar från  e-Safe -servern (HTTP-kod %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507"> e-Safe -servern har inte tillräckligt med ledigt diskutrymme (HTTP-kod %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Nätverksautentisering krävs (HTTP-kod %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline">openHAB är offline</string>
+    <string name="error_short_openhab_offline"> e-Safe  är offline</string>
     <string name="error_short_http_connection_failed">HTTP-kod %d</string>
     <string name="error_short_unable_to_resolve_hostname">Fel vid lösning av värdnamn</string>
     <string name="error_short_unknown">Okänt fel: %s</string>
@@ -138,12 +138,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS krävs (HTTP-kod %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Autentisering misslyckades (HTTP-kod %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">SSL-klientcertifikat krävs (HTTP-kod %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Omvänd proxy fick ogiltigt svar från openHAB (HTTP-kod %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">openHAB tillfälligt otillgänglig (HTTP-kod %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Omvänd proxy fick ogiltigt svar från e-Safe (HTTP-kod %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  tillfälligt otillgänglig (HTTP-kod %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Gateway time-out (HTTP-kod %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Inte tillräckligt med ledigt utrymme på servern (HTTP-kod %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Nätverksautentisering krävs (HTTP-kod %d)</string>
-    <string name="error_openhab_offline">Molninstansen är igång, men din openHAB-server är offline</string>
+    <string name="error_openhab_offline">Molninstansen är igång, men din  e-Safe -server är offline</string>
     <string name="error_no_browser_found">Ingen webbläsare hittades på din enhet</string>
     <string name="error_no_speech_to_text_app_found">Ingen röstigenkänningsapp hittades</string>
     <string name="install">Installera</string>
@@ -268,16 +268,16 @@
     <string name="about_docs">Dokumentation</string>
     <string name="about_community_forum">Forum</string>
     <string name="about_community">openHABs gemenskap</string>
-    <string name="about_translation">Hjälp oss att översätta openHAB</string>
+    <string name="about_translation">Hjälp oss att översätta  e-Safe </string>
     <string name="about_privacy_policy">Integritetspolicy</string>
     <string name="about_rate_this_app">Betygsätt appen</string>
     <string name="try_again_button">Försök igen</string>
     <string name="enable_wifi_button">Slå på Wi-Fi</string>
     <string name="go_to_settings_button">Gå till inställningar</string>
     <string name="enable_demo_mode_button">Aktivera demoläge</string>
-    <string name="configuration_missing">Ingen openHAB-server hittades i nätverket. Om du har en server, vänligen konfigurera dess IP-adress eller namn i serverinställningarna. Om du inte har en server kan du aktivera demoläge för att se vad openHAB kan göra.</string>
+    <string name="configuration_missing">Ingen  e-Safe -server hittades i nätverket. Om du har en server, vänligen konfigurera dess IP-adress eller namn i serverinställningarna. Om du inte har en server kan du aktivera demoläge för att se vad e-Safe kan göra.</string>
     <string name="no_remote_server">Anslutning till lokal server misslyckades och du har inte konfigurerat någon fjärrserver</string>
-    <string name="resolving_openhab">Försöker hitta openHAB-server\u2026</string>
+    <string name="resolving_openhab">Försöker hitta  e-Safe -server\u2026</string>
     <string name="waiting_for_wifi">Väntar på att Wi-Fi ska upprätta en anslutning\u2026</string>
     <!-- Log -->
     <string name="log">Logg</string>
@@ -295,11 +295,11 @@
     <string name="content_description_color_up">På eller håll för att öka ljusstyrkan</string>
     <string name="content_description_color_down">Av eller håll för att minska ljusstyrkan</string>
     <string name="content_description_open_number_picker">Öppna nummerväljare</string>
-    <string name="content_description_open_openhab">Öppna openHAB</string>
+    <string name="content_description_open_openhab">Öppna  e-Safe </string>
     <string name="swipe_to_refresh_description">Denna app uppdaterar sig även automatiskt, du behöver normalt sett inte göra det manuellt</string>
     <!-- Intro strings -->
     <string name="app_intro">Introduktion</string>
-    <string name="intro_welcome">Välkommen till openHAB</string>
+    <string name="intro_welcome">Välkommen till  e-Safe </string>
     <string name="intro_whatis">En mjukvara för att automatisera ditt hem med öppen källkod, helt oberoende av tillverkare eller teknologi</string>
     <string name="intro_voice_description">Kontrollera ditt hem med din röst</string>
     <string name="intro_nfc_description">Långtryck på en en Item för att knyta den till NFS-taggar</string>

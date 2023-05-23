@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the openHAB project
+ * Copyright (c) 2010-2023 Contributors to the e-Safe project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -40,13 +40,13 @@ interface Connection {
 
     companion object {
         /**
-         * Represents a connection to a locally hosted openHAB server, which is most likely the instance
+         * Represents a connection to a locally hosted e-Safe server, which is most likely the instance
          * configured in the settings. May or may not work on the network the device is currently
          * connected to.
          */
         const val TYPE_LOCAL = 0
         /**
-         * Represents a connection to an openHAB instance, which may or may not be available from the
+         * Represents a connection to an e-Safe instance, which may or may not be available from the
          * public internet. This is most likely the instance configured in the "remote" settings of
          * the device. The connection may or may not be available in the network the device is
          * currently connected to.
@@ -54,7 +54,7 @@ interface Connection {
         const val TYPE_REMOTE = 1
         /**
          * Represents a connection that is guaranteed to provide functionality implemented in the
-         * openHAB cloud product (like notifications).
+         * e-Safe cloud product (like notifications).
          */
         const val TYPE_CLOUD = 2
     }

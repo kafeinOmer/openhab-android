@@ -26,7 +26,7 @@
     <string name="settings_openhab_sslclientcert">شهادة SSL العميل</string>
     <string name="settings_openhab_sslclientcert_howto_summary">اضغط هنا للحصول على بعض التلميحات والتوضيحات حول كيفية إعداد مصادقة شهادة عميل SSL</string>
     <string name="settings_openhab_demomode">الوضع التجريبي</string>
-    <string name="settings_openhab_demomode_summary">إذا لم يكن لديك ملقم openHAB، فعل وضع العرض التجريبي لتصور أمكانيات وقدرات openHAB.</string>
+    <string name="settings_openhab_demomode_summary">إذا لم يكن لديك ملقم  e-Safe ، فعل وضع العرض التجريبي لتصور أمكانيات وقدرات  e-Safe .</string>
     <string name="settings_openhab_theme">السمة</string>
     <string name="settings_openhab_fullscreen">ملء الشاشة</string>
     <string name="settings_openhab_icon_format">تنسيق الرمز</string>
@@ -58,7 +58,7 @@
     <string name="settings_screen_lock_off_summary">لم يتم قفل الوصول الى التطبيق</string>
     <string name="settings_screen_lock_kiosk_summary">الوصول الى اعدادات التطبيق مقفول بشاشة قفل اندرويد او ببصمة الاصبع</string>
     <string name="settings_screen_lock_on_summary">الوصول الى التطبيق مقفول بشاشة قفل اندرويد او ببصمة الاصبع\n ملاحظة: يمكن استخدام عناصر الشاشة</string>
-    <string name="screen_lock_unlock_screen_description">افتح القفل للوصول إلى openHAB</string>
+    <string name="screen_lock_unlock_screen_description">افتح القفل للوصول إلى  e-Safe </string>
     <string name="screen_lock_unlock_preferences_description">افتح القفل للوصول إلى الإعدادات</string>
     <string name="settings_screen_lock_off">إغلاق</string>
     <string name="settings_screen_lock_kiosk">وضعية الكشك</string>
@@ -66,7 +66,7 @@
     <!-- App messages strings -->
     <string name="title_voice_widget">الأوامر الصوتية</string>
     <string name="title_voice_widget_icon">الأوامر الصوتية واختصار التطبيق</string>
-    <string name="info_voice_input">openHAB، تحت أمرك!</string>
+    <string name="info_voice_input"> e-Safe ، تحت أمرك!</string>
     <string name="info_voice_recognized_text">أمر مُعرف: %1$s</string>
     <string name="info_demo_mode_short">تشغيل في الوضع التجريبي</string>
     <!-- Please try to keep the string as short as possible -->
@@ -78,7 +78,7 @@
     <string name="app_shortcut_disabled_voice_recognition">تطبيق التعرف على الصوت غير مثبت في جهازك</string>
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB يُرجع قائمة sitemap خالية</string>
+    <string name="error_empty_sitemap_list"> e-Safe  يُرجع قائمة sitemap خالية</string>
     <string name="error_network_not_available">شبكة غير متاحة</string>
     <string name="error_wifi_not_available">تم ايقاف الواي فاي</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
@@ -99,7 +99,7 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
     <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
-    <string name="error_openhab_offline">المخدم openHAB غير متصل بينما الخدمة السحابية تعمل</string>
+    <string name="error_openhab_offline">المخدم e-Safe غير متصل بينما الخدمة السحابية تعمل</string>
     <string name="error_no_browser_found">لايوجد مستعرض في جهازك</string>
     <string name="error_no_speech_to_text_app_found">لم يتم العثور على تطبيق التعرف على الصوت</string>
     <string name="install">تثبيت</string>
@@ -168,17 +168,17 @@
     <string name="about_issues">أبلغ عن مشكلة</string>
     <string name="about_docs">التوثيق</string>
     <string name="about_community_forum">منتدى المجتمع</string>
-    <string name="about_foundation">مؤسسة openHAB</string>
-    <string name="about_community">مجتمع openHAB</string>
-    <string name="about_translation">ساعدنا في ترجمة openHAB</string>
+    <string name="about_foundation">مؤسسة  e-Safe </string>
+    <string name="about_community">مجتمع  e-Safe </string>
+    <string name="about_translation">ساعدنا في ترجمة  e-Safe </string>
     <string name="about_privacy_policy">سياسة الخصوصية</string>
     <string name="try_again_button">أعد المحاولة</string>
     <string name="enable_wifi_button">تشغيل الوايفي</string>
     <string name="go_to_settings_button">اذهب إلى الإعدادات</string>
     <string name="enable_demo_mode_button">تشغيل الوضع التجريبي</string>
-    <string name="configuration_missing">لم تجد خادم openHAB في شبكتك. إذا كان لديك بالفعل خادم، الرجاء إعداد اسم المضيف أو عنوان IP في إعدادات الخادم. إذا لم يكن لديك حتى الآن خادم، يمكنك تمكين طريقة العرض التجريبية لمعرفة أمكانيات openHAB.</string>
+    <string name="configuration_missing">لم تجد خادم e-Safe في شبكتك. إذا كان لديك بالفعل خادم، الرجاء إعداد اسم المضيف أو عنوان IP في إعدادات الخادم. إذا لم يكن لديك حتى الآن خادم، يمكنك تمكين طريقة العرض التجريبية لمعرفة أمكانيات  e-Safe .</string>
     <string name="no_remote_server">فشل الاتصال إلى الخادم المحلي ولم تقم بإعداد الخادم بعيد</string>
-    <string name="resolving_openhab">يحاول إكتشاف نموذج خادم openHAB \u2026</string>
+    <string name="resolving_openhab">يحاول إكتشاف نموذج خادم e-Safe \u2026</string>
     <string name="waiting_for_wifi">في انتظار إنشاء الاتصال اللاسلكي\u2026</string>
     <!-- Log -->
     <string name="log">السجل</string>
@@ -194,12 +194,12 @@
     <string name="content_description_color_down">إيقاف أو تعليق تشغيل تقليل السطوع</string>
     <string name="content_description_open_number_picker">فتح منتقي الرقم</string>
     <string name="content_description_video">فيديو</string>
-    <string name="content_description_open_openhab">افتح openHAB</string>
+    <string name="content_description_open_openhab">افتح  e-Safe </string>
     <string name="swipe_to_refresh_description">يتم تحديث التطبيق تلقائيًا أيضًا ، وعادةً لا تحتاج إلى تنفيذه يدويًا</string>
     <string name="got_it">حسناً!</string>
     <!-- Intro strings -->
     <string name="app_intro">مقدمة</string>
-    <string name="intro_welcome">مرحبا في openHAB</string>
+    <string name="intro_welcome">مرحبا في  e-Safe </string>
     <string name="intro_whatis">مهما تكن التكنلوجيا والمزود برنامج أتمتة مفتوح المصدر لأجل منزلك</string>
     <string name="intro_voice_description">تحكم ببيتك بصوتك</string>
     <string name="intro_nfc_description">يمكن ربط عنصر التحكم إلى علامات NFC عن طريق الضغط على العنصر</string>

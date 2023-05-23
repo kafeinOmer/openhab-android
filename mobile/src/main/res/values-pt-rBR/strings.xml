@@ -15,7 +15,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Notificações</string>
     <string name="habpanel_error">Ocorreu um erro ao carregar o HABPanel</string>
-    <string name="frontail_error">Ocorreu um erro ao carregar o Frontail. Por favor, note que não está disponível via openHAB Cloud.</string>
+    <string name="frontail_error">Ocorreu um erro ao carregar o Frontail. Por favor, note que não está disponível via e-Safe Cloud.</string>
     <string name="mainmenu_openhab_selectsitemap">Selecione o sitemap padrão</string>
     <string name="mainmenu_openhab_clearcache">Limpar cache das imagens</string>
     <!-- App settings strings -->
@@ -24,9 +24,9 @@
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Diversos</string>
     <string name="settings_openhab_url">URL do servidor local</string>
-    <string name="settings_openhab_url_summary">A URL do painel openHAB (baseado no nome do host ou IP). Se configurado, está desativada a detecção automática. Configuração atual %s</string>
+    <string name="settings_openhab_url_summary">A URL do painel e-Safe (baseado no nome do host ou IP). Se configurado, está desativada a detecção automática. Configuração atual %s</string>
     <string name="settings_openhab_alturl">URL do servidor remoto</string>
-    <string name="settings_openhab_alturl_summary">A URL do painel openHAB é usada quando endereço local não está disponível. Configuração atual: %s</string>
+    <string name="settings_openhab_alturl_summary">A URL do painel e-Safe é usada quando endereço local não está disponível. Configuração atual: %s</string>
     <string name="settings_openhab_username">Usuário</string>
     <string name="settings_openhab_password">Senha</string>
     <string name="settings_openhab_password_summary_weak">Conjunto de senha fraca</string>
@@ -36,7 +36,7 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Toque aqui para obter algumas dicas e explicações sobre como configurar a autenticação de certificado cliente SSL</string>
     <string name="settings_openhab_sslclientcert_not_supported">Certificados de cliente SSL não são suportados pelo seu dispositivo</string>
     <string name="settings_openhab_demomode">Modo de demonstração</string>
-    <string name="settings_openhab_demomode_summary">Se você não tiver um servidor openHAB, ative o modo de demonstração para obter uma imaginação do que openHAB é capaz de fazer.</string>
+    <string name="settings_openhab_demomode_summary">Se você não tiver um servidor  e-Safe , ative o modo de demonstração para obter uma imaginação do que e-Safe é capaz de fazer.</string>
     <string name="start_page_title">Página inicial</string>
     <string name="drawer_entries">Itens do menu lateral</string>
     <string name="settings_openhab_theme">Tema</string>
@@ -80,7 +80,7 @@
     <string name="settings_screen_lock_off_summary">O acesso ao app não está bloqueado</string>
     <string name="settings_screen_lock_kiosk_summary">O acesso às configurações do app está bloqueado com o bloqueio de tela do Android ou impressão digital</string>
     <string name="settings_screen_lock_on_summary">O acesso ao aplicativo está bloqueado com o bloqueio de tela Android ou impressão digital\nNota: Widgets podem ser usados mesmo assim</string>
-    <string name="screen_lock_unlock_screen_description">Desbloquear acesso ao openHAB</string>
+    <string name="screen_lock_unlock_screen_description">Desbloquear acesso ao  e-Safe </string>
     <string name="screen_lock_unlock_preferences_description">Desbloquear para acessar as configurações</string>
     <string name="settings_screen_lock_off">Desligar</string>
     <string name="settings_screen_lock_kiosk">Modo Kiosk</string>
@@ -97,7 +97,7 @@
     <string name="settings_server_primary_title">Servidor principal</string>
     <string name="settings_server_primary_summary_is_primary">Este é o servidor principal.\nAtualmente, apenas o servidor principal é suportado por todos os recursos deste aplicativo. Toque no botão de ajuda para obter mais informações.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" é o servidor principal. Clique para esse servidor tornar o principal.\nAtualmente, apenas o servidor principal é capaz de todos os recursos deste aplicativo. Clique no botão de ajuda para mais informações.</string>
-    <string name="settings_server_default_name">openHAB %d</string>
+    <string name="settings_server_default_name"> e-Safe  %d</string>
     <string name="settings_advanced">Avançado</string>
     <string name="click_here_for_more_information">Clique aqui para mais informações</string>
     <string name="settings_multi_server_wifi_ssid_switched">Mudou para o servidor \"%s\" de acordo com o Wi-Fi</string>
@@ -108,7 +108,7 @@
     <string name="title_voice_widget">Comandos de Voz</string>
     <string name="voice_command">Comando de voz</string>
     <string name="title_voice_widget_icon">Comandos de voz e atalho de app</string>
-    <string name="info_voice_input">openHAB, às suas ordens!</string>
+    <string name="info_voice_input"> e-Safe , às suas ordens!</string>
     <string name="info_voice_recognized_text">Comando reconhecido: %1$s</string>
     <string name="info_demo_mode_short">Executando em modo de demonstração</string>
     <!-- Please try to keep the string as short as possible -->
@@ -123,12 +123,12 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">Copiado \"%s\"</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB retornou uma lista de Sitemap vazia</string>
+    <string name="error_empty_sitemap_list"> e-Safe  retornou uma lista de Sitemap vazia</string>
     <string name="error_sitemap_generic_load_error">O Sitemap não pôde ser carregado. Ocorreu o seguinte erro: %1$s</string>
     <string name="error_network_not_available">Rede não está disponível</string>
     <string name="error_wifi_not_available">Wi-Fi está desligado</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
-    <string name="error_http_connection_failed">Conexão sem sucesso. Uma resposta inesperada foi recebida enquanto tentava a conexão com o servidor openHAB configurado (código HTTP %d).</string>
+    <string name="error_http_connection_failed">Conexão sem sucesso. Uma resposta inesperada foi recebida enquanto tentava a conexão com o servidor e-Safe configurado (código HTTP %d).</string>
     <string name="error_invalid_url">Por favor insira uma URL válida num padrão \'http(s)://endereço(:porta)/\'</string>
     <string name="error_invalid_https_url">Por favor, insira uma URL válida no formulário \'https://host(:port)/\'</string>
     <string name="error_port_seems_invalid">A porta que você digitou parece inválida para o protocolo selecionado</string>
@@ -155,13 +155,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Falha a autenticação. Por favor, verifique o certificado SSL (código HTTP %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">Certificado SSL é necessário (código HTTP %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">O seu proxy reverso recebeu uma resposta inválida do openHAB (código HTTP %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">O openHAB está temporariamente indisponível (código HTTP %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Tempo expirado do gateway. Parece que o seu proxy reverso está rodando, mas não obteve uma resposta do openHAB (código HTTP %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">O openHAB não tem espaço livre suficiente (código HTTP %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">O seu proxy reverso recebeu uma resposta inválida do e-Safe (código HTTP %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">O e-Safe está temporariamente indisponível (código HTTP %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Tempo expirado do gateway. Parece que o seu proxy reverso está rodando, mas não obteve uma resposta do e-Safe (código HTTP %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">O e-Safe não tem espaço livre suficiente (código HTTP %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Autenticação de rede é necessária (código HTTP %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline">openHAB está offline</string>
+    <string name="error_short_openhab_offline"> e-Safe  está offline</string>
     <string name="error_short_http_connection_failed">Código HTTP %d</string>
     <string name="error_short_unable_to_resolve_hostname">Erro ao resolver o nome do host</string>
     <string name="error_short_unknown">Erro desconhecido: %s</string>
@@ -180,12 +180,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS é necessário (código HTTP %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Falha na autenticação (código HTTP %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">Certificado SSL é necessário (código HTTP %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Proxy reverso teve uma resposta inválida do openHAB (código HTTP %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">openHAB indisponível temporariamente (código HTTP %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Proxy reverso teve uma resposta inválida do e-Safe (código HTTP %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  indisponível temporariamente (código HTTP %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Tempo limite do gateway (código HTTP %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Não há espaço livre suficiente no servidor (código HTTP %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Autenticação de rede é necessária (código HTTP %d)</string>
-    <string name="error_openhab_offline">Seu servidor openHAB está offline enquanto está executando a instância de nuvem</string>
+    <string name="error_openhab_offline">Seu servidor e-Safe está offline enquanto está executando a instância de nuvem</string>
     <string name="error_no_browser_found">Nenhum navegador encontrado no seu dispositivo</string>
     <string name="error_no_speech_to_text_app_found">Nenhum aplicativo de reconhecimento de voz encontrado</string>
     <string name="error_video_player">%s não pode ser carregado</string>
@@ -236,7 +236,7 @@
     <string name="settings_charging_state_summary_off">Não enviar estado do carregamento</string>
     <string name="settings_wifi_ssid">Nome do WiFi</string>
     <string name="settings_wifi_ssid_summary_on">Envia o nome do Wi-Fi (SSID) para o Item \'%1$s\'</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Envia nome Wi-Fi (SSID) para o Item \'%1$s\'. \"Localização\" deve estar ligada, caso contrário openHAB não conseguirá obter o nome do Wi-Fi.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Envia nome Wi-Fi (SSID) para o Item \'%1$s\'. \"Localização\" deve estar ligada, caso contrário e-Safe não conseguirá obter o nome do Wi-Fi.</string>
     <string name="settings_wifi_ssid_summary_off">Não enviar o nome do Wi-Fi (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">O envio de nome de Wi-Fi foi desativado devido à falta de permissões</string>
     <string name="settings_dnd_mode">Modo Não perturbe</string>
@@ -269,7 +269,7 @@
     </plurals>
     <string name="push_notification_status_no_remote_configured">Notificações estão indisponíveis: Servidor remoto não está configurado</string>
     <string name="push_notification_status_http_error">Notificações estão indisponíveis: Erro ao conectar ao servidor remoto: %s</string>
-    <string name="push_notification_status_remote_no_cloud">Notificações estão indisponíveis: Servidor remoto não é uma instância do openHAB</string>
+    <string name="push_notification_status_remote_no_cloud">Notificações estão indisponíveis: Servidor remoto não é uma instância do  e-Safe </string>
     <string name="push_notification_status">Status</string>
     <string name="push_notification_hint">As notificações são consultadas regularmente, que é o mesmo que \"Enviar informações do dispositivo para o servidor\"</string>
     <plurals name="item_update_error_title">
@@ -300,7 +300,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Prefixo de comandos de voz com \'&lt;Device identifier&gt;|\'</string>
     <string name="device_identifier_bg_tasks">Prefixar os nomes de Item \"Enviar informação do dispositivo para o servidor\" com este identificador</string>
-    <string name="device_identifier_hint">Este identificador de dispositivo pode ser qualquer palavra e deve ser único para todos os dispositivos que acessam o seu servidor openHAB. Além dos dois casos de uso acima, você também pode usá-lo como estado nas tags NFC, assim você sabe qual dispositivo leu a tag.</string>
+    <string name="device_identifier_hint">Este identificador de dispositivo pode ser qualquer palavra e deve ser único para todos os dispositivos que acessam o seu servidor  e-Safe . Além dos dois casos de uso acima, você também pode usá-lo como estado nas tags NFC, assim você sabe qual dispositivo leu a tag.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Identificador de dispositivo para escanear (\"%s\" para este dispositivo)</string>
     <string name="device_identifier_summary_not_set">Dados enviados ao servidor e comandos de voz não são prefixados com um identificador de dispositivo</string>
     <!-- Notification list strings -->
@@ -379,9 +379,9 @@
     <string name="about_issues">Reportar um problema</string>
     <string name="about_docs">Documentação</string>
     <string name="about_community_forum">Fórum da Comunidade</string>
-    <string name="about_foundation">Fundação openHAB</string>
-    <string name="about_community">comunidade openHAB</string>
-    <string name="about_translation">Nos ajude a traduzir o openHAB</string>
+    <string name="about_foundation">Fundação  e-Safe </string>
+    <string name="about_community">comunidade  e-Safe </string>
+    <string name="about_translation">Nos ajude a traduzir o  e-Safe </string>
     <string name="about_privacy_policy">Política de privacidade</string>
     <string name="about_rate_this_app">Avalie este aplicativo</string>
     <string name="settings_troubleshooting_title">Solução de problemas</string>
@@ -390,9 +390,9 @@
     <string name="enable_wifi_button">Ative o Wi-Fi</string>
     <string name="go_to_settings_button">Ir para Configurações</string>
     <string name="enable_demo_mode_button">Ativar modo demonstração</string>
-    <string name="configuration_missing">Não encontramos um servidor openHAB na sua rede. Se você já tem um servidor, por favor configure seu endereço IP ou nome de host nas configurações do servidor. Se você ainda não tem um servidor, você pode habilitar o modo demo para ver o que o openHAB é capaz.</string>
+    <string name="configuration_missing">Não encontramos um servidor e-Safe na sua rede. Se você já tem um servidor, por favor configure seu endereço IP ou nome de host nas configurações do servidor. Se você ainda não tem um servidor, você pode habilitar o modo demo para ver o que o e-Safe é capaz.</string>
     <string name="no_remote_server">Conexão com o servidor local falhou e você não tem um servidor remoto configurado</string>
-    <string name="resolving_openhab">Tentando descobrir uma instância do servidor openHAB\u2026</string>
+    <string name="resolving_openhab">Tentando descobrir uma instância do servidor  e-Safe \u2026</string>
     <string name="waiting_for_wifi">Aguardando Wi-Fi para estabelecer a conexão\u2026</string>
     <string name="visit_status_openhab_org">Visite status.openhab.org</string>
     <!-- Log -->
@@ -420,13 +420,13 @@
     <string name="content_description_color_down">Desligar ou mantenha para diminuir o brilho</string>
     <string name="content_description_open_number_picker">Abrir selecção de valor</string>
     <string name="content_description_video">Vídeo</string>
-    <string name="content_description_open_openhab">Abrir openHAB</string>
+    <string name="content_description_open_openhab">Abrir  e-Safe </string>
     <string name="swipe_to_refresh_description">A aplicação também atualiza automaticamente, normalmente não necessita fazer manualmente</string>
     <string name="got_it">Entendido!</string>
     <!-- Intro strings -->
     <string name="app_intro">Introdução</string>
-    <string name="intro_welcome">Bem-vindo ao openHAB</string>
-    <string name="intro_welcome_back">Bem-vindo de volta ao openHAB</string>
+    <string name="intro_welcome">Bem-vindo ao  e-Safe </string>
+    <string name="intro_welcome_back">Bem-vindo de volta ao  e-Safe </string>
     <string name="intro_app_restored">A maioria das suas configurações foram restauradas, exceto as credenciais do servidor</string>
     <string name="intro_whatis">Um software agnóstico e fornecedor de automatização de software aberto para a sua casa</string>
     <string name="intro_voice_description">Controle sua casa com a sua voz</string>
@@ -548,7 +548,7 @@
     <string name="tile_label_12">Bloco 12</string>
     <string name="error_missing_prefs">Preencha todas as configurações</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">Ícone openHAB</string>
+    <string name="tile_icon_openhab">Ícone  e-Safe </string>
     <string name="tile_icon_tv">TV</string>
     <string name="tile_icon_radio">Rádio</string>
     <string name="tile_icon_bulb">Lâmpada</string>

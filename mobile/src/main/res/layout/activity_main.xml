@@ -54,7 +54,7 @@
                         android:gravity="center_horizontal"
                         android:paddingStart="15dp"
                         android:paddingRight="15dp"
-                        android:text="Hoşgeldiniz, Main UI'yı görüntüleyebilirsiniz" />
+                        android:text="@string/please_click" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_open_main_ui"
@@ -64,8 +64,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
                         android:gravity="center"
-                        android:text="MAIN UI"
-                        tools:text="MAIN UI" />
+                        android:text="e-Safe" />
 
                 </RelativeLayout>
 
@@ -81,6 +80,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="?android:colorBackground"
+        android:visibility="visible"
         app:headerLayout="@layout/drawer_header" />
 
 </org.openhab.habdroid.ui.widget.LockableDrawerLayout>

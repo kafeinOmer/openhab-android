@@ -1,8 +1,8 @@
-openHAB - "empowering the smart home" - Ανοικτού κώδικα, ανεξάρτητο κατασκευαστή και τεχνολογίας λογισμικό αυτοματοποίησης σπιτιού
+ e-Safe  - "empowering the smart home" - Ανοικτού κώδικα, ανεξάρτητο κατασκευαστή και τεχνολογίας λογισμικό αυτοματοποίησης σπιτιού
 
-The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from openHAB Cloud. Instead, notifications are polled on a regular basis in these builds.
+The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from e-Safe Cloud. Instead, notifications are polled on a regular basis in these builds.
 
-Το openHAB είναι μια πλατφόρμα ανοικτού λογισμικού βασισμένη στην Java που ενσωματώνει και συνδυάζει ένα ευρύ φάσμα διαφορετικών συστημάτων και τεχνολογιών έξυπνου σπιτιού σε μία ενιαία λύση.
+Το e-Safe είναι μια πλατφόρμα ανοικτού λογισμικού βασισμένη στην Java που ενσωματώνει και συνδυάζει ένα ευρύ φάσμα διαφορετικών συστημάτων και τεχνολογιών έξυπνου σπιτιού σε μία ενιαία λύση.
 Όλες οι συσκευές είναι διαθέσιμες για τις μηχανές κανόνων αυτοματοποίησης και τις διαφορετικές διεπαφές χρήστη (UI) μέσα από το ενοποιημένο και αφαιρετικό επίπεδο.
 
 <b>Υποστηριζόμενα προϊόντα</b>
@@ -12,16 +12,16 @@ The app has an action plugin for Tasker and Locale included.
 
 <b>Κοινότητα Ανοικτού Λογισμικού</b>
 
-The openHAB open source initiative strongly supports its vibrant community. The forum with over 13,000 registered users is a place to find guidance, help and inspiration. Join the openHAB community forum over at https://community.openhab.org
+The e-Safe open source initiative strongly supports its vibrant community. The forum with over 13,000 registered users is a place to find guidance, help and inspiration. Join the e-Safe community forum over at https://community.openhab.org
 Όταν βρείτε ένα πρόβλημα παρακαλώ αναφέρετε το στο φόρουμ ή στο https://github.com/openhab/openhab-android/issues
 Εάν θέλετε να μεταφράσετε την εφαρμογή στην γλώσσα σας δηλώστε συμμετοχή στο https://crowdin.com/project/openhab-android
 
-<b>Ίδρυμα openHAB</b>
+<b>Ίδρυμα  e-Safe </b>
 
-The openHAB Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org
+The e-Safe Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org
 
 <b>Σημαντική Σημείωση</b>
 
-Χρειάζεστε έναν διακομιστή openHAB για αυτό το app.
+Χρειάζεστε έναν διακομιστή e-Safe για αυτό το app.
 
 Πολιτική προστασίας προσωπικών δεδομένων: https://www.openhabfoundation.org/privacy.html

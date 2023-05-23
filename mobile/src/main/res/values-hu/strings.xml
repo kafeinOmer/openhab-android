@@ -7,7 +7,7 @@
     <string name="save">Mentés</string>
     <string name="discard">Elvet</string>
     <string name="delete">Töröl</string>
-    <string name="attribution_tag_discover_server">Az openHAB kiszolgáló keresése</string>
+    <string name="attribution_tag_discover_server">Az e-Safe kiszolgáló keresése</string>
     <string name="attribution_tag_select_server_wifi">Wi-Fi alapján válassza ki a kiszolgálót</string>
     <string name="attribution_tag_suggest_turn_on_wifi">Javasolja a Wi-Fi bekapcsolását</string>
     <!-- Main menu items -->
@@ -18,7 +18,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Értesítések</string>
     <string name="habpanel_error">Hiba történt a HABPanel betöltése során</string>
-    <string name="frontail_error">Hiba történt a Frontail betöltése közben. Vegye figyelembe, hogy openHAB Cloud-n keresztül nem elérhető.</string>
+    <string name="frontail_error">Hiba történt a Frontail betöltése közben. Vegye figyelembe, hogy e-Safe Cloud-n keresztül nem elérhető.</string>
     <string name="mainmenu_openhab_selectsitemap">Válassza ki az alapértelmezett felületet</string>
     <string name="mainmenu_openhab_clearcache">Gyorsítótári képek törlése</string>
     <!-- App settings strings -->
@@ -27,7 +27,7 @@
     <string name="settings_sitemap_title">Felület</string>
     <string name="settings_misc_title">Egyéb</string>
     <string name="settings_openhab_url">Helyi kiszolgáló URL-címe</string>
-    <string name="settings_openhab_url_summary">Az openHAB felülete URL-e(gépnev vagy IP alapján). Ha be van állítva, az automatikus keresés tiltva lesz. Jelenlegi beállítás: %s</string>
+    <string name="settings_openhab_url_summary">Az e-Safe felülete URL-e(gépnev vagy IP alapján). Ha be van állítva, az automatikus keresés tiltva lesz. Jelenlegi beállítás: %s</string>
     <string name="settings_openhab_alturl">Távoli kiszolgáló URL-címe</string>
     <string name="settings_openhab_alturl_summary">Távoli URL megadása(Mikor a helyi URL nem elérhető): %s</string>
     <string name="settings_openhab_username">Felhasználónév</string>
@@ -39,9 +39,9 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Koppintson ide, hogy többet tudhasson meg a SSL ügyféltanúsítvány-hitelesítés beállításáról</string>
     <string name="settings_openhab_sslclientcert_not_supported">Hungarian</string>
     <string name="settings_openhab_screentimeroff">Képernyő időtúllépésének kikapcsolása</string>
-    <string name="settings_openhab_screentimeroff_summary">A képernyő nem kapcsol ki, amikor az openHAB fut</string>
+    <string name="settings_openhab_screentimeroff_summary">A képernyő nem kapcsol ki, amikor az e-Safe fut</string>
     <string name="settings_openhab_demomode">Bemutató mód</string>
-    <string name="settings_openhab_demomode_summary">Ha nincs openHAB szervere, engedélyezze a demo módot, hogy láthassa mire képes az openHAB.</string>
+    <string name="settings_openhab_demomode_summary">Ha nincs e-Safe szervere, engedélyezze a demo módot, hogy láthassa mire képes az  e-Safe .</string>
     <string name="start_page_title">Kezdőlap</string>
     <string name="drawer_entries">Oldalsó menü bejegyzései</string>
     <string name="settings_openhab_theme">Sablonok</string>
@@ -87,7 +87,7 @@
     <string name="settings_screen_lock_off_summary">Hozzáférés az alkalmazáshoz nincs zárolva</string>
     <string name="settings_screen_lock_kiosk_summary">Zárolva van az alkalmazás beállításai az Android képernyőzárral vagy ujjlenyomattal</string>
     <string name="settings_screen_lock_on_summary">Zárolva van az alkalmazás az Android képernyőzárral vagy ujjlenyomattal\nNote: A Widget zavartalanul tud működni</string>
-    <string name="screen_lock_unlock_screen_description">Oldja fel, hogy hozzáférjen az openHAB-hoz</string>
+    <string name="screen_lock_unlock_screen_description">Oldja fel, hogy hozzáférjen az  e-Safe -hoz</string>
     <string name="screen_lock_unlock_preferences_description">Oldja fel az alkalmazás beállításaihoz</string>
     <string name="settings_screen_lock_off">Ki</string>
     <string name="settings_screen_lock_kiosk">Kiosk mód</string>
@@ -104,7 +104,7 @@
     <string name="settings_server_primary_title">Elsődleges szerver</string>
     <string name="settings_server_primary_summary_is_primary">Ez a kiszolgáló az elsődleges.\nAz alkalmazás összes funkcióját csak az elsődeleges szerverrel tudja használni. Érintse meg a súgót a további információ eléréséhez.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" az elsődleges kiszolgáló. Érintse meg a jelenlegi szerver elsődlegessé tételéhez.\nAz alkalmazás összes funkcióját csak az elsődeleges szerverrel tudja használni. Érintse meg a súgót a további információ eléréséhez.</string>
-    <string name="settings_server_default_name">openHAB %d</string>
+    <string name="settings_server_default_name"> e-Safe  %d</string>
     <string name="settings_advanced">Haladó</string>
     <string name="click_here_for_more_information">Kattintson ide további információért</string>
     <string name="settings_multi_server_wifi_ssid_summary_hint">Az alkalmazás ezt a kiszolgálót választja ki, ha csatlakozik a megadott Wi-Fi nevek valamelyikéhez. Több Wi-Fi név is megadható, ha új sorokkal választja el őket.</string>
@@ -124,7 +124,7 @@
     <string name="title_voice_widget">Hangutasítások</string>
     <string name="voice_command">Hangutasítás</string>
     <string name="title_voice_widget_icon">Hangutasítások és alkalmazás parancsikon</string>
-    <string name="info_voice_input">openHAB, szolgálatodra!</string>
+    <string name="info_voice_input"> e-Safe , szolgálatodra!</string>
     <string name="info_voice_recognized_text">Felismert parancs: %1$s</string>
     <string name="info_demo_mode_short">Demo módban fut</string>
     <!-- Please try to keep the string as short as possible -->
@@ -139,13 +139,13 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">\"%s\" másolva</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB üres felületet adott vissza</string>
+    <string name="error_empty_sitemap_list"> e-Safe  üres felületet adott vissza</string>
     <string name="error_sitemap_generic_load_error">A felület nem tölthető be. Akövetkező hiba miatt: %1$s</string>
     <string name="error_network_not_available">Hálózat nem elérhető</string>
     <string name="error_wifi_not_available">Wi-Fi ki van kapcsolva</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
     <string name="error_wifi_restricted">A(z) %1$s kiszolgáló helyi kapcsolatai a következő Wi-Fi-nevekre korlátozódnak: %2$s</string>
-    <string name="error_http_connection_failed">Kapcsolódás sikertelen. Egy nem várt válasz érkezett, míg kapcsolódni próbált az openHAB kiszolgálóhoz (HTTP válasz-kód: %d).</string>
+    <string name="error_http_connection_failed">Kapcsolódás sikertelen. Egy nem várt válasz érkezett, míg kapcsolódni próbált az e-Safe kiszolgálóhoz (HTTP válasz-kód: %d).</string>
     <string name="error_invalid_url">Adjon meg egy érvényes URL-cím \' http(s)://kiszolgáló(:port)/\' formában</string>
     <string name="error_invalid_https_url">Adjon meg egy érvényes URL-címet \' https://kiszolgáló(:port)/\' formában</string>
     <string name="error_port_seems_invalid">Úgy tűnik, a megadott port érvénytelen a kiválasztott protokollhoz</string>
@@ -172,13 +172,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">A hitelesítés sikertelen. Kérjük, ellenőrizze a megadott SSL ügyféltanúsítvány (HTTP-válaszkód %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">SSL ügyfél-tanúsítvány szükséges (HTTP kód %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">A \"reverse proxy\" érvénytelen választ kapott az openHAB szervertől (HTTP válaszkód, %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Az openHAB szerver ideiglenesen nem érhető el (HTTP válasz-kód %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Átjáró időtúllépés. Úgy tűnik, hogy a \"reverse proxy\" fut, de nem kap választ az openHAB szervertől (HTTP-válaszkód %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">A openHAB kiszolgálón nincs elég szabad hely (HTTP kód %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">A \"reverse proxy\" érvénytelen választ kapott az e-Safe szervertől (HTTP válaszkód, %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Az e-Safe szerver ideiglenesen nem érhető el (HTTP válasz-kód %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Átjáró időtúllépés. Úgy tűnik, hogy a \"reverse proxy\" fut, de nem kap választ az e-Safe szervertől (HTTP-válaszkód %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">A e-Safe kiszolgálón nincs elég szabad hely (HTTP kód %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Hálózati hitelesítésre van szükség (HTTP kód %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline">openHAB nem elérhető</string>
+    <string name="error_short_openhab_offline"> e-Safe  nem elérhető</string>
     <string name="error_short_http_connection_failed">HTTP kód %d</string>
     <string name="error_short_unable_to_resolve_hostname">Hiba a gépnév feloldásakor</string>
     <string name="error_short_unknown">Ismeretlen hiba: %s</string>
@@ -197,12 +197,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS szükséges (HTTP kód%d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Sikertelen azonosítás (HTTP kód %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">SSL ügyfél-tanúsítvány szükség (HTTP kód %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">A \"reverse proxy\" érvénytelen választ kapott az openHAB szervertől (HTTP válaszkód, %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">Az openHAB ideiglenesen nem elérhető (HTTP válasz-kód %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">A \"reverse proxy\" érvénytelen választ kapott az e-Safe szervertől (HTTP válaszkód, %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">Az e-Safe ideiglenesen nem elérhető (HTTP válasz-kód %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Átjáró időtúllépés (HTTP kód %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Nincs elég szabad hely a szerveren (HTTP kód %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Hálózati hitelesítésre van szükség (HTTP kód %d)</string>
-    <string name="error_openhab_offline">A openHAB kiszolgálója offline állapotban van, de a felhő szolgáltatás fut</string>
+    <string name="error_openhab_offline">A e-Safe kiszolgálója offline állapotban van, de a felhő szolgáltatás fut</string>
     <string name="error_no_browser_found">Nincs böngésző a készüléken</string>
     <string name="error_no_speech_to_text_app_found">Hangfelismerő alkalmazás nem található</string>
     <string name="error_sse_failed">Az esemény feliratkozás meghiúsult, a modul frissítése nem megbízható</string>
@@ -258,7 +258,7 @@
     <string name="settings_charging_state_summary_off">Ne küldje el a töltés szintjét</string>
     <string name="settings_wifi_ssid">Wi-Fi neve</string>
     <string name="settings_wifi_ssid_summary_on">Küldje el a Wi-Fi nevét (SSID) ennek a(z) \'%1$s\' elemnek</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Küldje el a Wi-Fi nevét (SSID) ennek a(z) \'%1$s\' elemnek. \"Helymeghatározás\" be kell, hogy kapcsolva legyen, különben az openHAB nem fogja tudni elküldeni a Wi-Fi nevét.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Küldje el a Wi-Fi nevét (SSID) ennek a(z) \'%1$s\' elemnek. \"Helymeghatározás\" be kell, hogy kapcsolva legyen, különben az e-Safe nem fogja tudni elküldeni a Wi-Fi nevét.</string>
     <string name="settings_wifi_ssid_summary_off">Ne küldje el a Wi-Fi nevét (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">A Wi-Fi név küldés kikapcsolva, hiányzó engedélyek miatt</string>
     <string name="settings_wifi_ssid_restrict">Korlátozza a helyi kapcsolatot ezekre a Wi-Fi-nevekre</string>
@@ -297,7 +297,7 @@
     </plurals>
     <string name="push_notification_status_no_remote_configured">Az értesítések nem elérhetőek: a távoli kiszolgáló nincs beállítva</string>
     <string name="push_notification_status_http_error">Az értesítések nem elérhetőek: a(z) \"%s\" távoli kiszolgálóhoz nem lehet csatlakozni</string>
-    <string name="push_notification_status_remote_no_cloud">Az értesítések nem érhetőek el. A távoli kiszolgáló nem egy openHAB-cloud példány</string>
+    <string name="push_notification_status_remote_no_cloud">Az értesítések nem érhetőek el. A távoli kiszolgáló nem egy  e-Safe -cloud példány</string>
     <string name="push_notification_status">Állapot</string>
     <string name="push_notification_hint">Az értesítéseket ütemezés szerint kérdezzük le, ugyanúgy, mint az \"Eszközadatok küldése a kiszolgálónak\" funkció</string>
     <plurals name="item_update_error_title">
@@ -328,7 +328,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Előtag a hangvezérlésekhez \'&lt;Device identifier&gt;|\'</string>
     <string name="device_identifier_bg_tasks">Az \"Eszközadatok küldése a kiszolgálónak\" alatti Elemek nevének előtételezése ezzel</string>
-    <string name="device_identifier_hint">Ez az eszközazonosító bármilyen szöveg lehet, de egyedi kell legyen az összes ezen openHAB kiszolgálóhoz forduló eszközök között. A két fenti felhasználáson kívül NFC címkéken is használhatja így tudhatja, hogy melyik eszköz olvassa a címkét.</string>
+    <string name="device_identifier_hint">Ez az eszközazonosító bármilyen szöveg lehet, de egyedi kell legyen az összes ezen e-Safe kiszolgálóhoz forduló eszközök között. A két fenti felhasználáson kívül NFC címkéken is használhatja így tudhatja, hogy melyik eszköz olvassa a címkét.</string>
     <string name="device_identifier_suggested_command_nfc_tag">A beolvasó eszköz azonosítója (\"%s\" ehhez az eszközhöz)</string>
     <string name="device_identifier_summary_not_set">Az elküldendő adatok és szóbeli parancsok nincsenek előtétezve az eszközazonosítóval</string>
     <!-- Notification list strings -->
@@ -409,9 +409,9 @@
     <string name="about_issues">Hiba jelentése</string>
     <string name="about_docs">Dokumentáció</string>
     <string name="about_community_forum">Közösségi fórum</string>
-    <string name="about_foundation">openHAB Alapítvány</string>
-    <string name="about_community">openHAB közösség</string>
-    <string name="about_translation">Segíts nekünk az openHAB fordításában</string>
+    <string name="about_foundation"> e-Safe  Alapítvány</string>
+    <string name="about_community"> e-Safe  közösség</string>
+    <string name="about_translation">Segíts nekünk az e-Safe fordításában</string>
     <string name="about_privacy_policy">Adatvédelmi irányelvek</string>
     <string name="about_rate_this_app">Alkalmazás értékelése</string>
     <string name="settings_debug_messages_title">Hibaelhárítási infaromáció mutatása</string>
@@ -422,9 +422,9 @@
     <string name="switch_wifi_button">Másik Wi-Fi-hez kapcsolódás</string>
     <string name="go_to_settings_button">Beállítások megnyitása</string>
     <string name="enable_demo_mode_button">A demo üzemmód bekapcsolása</string>
-    <string name="configuration_missing">Nem találtunk openHAB kiszolgálót a hálózaton. Ha már van egy szervere, a szerver beállításait konfigurálja az IP-cím vagy állomásnév nevével. Ha még nem rendelkezik szerverrel, engedélyezheti a demo-t, hogy láthassa mire képes az openHAB.</string>
+    <string name="configuration_missing">Nem találtunk e-Safe kiszolgálót a hálózaton. Ha már van egy szervere, a szerver beállításait konfigurálja az IP-cím vagy állomásnév nevével. Ha még nem rendelkezik szerverrel, engedélyezheti a demo-t, hogy láthassa mire képes az  e-Safe .</string>
     <string name="no_remote_server">Kapcsolódás a helyi szerverhez nem sikerült, és a távoli kiszolgáló nem konfigurált</string>
-    <string name="resolving_openhab">Megpróbálja felderíteni az openHAB szerver példányt\u2026</string>
+    <string name="resolving_openhab">Megpróbálja felderíteni az e-Safe szerver példányt\u2026</string>
     <string name="waiting_for_wifi">Várakozás a Wi-Fi kapcsolat\u2026 létrehozására</string>
     <string name="visit_status_openhab_org">status.openhab.org megtekintése</string>
     <!-- Log -->
@@ -452,15 +452,15 @@
     <string name="content_description_color_down">Fényerő csökkentéséhez tartsa nyomva</string>
     <string name="content_description_open_number_picker">Szám megadása</string>
     <string name="content_description_video">Videó</string>
-    <string name="content_description_open_openhab">openHAB megnyitása</string>
+    <string name="content_description_open_openhab"> e-Safe  megnyitása</string>
     <string name="content_description_increase_item_value">Elem értékének növelése</string>
     <string name="content_description_decrease_item_value">Elem értékének csökkentése</string>
     <string name="swipe_to_refresh_description">Az alkalmazás frissül automatikusan, általában nem kell saját kezűleg ezt megtenni</string>
     <string name="got_it">Értettem!</string>
     <!-- Intro strings -->
     <string name="app_intro">Bevezető</string>
-    <string name="intro_welcome">Üdvözöljük openHAB-ban</string>
-    <string name="intro_welcome_back">Üdvözöljük újra openHAB-ban</string>
+    <string name="intro_welcome">Üdvözöljük  e-Safe -ban</string>
+    <string name="intro_welcome_back">Üdvözöljük újra  e-Safe -ban</string>
     <string name="intro_app_restored">A legtöbb beállítása visszaállítva, kivéve a szerver hitelesítő adatokat</string>
     <string name="intro_whatis">Szállító- és technológia független nyílt forráskódú automatizálási szoftver az Ön otthonába</string>
     <string name="intro_voice_description">Irányítsd az otthonod a hangoddal</string>
@@ -591,7 +591,7 @@
     <string name="tile_label_12">12-as csempe</string>
     <string name="error_missing_prefs">Kérlek, tölts ki minden beállítást</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">openHAB Ikon</string>
+    <string name="tile_icon_openhab"> e-Safe  Ikon</string>
     <string name="tile_icon_tv">TV</string>
     <string name="tile_icon_radio">Rádió</string>
     <string name="tile_icon_bulb">Izzó</string>

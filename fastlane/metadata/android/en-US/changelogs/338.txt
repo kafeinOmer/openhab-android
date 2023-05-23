@@ -1,2 +1,2 @@
 ## Added
-* Display new openHAB 3 UI (#2244)
+* Display new e-Safe 3 UI (#2244)

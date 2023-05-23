@@ -7,7 +7,7 @@
     <string name="save">Сохранить</string>
     <string name="discard">Отменить</string>
     <string name="delete">Удалить</string>
-    <string name="attribution_tag_discover_server">Определение openHAB сервера</string>
+    <string name="attribution_tag_discover_server">Определение e-Safe сервера</string>
     <string name="attribution_tag_select_server_wifi">Выбор сервера по Wi-Fi сети</string>
     <string name="attribution_tag_suggest_turn_on_wifi">Включить Wi-Fi</string>
     <!-- Main menu items -->
@@ -21,7 +21,7 @@
     <string name="app_notifications">Уведомления</string>
     <string name="habpanel_error">Произошла ошибка при загрузке HABPanel</string>
     <string name="oh3_ui_error">Произошла ошибка при загрузке Main UI</string>
-    <string name="frontail_error">Произошла ошибка при загрузке Frontail. Пожалуйста, обратите внимание, что она недоступна через облако openHAB.</string>
+    <string name="frontail_error">Произошла ошибка при загрузке Frontail. Пожалуйста, обратите внимание, что она недоступна через облако  e-Safe .</string>
     <string name="mainmenu_openhab_selectsitemap">Выбрать Sitemap по умолчанию</string>
     <string name="mainmenu_openhab_clearcache">Очистить кэш изображений</string>
     <!-- App settings strings -->
@@ -29,10 +29,10 @@
     <string name="settings_display_title">Параметры дисплея</string>
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Прочее</string>
-    <string name="settings_openhab_url">URL адрес локального openHAB</string>
-    <string name="settings_openhab_url_summary">URL-адрес панели openHAB. Если указано имя хоста или IP-адрес, то автообнаружение будет отключено. Текущие настройки: %s</string>
-    <string name="settings_openhab_alturl">URL-адрес удаленного openHAB</string>
-    <string name="settings_openhab_alturl_summary">URL-адрес панели openHAB используется, когда локальный адрес недоступен. Текущие настройки: %s</string>
+    <string name="settings_openhab_url">URL адрес локального  e-Safe </string>
+    <string name="settings_openhab_url_summary">URL-адрес панели  e-Safe . Если указано имя хоста или IP-адрес, то автообнаружение будет отключено. Текущие настройки: %s</string>
+    <string name="settings_openhab_alturl">URL-адрес удаленного  e-Safe </string>
+    <string name="settings_openhab_alturl_summary">URL-адрес панели e-Safe используется, когда локальный адрес недоступен. Текущие настройки: %s</string>
     <string name="settings_openhab_username">Пользователь</string>
     <string name="settings_openhab_password">Пароль</string>
     <string name="settings_openhab_password_summary_weak">Слабый пароль</string>
@@ -44,9 +44,9 @@
     <string name="frontail_url_title">Frontail URL</string>
     <string name="frontail_url_summary">URL для Frontail. Он доступен с openHABian или может быть установлен вручную. Оставьте пустым, чтобы использовать настройки по умолчанию. Текущие настройки: %s</string>
     <string name="settings_openhab_screentimeroff">Отключить тайм-аут экрана</string>
-    <string name="settings_openhab_screentimeroff_summary">Не отключать экран когда openHAB запущен</string>
+    <string name="settings_openhab_screentimeroff_summary">Не отключать экран когда e-Safe запущен</string>
     <string name="settings_openhab_demomode">Демо режим</string>
-    <string name="settings_openhab_demomode_summary">Если у вас нет сервера openHAB - включите режим Демо, чтобы понять на что способен openHAB.</string>
+    <string name="settings_openhab_demomode_summary">Если у вас нет сервера e-Safe - включите режим Демо, чтобы понять на что способен  e-Safe .</string>
     <string name="start_page_title">Начальная страница</string>
     <string name="drawer_entries">Боковое меню</string>
     <string name="settings_openhab_theme">Тема</string>
@@ -92,7 +92,7 @@
     <string name="settings_screen_lock_off_summary">Доступ к приложению не заблокирован</string>
     <string name="settings_screen_lock_kiosk_summary">Доступ к настройкам приложения заблокирован с помощью экрана блокировки Android или отпечатка пальца</string>
     <string name="settings_screen_lock_on_summary">Доступ к приложению заблокирован с помощью блокировки экрана Android или отпечатка пальца\nПримечание: Виджеты могут быть использованы, тем не менее</string>
-    <string name="screen_lock_unlock_screen_description">Разблокировать для доступа к openHAB</string>
+    <string name="screen_lock_unlock_screen_description">Разблокировать для доступа к  e-Safe </string>
     <string name="screen_lock_unlock_preferences_description">Разблокировать для доступа к настройкам</string>
     <string name="settings_screen_lock_off">Выкл</string>
     <string name="settings_screen_lock_kiosk">Режим киоска</string>
@@ -109,7 +109,7 @@
     <string name="settings_server_primary_title">Основной сервер</string>
     <string name="settings_server_primary_summary_is_primary">Этот сервер является основным.\nВ настоящее время только основной сервер поддерживается всеми возможностями этого приложения. Нажмите кнопку справки для получения дополнительной информации.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" - основной сервер. Нажмите чтобы сделать этот сервер основным.\nВ настоящее время только основной сервер поддерживается всеми возможностями этого приложения. Нажмите кнопку справки для получения дополнительной информации.</string>
-    <string name="settings_server_default_name">openHAB %d</string>
+    <string name="settings_server_default_name"> e-Safe  %d</string>
     <string name="settings_advanced">Расширенные</string>
     <string name="click_here_for_more_information">Для получения дополнительной информации нажмите здесь</string>
     <string name="settings_multi_server_wifi_ssid_switched">Переключено на сервер \"%s\" на основе Wi-Fi</string>
@@ -123,7 +123,7 @@
     <string name="title_voice_widget">Голосовые команды</string>
     <string name="voice_command">Голосовая команда</string>
     <string name="title_voice_widget_icon">Голосовые команды и ярлыки приложений</string>
-    <string name="info_voice_input">openHAB, Ваша команда!</string>
+    <string name="info_voice_input"> e-Safe , Ваша команда!</string>
     <string name="info_voice_recognized_text">Принятая команда: %1$s</string>
     <string name="info_demo_mode_short">Запущен демо режим</string>
     <!-- Please try to keep the string as short as possible -->
@@ -138,12 +138,12 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">Скопировано \"%s\"</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB вернул пустой список sitemap</string>
+    <string name="error_empty_sitemap_list"> e-Safe  вернул пустой список sitemap</string>
     <string name="error_sitemap_generic_load_error">Sitemap не может быть загружен. Произошла следующая ошибка: %1$s</string>
     <string name="error_network_not_available">Сеть недоступна</string>
     <string name="error_wifi_not_available">Wi-Fi выключен</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
-    <string name="error_http_connection_failed">Подключение не удалось. Неожиданный ответ был получен при попытке подключиться к настроенному серверу openHAB (HTTP-код %d).</string>
+    <string name="error_http_connection_failed">Подключение не удалось. Неожиданный ответ был получен при попытке подключиться к настроенному серверу e-Safe (HTTP-код %d).</string>
     <string name="error_invalid_url">Пожалуйста, укажите правильный URL в формате \'http(s)://хост(:порт)/\'</string>
     <string name="error_invalid_https_url">Пожалуйста, укажите правильный URL в формате \'http(s)://хост(:порт)/\'</string>
     <string name="error_port_seems_invalid">Введенный вами порт неверен для выбранного протокола</string>
@@ -170,13 +170,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Ошибка авторизации. Неверный сертификат клиента SSL (код ответа HTTP %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">Требуется сертификат SSL-клиента (код ответа HTTP %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Ваш прокси получил неверный ответ от openHAB сервера (код ответа HTTP %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">openHAB сервер временно недоступен (код ответа HTTP %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Тайм-аут шлюза. Возможно, что ваш прокси-сервер работает, но не может получить ответ от openHAB сервера (код ответа HTTP %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">Недостаточно свободного места на openHAB сервере (код ответа HTTP %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Ваш прокси получил неверный ответ от e-Safe сервера (код ответа HTTP %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503"> e-Safe  сервер временно недоступен (код ответа HTTP %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Тайм-аут шлюза. Возможно, что ваш прокси-сервер работает, но не может получить ответ от e-Safe сервера (код ответа HTTP %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">Недостаточно свободного места на e-Safe сервере (код ответа HTTP %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Требуется сетевая аутентификация (код ответа HTTP %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline">openHAB не в сети</string>
+    <string name="error_short_openhab_offline"> e-Safe  не в сети</string>
     <string name="error_short_http_connection_failed">HTTP код %d</string>
     <string name="error_short_unable_to_resolve_hostname">Ошибка при разрешении имени хоста</string>
     <string name="error_short_unknown">Неизвестная ошибка: %s</string>
@@ -195,12 +195,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">Требуется HTTPS (HTTP-код %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Ошибка аутентификации (HTTP-код %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">Требуется сертификат SSL-клиента (код ответа HTTP %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Ваш обратный прокси получил неверный ответ от openHAB (код ответа HTTP %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">openHAB временно недоступен (код ответа HTTP %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Ваш обратный прокси получил неверный ответ от e-Safe (код ответа HTTP %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  временно недоступен (код ответа HTTP %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Тайм-аут шлюза (HTTP-код %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Недостаточно свободного места на сервере (HTTP-код %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Требуется сетевая аутентификация (код ответа HTTP %d)</string>
-    <string name="error_openhab_offline">Ваш сервер openHAB не доступен, но его экземпляр в облаке работает</string>
+    <string name="error_openhab_offline">Ваш сервер e-Safe не доступен, но его экземпляр в облаке работает</string>
     <string name="error_no_browser_found">На вашем устройстве не найден браузер</string>
     <string name="error_no_speech_to_text_app_found">Не найдено приложение распознавания голоса</string>
     <string name="error_video_player">%s не может быть загружен</string>
@@ -252,7 +252,7 @@
     <string name="settings_charging_state_summary_off">Не отправлять состояние зарядки</string>
     <string name="settings_wifi_ssid">Название точки доступа Wi-Fi</string>
     <string name="settings_wifi_ssid_summary_on">Отправляет имя Wi-Fi (SSID) в Item \'%1$s\'</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Отправляет имя Wi-Fi (SSID) в Item \'%1$s\'. \"Местоположение\" должен быть включено, в противном случае openHAB не может получить имя Wi-Fi.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Отправляет имя Wi-Fi (SSID) в Item \'%1$s\'. \"Местоположение\" должен быть включено, в противном случае e-Safe не может получить имя Wi-Fi.</string>
     <string name="settings_wifi_ssid_summary_off">Не отправлять название точки доступа Wi-Fi (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">Отправка имени Wi-Fi была отключена из-за отсутствия необходимых разрешений</string>
     <string name="settings_dnd_mode">DND режим</string>
@@ -287,7 +287,7 @@
     </plurals>
     <string name="push_notification_status_no_remote_configured">Push уведомления недоступны: Удаленный сервер не настроен</string>
     <string name="push_notification_status_http_error">Push уведомления недоступны: Ошибка подключения к удаленному серверу: %s</string>
-    <string name="push_notification_status_remote_no_cloud">Push уведомления недоступны: Удаленный сервер не облачный openHAB</string>
+    <string name="push_notification_status_remote_no_cloud">Push уведомления недоступны: Удаленный сервер не облачный  e-Safe </string>
     <string name="push_notification_status">Статус</string>
     <string name="push_notification_hint">Уведомления проверяются по регулярному расписанию, такому же как и в \"Посылать информацию об устройстве на сервер\"</string>
     <plurals name="item_update_error_title">
@@ -320,7 +320,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Префикс голосовых команд с \'&lt;Device identifier&gt;|\'</string>
     <string name="device_identifier_bg_tasks">Добавлять с этим идентификатором префикс к именам Item «Отправить информацию об устройстве на сервер»</string>
-    <string name="device_identifier_hint">Идентификатор устройства может быть любой строкой и должен быть уникальным для всех устройств, имеющих доступ к вашему серверу openHAB. Помимо двух вариантов выше, вы также можете использовать его как состояние в NFC тегах, так что вы поймете, какое устройство читает тег.</string>
+    <string name="device_identifier_hint">Идентификатор устройства может быть любой строкой и должен быть уникальным для всех устройств, имеющих доступ к вашему серверу  e-Safe . Помимо двух вариантов выше, вы также можете использовать его как состояние в NFC тегах, так что вы поймете, какое устройство читает тег.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Идентификатор считывающего устройства (\"%s\" для этого устройства)</string>
     <string name="device_identifier_summary_not_set">Данные, отправленные на сервер и голосовые команды, не имеют префикса с идентификатором устройства</string>
     <!-- Notification list strings -->
@@ -400,9 +400,9 @@
     <string name="about_issues">Сообщить об ошибке</string>
     <string name="about_docs">Документация</string>
     <string name="about_community_forum">Форум</string>
-    <string name="about_foundation">Фонд openHAB</string>
-    <string name="about_community">Сообщество openHAB</string>
-    <string name="about_translation">Помощь в переводе openHAB</string>
+    <string name="about_foundation">Фонд  e-Safe </string>
+    <string name="about_community">Сообщество  e-Safe </string>
+    <string name="about_translation">Помощь в переводе  e-Safe </string>
     <string name="about_privacy_policy">Политика конфиденциальности</string>
     <string name="about_rate_this_app">Оцените это приложение</string>
     <string name="settings_troubleshooting_title">Решение проблем</string>
@@ -411,9 +411,9 @@
     <string name="enable_wifi_button">Включить Wi-Fi</string>
     <string name="go_to_settings_button">Перейти к настройкам</string>
     <string name="enable_demo_mode_button">Включить демо-режим</string>
-    <string name="configuration_missing">Мы не нашли сервер openHAB в вашей сети. Если у вас уже есть сервер, пожалуйста, настройте его IP адрес или имя хоста в настройках приложения. Если у вас еще нет сервера, вы можете включить демо-режим, чтобы увидеть, на что способен openHAB.</string>
+    <string name="configuration_missing">Мы не нашли сервер e-Safe в вашей сети. Если у вас уже есть сервер, пожалуйста, настройте его IP адрес или имя хоста в настройках приложения. Если у вас еще нет сервера, вы можете включить демо-режим, чтобы увидеть, на что способен  e-Safe .</string>
     <string name="no_remote_server">Не удалось подключиться к локальному серверу и вы не настроили удаленный сервер</string>
-    <string name="resolving_openhab">Пытаюсь обнаружить сервер openHAB\u2026</string>
+    <string name="resolving_openhab">Пытаюсь обнаружить сервер  e-Safe \u2026</string>
     <string name="waiting_for_wifi">Ожидание для Wi-Fi для установления связи\u2026</string>
     <string name="visit_status_openhab_org">Посетить status.openhab.org</string>
     <!-- Log -->
@@ -441,13 +441,13 @@
     <string name="content_description_color_down">Нажимайте \'ввниз\' или удерживайте, чтобы уменьшить яркость</string>
     <string name="content_description_open_number_picker">Число</string>
     <string name="content_description_video">Видео</string>
-    <string name="content_description_open_openhab">Открыть openHAB</string>
+    <string name="content_description_open_openhab">Открыть  e-Safe </string>
     <string name="swipe_to_refresh_description">Приложение также обновляется автоматически, обычно нет необходимости делать это вручную</string>
     <string name="got_it">Ясно!</string>
     <!-- Intro strings -->
     <string name="app_intro">Введение</string>
-    <string name="intro_welcome">Добро пожаловать в openHAB</string>
-    <string name="intro_welcome_back">Добро пожаловать в openHAB</string>
+    <string name="intro_welcome">Добро пожаловать в  e-Safe </string>
+    <string name="intro_welcome_back">Добро пожаловать в  e-Safe </string>
     <string name="intro_app_restored">Большинство настроек восстановлены, за исключением учетных данных сервера</string>
     <string name="intro_whatis">Поставщик технологий с открытым исходным кодом для автоматизации \"умного дома\"</string>
     <string name="intro_voice_description">Управляйте домом своим голосом</string>
@@ -572,7 +572,7 @@
     <string name="tile_label_12">Tile 12</string>
     <string name="error_missing_prefs">Пожалуйста, заполните все настройки</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">Иконка openHAB</string>
+    <string name="tile_icon_openhab">Иконка  e-Safe </string>
     <string name="tile_icon_tv">ТВ</string>
     <string name="tile_icon_radio">Радио</string>
     <string name="tile_icon_bulb">Лампа</string>

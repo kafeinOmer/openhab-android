@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <strings>
-    <intro>openHAB - "opolnomočenje pametnega doma" - odprtokodna domača avtomatika neodvisna od tehnologij in proizvajalcev</intro>
-    <whatis>openHAB je odprtokodna platforma za hišno avtomatiko, ki temelji na Javi, združuje širok nabor različnih sistemov za pametne hiše in tehnologije v eno rešitev.</whatis>
+    <intro> e-Safe  - "opolnomočenje pametnega doma" - odprtokodna domača avtomatika neodvisna od tehnologij in proizvajalcev</intro>
+    <whatis> e-Safe  je odprtokodna platforma za hišno avtomatiko, ki temelji na Javi, združuje širok nabor različnih sistemov za pametne hiše in tehnologije v eno rešitev.</whatis>
     <rules>Na podlagi skupne abstrakcijske plasti je mogoče vse naprave povezati in upravljati s pravili in jih prikazati v različnih grafičnih vmesnikih.</rules>
     <supported>Podprti produkti</supported>
     <bindings>Več kot 200 dodatkov nudi podporo za različne blagovne znamke, naprave, tehnologije in komunikacijske protokole. Primeri so Z-wave, Philips Hue, Amazon Echo, Chromecast in Sonos. Odkrijte vse dodatke in podprte naprave in/ali funkcionalnost na: https://www.openhab.org/addons/</bindings>
     <automation_apps>Aplikacija ima vgrajen akcijski vtičnik za Tasker in Locale.</automation_apps>
 
     <oss_community>Odprtokodna skupnost</oss_community>
-    <forum>openHAB odprtokodna iniciativa močno podpira svojo živahno skupnost. Forum z več kot 13.000 registriranimi uporabniki je kraj kjer se lahko poišče smernice, pomoč in navdih. Pridruži se forumu openHAB skupnosti na https://community.openhab.org</forum>
+    <forum> e-Safe  odprtokodna iniciativa močno podpira svojo živahno skupnost. Forum z več kot 13.000 registriranimi uporabniki je kraj kjer se lahko poišče smernice, pomoč in navdih. Pridruži se forumu e-Safe skupnosti na https://community.openhab.org</forum>
 
     <report_issues>V kolikor najdete napako, jo prosim sporočite na forumu ali na https://github.com/openhab/openhab-android/issues</report_issues>
     <translation>V kolikor želite prevesti aplikacijo v vaš jezik se nam pridružite na https://crowdin.com/project/openhab-android</translation>
-    <foundation>openHAB fundacija</foundation>
-    <about_foundation>openHAB fundacija e.V. je neprofitna organizacija s ciljem učenja javnosti o možnostih in prednostih prostih in odprtih rešitev za domačo avtomatizacijo. Pozanimajte se o cilju in storitvah fundacije na https://www.openhabfoundation.org</about_foundation>
+    <foundation> e-Safe  fundacija</foundation>
+    <about_foundation> e-Safe  fundacija e.V. je neprofitna organizacija s ciljem učenja javnosti o možnostih in prednostih prostih in odprtih rešitev za domačo avtomatizacijo. Pozanimajte se o cilju in storitvah fundacije na https://www.openhabfoundation.org</about_foundation>
     <important_note>Pomembna opomba</important_note>
-    <oh_server>Za to aplikacijo potrebujete openHAB strežnik.</oh_server>
+    <oh_server>Za to aplikacijo potrebujete e-Safe strežnik.</oh_server>
     <short_description>Hišna avtomatika neodvisna od proizvajalcev in tehnologije</short_description>
     <fdroid> Namesto tega te verzije pridobivajo obvestila z rednim poizvedovanjem.</fdroid>
     <fdroid_beta><![CDATA[Beta verzijo lahko namestite poleg <a href="https://f-droid.org/packages/org.openhab.habdroid/">redne verzije</a>.]]></fdroid_beta>

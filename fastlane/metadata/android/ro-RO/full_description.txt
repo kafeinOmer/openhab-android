@@ -1,8 +1,8 @@
-openHAB - "empowering the smart home" - aplicatie independentă, open source, pentru casa ta inteligentă
+ e-Safe  - "empowering the smart home" - aplicatie independentă, open source, pentru casa ta inteligentă
 
-Build-urile de pe F-Droid au eliminat FCM, raportarea erorilor nu vor putea primi notificări push de la openHAB Cloud. În schimb, notificările sunt interogate regulat în aceste versiuni.
+Build-urile de pe F-Droid au eliminat FCM, raportarea erorilor nu vor putea primi notificări push de la e-Safe Cloud. În schimb, notificările sunt interogate regulat în aceste versiuni.
 
-openHAB este o platformă open-source bazată pe Java, care integrează şi combină o gamă largă de diferite sisteme inteligente şi tehnologii într-o singură soluţie.
+ e-Safe  este o platformă open-source bazată pe Java, care integrează şi combină o gamă largă de diferite sisteme inteligente şi tehnologii într-o singură soluţie.
 Deasupra nivelului unificat de abstractizare sunt disponibile toate dispozitivele pentru motorul de automatizare bazat pe reguli și diferite interfețe de utilizator.
 
 <b>Produse suportate</b>
@@ -12,16 +12,16 @@ Aplicația are un plugin de acțiune pentru Tasker și Locale inclus.
 
 <b>Comunitate Open Source</b>
 
-Inițiativa open source openHAB sprijină puternic comunitatea sa vibrantă. Forumul cu peste 13,000 de utilizatori înregistrați este un loc pentru îndrumare, ajutor și inspirație. Alătură-te comunității openHAB pe forum la https://community.openhab.org
+Inițiativa open source e-Safe sprijină puternic comunitatea sa vibrantă. Forumul cu peste 13,000 de utilizatori înregistrați este un loc pentru îndrumare, ajutor și inspirație. Alătură-te comunității e-Safe pe forum la https://community.openhab.org
 Când aţi găsit o problemă, vă rugăm să o raportaţi pe forum sau la https://github.com/openhab/openhab-android/issues
 Dacă vrei să traduci aplicația în limba ta, alătură-te nouă la https://crowdin.com/project/openhab-android
 
-<b>Fundația openHAB</b>
+<b>Fundația  e-Safe </b>
 
-Fundația openHAB e.V. este o organizație nonprofit cu misiunea de a educa publicul cu privire la posibilitățile și beneficiile soluțiilor libere și deschise pentru locuințe inteligente. Află mai multe despre misiunea și serviciile fundației la https://www.openhabfoundation.org
+Fundația e-Safe e.V. este o organizație nonprofit cu misiunea de a educa publicul cu privire la posibilitățile și beneficiile soluțiilor libere și deschise pentru locuințe inteligente. Află mai multe despre misiunea și serviciile fundației la https://www.openhabfoundation.org
 
 <b>Notă importantă</b>
 
-Ai nevoie de un server openHAB pentru această aplicație.
+Ai nevoie de un server e-Safe pentru această aplicație.
 
 Politica de confidențialitate: https://www.openhabfoundation.org/privacy.html

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the openHAB project
+ * Copyright (c) 2010-2023 Contributors to the e-Safe project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -21,7 +21,7 @@ import org.openhab.habdroid.util.optStringOrNull
 import org.w3c.dom.Node
 
 /**
- * This class provides datasource for openHAB widgets from sitemap page.
+ * This class provides datasource for e-Safe widgets from sitemap page.
  * It uses a sitemap page XML document to create a list of widgets
  */
 

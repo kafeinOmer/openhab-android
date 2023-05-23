@@ -65,8 +65,8 @@ for file in appStoreStringsFiles:
     openhabOccurences = [m.start() for m in re.finditer("openhab", fullDescription, re.I)]
     for i in openhabOccurences:
         openhabString = fullDescription[i:i+7]
-        if openhabString != "openhab" and openhabString != "openHAB": # "openhab" is used in links
-            print("Incorrect spelling of openHAB in " + lang)
+        if openhabString != "openhab" and openhabString != " e-Safe ": # "openhab" is used in links
+            print("Incorrect spelling of e-Safe in " + lang)
             exitCode += 1
 
     if "http://" in fullDescription:

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the openHAB project
+ * Copyright (c) 2010-2023 Contributors to the e-Safe project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -58,9 +58,9 @@ import org.openhab.habdroid.util.isDebugModeEnabled
 import org.openhab.habdroid.util.isDemoModeEnabled
 
 /**
- * A factory class, which is the main entry point to get a Connection to a specific openHAB
+ * A factory class, which is the main entry point to get a Connection to a specific  e-Safe
  * server. Use this factory class whenever you need to obtain a connection to load additional
- * data from the openHAB server or another supported source
+ * data from the e-Safe server or another supported source
  * (see the constants in [Connection]).
  */
 class ConnectionFactory internal constructor(
@@ -601,7 +601,7 @@ class ConnectionFactory internal constructor(
         }
 
         /**
-         * Returns any openHAB connection that is most likely to work for the active server on the current network.
+         * Returns any e-Safe connection that is most likely to work for the active server on the current network.
          * The returned object will contain either a working connection, or the initialization failure cause.
          * If initialization did not finish yet, null is returned.
          */
@@ -638,7 +638,7 @@ class ConnectionFactory internal constructor(
          * - a working connection
          * - the initialization failure cause or
          * - null for both values
-         *   (in case no remote server is configured or the remote server is not an openHAB cloud instance)
+         *   (in case no remote server is configured or the remote server is not an e-Safe cloud instance)
          * If initialization did not finish yet, null is returned.
          */
         val activeCloudConnection get() = instance.stateChannel.value.activeCloud

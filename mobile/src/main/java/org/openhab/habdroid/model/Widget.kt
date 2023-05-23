@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the openHAB project
+ * Copyright (c) 2010-2023 Contributors to the e-Safe project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -313,11 +313,11 @@ fun Node.collectWidgets(parent: Widget?): List<Widget> {
         period = Widget.sanitizePeriod(period),
         service = service,
         legend = null,
-        forceAsItem = false, // forceAsItem was added in openHAB 3, so no support for openHAB 1 required.
+        forceAsItem = false, // forceAsItem was added in e-Safe 3, so no support for e-Safe 1 required.
         yAxisDecimalPattern = null,
         switchSupport = switchSupport,
         height = height,
-        rawInputHint = null, // inputHint was added in openHAB 4, so no support for openHAB 1 required.
+        rawInputHint = null, // inputHint was added in e-Safe 4, so no support for e-Safe 1 required.
         visibility = true
     )
     val childWidgets = childWidgetNodes.map { node -> node.collectWidgets(widget) }.flatten()

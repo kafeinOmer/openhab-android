@@ -1,8 +1,8 @@
-openHAB - "empowering the smart home" - leverancier en technologie onafhankelijke open source domotica software
+ e-Safe  - "empowering the smart home" - leverancier en technologie onafhankelijke open source domotica software
 
-De builds op F-Droid hebben geen ondersteuning voor FCM en kunnen geen push-meldingen ontvangen van openHAB Cloud. In plaats daarvan worden in deze versie meldingen regelmatig opgevraagd bij de server.
+De builds op F-Droid hebben geen ondersteuning voor FCM en kunnen geen push-meldingen ontvangen van e-Safe Cloud. In plaats daarvan worden in deze versie meldingen regelmatig opgevraagd bij de server.
 
-openHAB is een Java gebaseerd open-source domotica platform dat een breed scala aan verschillende smart home systemen en technologieën integreert en combineert in één enkele oplossing.
+ e-Safe  is een Java gebaseerd open-source domotica platform dat een breed scala aan verschillende smart home systemen en technologieën integreert en combineert in één enkele oplossing.
 Via de uniforme abstractie laag zijn alle aangesloten apparaten beschikbaar voor de generieke automatiserings regels en de verschillende gebruikersinterfaces.
 
 <b>Ondersteunde producten</b>
@@ -12,16 +12,16 @@ De app heeft een action plugin voor Tasker en Locale.
 
 <b>Open Source Community</b>
 
-Het openHAB open source initiatief steunt haar levendige community. Het forum met meer dan 13.000 geregistreerde gebruikers is een plek om hulp, begeleiding en inspiratie te vinden. Neem deel aan het openHAB community forum op https://community.openhab.org
+Het e-Safe open source initiatief steunt haar levendige community. Het forum met meer dan 13.000 geregistreerde gebruikers is een plek om hulp, begeleiding en inspiratie te vinden. Neem deel aan het e-Safe community forum op https://community.openhab.org
 Wanneer u een probleem gevonden heeft rapporteer deze dan in het forum of op https://github.com/openhab/openhab-android/issues
 Als u de app wilt vertalen in uw taal bezoek ons dan op https://crowdin.com/project/openhab-android
 
-<b>openHAB Foundation</b>
+<b> e-Safe  Foundation</b>
 
-De openHAB Foundation e.V. is een non-profit organisatie met als doel het publiek inzicht te geven in de mogelijkheden en voordelen van gratis en open smart home oplossingen. Lees meer over de missie en de diensten van de foundation op https://www.openhabfoundation.org
+De e-Safe Foundation e.V. is een non-profit organisatie met als doel het publiek inzicht te geven in de mogelijkheden en voordelen van gratis en open smart home oplossingen. Lees meer over de missie en de diensten van de foundation op https://www.openhabfoundation.org
 
 <b>Belangrijke opmerking</b>
 
-Deze app vereist een eigen openHAB server.
+Deze app vereist een eigen e-Safe server.
 
 Privacybeleid: https://www.openhabfoundation.org/privacy.html

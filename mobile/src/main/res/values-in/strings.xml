@@ -18,9 +18,9 @@
     <string name="settings_display_title">Pengaturan tampilan</string>
     <string name="settings_misc_title">Pengaturan lain</string>
     <string name="settings_openhab_url">URL server lokal</string>
-    <string name="settings_openhab_url_summary">URL dashboard openHAB (berdasarkan nama host atau IP). Jika mengkonfigurasi, penemuan otomatis dinonaktifkan. Pengaturan saat ini: %s</string>
+    <string name="settings_openhab_url_summary">URL dashboard e-Safe (berdasarkan nama host atau IP). Jika mengkonfigurasi, penemuan otomatis dinonaktifkan. Pengaturan saat ini: %s</string>
     <string name="settings_openhab_alturl">URL server jauh</string>
-    <string name="settings_openhab_alturl_summary">URL dashboard openHAB digunakan saat alamat lokal tidak tersedia. Setelan saat ini: %s</string>
+    <string name="settings_openhab_alturl_summary">URL dashboard e-Safe digunakan saat alamat lokal tidak tersedia. Setelan saat ini: %s</string>
     <string name="settings_openhab_username">Nama pengguna</string>
     <string name="settings_openhab_password">Kata sandi</string>
     <string name="settings_openhab_password_summary_weak">Rangkaian kata sandi lemah</string>
@@ -28,7 +28,7 @@
     <string name="settings_openhab_sslclientcert">SSL klien sertifikat</string>
     <string name="settings_openhab_sslclientcert_howto_summary">Ketuk di sini untuk mendapatkan beberapa petunjuk dan penjelasan tentang cara menyiapkan otentikasi sertifikat klien SSL</string>
     <string name="settings_openhab_demomode">Mode demo</string>
-    <string name="settings_openhab_demomode_summary">Jika Anda tidak memiliki server openHAB, aktifkan mode demo untuk mengimajinasikan kemampuan openHAB.</string>
+    <string name="settings_openhab_demomode_summary">Jika Anda tidak memiliki server  e-Safe , aktifkan mode demo untuk mengimajinasikan kemampuan  e-Safe .</string>
     <string name="settings_openhab_theme">Tema</string>
     <string name="settings_openhab_fullscreen">Layar penuh</string>
     <string name="settings_openhab_icon_format">Format ikon</string>
@@ -58,7 +58,7 @@
     <!-- App messages strings -->
     <string name="title_voice_widget">Perintah suara</string>
     <string name="title_voice_widget_icon">Perintah suara dan pintasan aplikasi</string>
-    <string name="info_voice_input">openHAB, atas perintahmu!</string>
+    <string name="info_voice_input"> e-Safe , atas perintahmu!</string>
     <string name="info_voice_recognized_text">Perintah yang Diakui: %1$s</string>
     <string name="info_demo_mode_short">Berjalan dalam mode demo</string>
     <!-- Please try to keep the string as short as possible -->
@@ -70,7 +70,7 @@
     <string name="app_shortcut_disabled_voice_recognition">Perangkat Anda tidak terpasang aplikasi pengenal suara</string>
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB mengembalikan daftar peta situs kosong</string>
+    <string name="error_empty_sitemap_list"> e-Safe  mengembalikan daftar peta situs kosong</string>
     <string name="error_sitemap_generic_load_error">Peta situs tidak dapat dimuat. Terjadi kesalahan berikut: %1$s</string>
     <string name="error_network_not_available">Jaringan tidak tersedia</string>
     <string name="error_wifi_not_available">Wi-Fi tidak aktif</string>
@@ -92,7 +92,7 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
     <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
-    <string name="error_openhab_offline">Server openHAB Anda sedang tidak terhubung saat cloud instance sedang berjalan</string>
+    <string name="error_openhab_offline">Server e-Safe Anda sedang tidak terhubung saat cloud instance sedang berjalan</string>
     <string name="error_no_browser_found">Tidak ditemukan perambah pada perangkat Anda</string>
     <string name="error_no_speech_to_text_app_found">Tidak ditemukan aplikasi pengenal suara</string>
     <string name="install">Pasang</string>
@@ -168,17 +168,17 @@
     <string name="about_issues">Laporkan sebuah permasalahan</string>
     <string name="about_docs">Dokumentasi</string>
     <string name="about_community_forum">Forum komunitas</string>
-    <string name="about_foundation">Yayasan openHAB</string>
-    <string name="about_community">komunitas openHAB</string>
-    <string name="about_translation">Bantu kami menerjemahkan openHAB</string>
+    <string name="about_foundation">Yayasan  e-Safe </string>
+    <string name="about_community">komunitas  e-Safe </string>
+    <string name="about_translation">Bantu kami menerjemahkan  e-Safe </string>
     <string name="about_privacy_policy">Kebijakan privasi</string>
     <string name="try_again_button">Coba lagi</string>
     <string name="enable_wifi_button">Aktifkan Wi-Fi</string>
     <string name="go_to_settings_button">Pergi ke pengaturan</string>
     <string name="enable_demo_mode_button">Aktifkan mode demo</string>
-    <string name="configuration_missing">Kami tidak dapat menemukam server openHAB dijaringan anda. Jika Anda telah memiliki sebuah server, mohon mengatur alamat IP atau host name di dalam pengaturan server. Apabila Anda belum memiliki sebuah server, Anda dapat mengaktifkan mode demo untuk melihat kemampuan yang dimiliki openHAB.</string>
+    <string name="configuration_missing">Kami tidak dapat menemukam server e-Safe dijaringan anda. Jika Anda telah memiliki sebuah server, mohon mengatur alamat IP atau host name di dalam pengaturan server. Apabila Anda belum memiliki sebuah server, Anda dapat mengaktifkan mode demo untuk melihat kemampuan yang dimiliki  e-Safe .</string>
     <string name="no_remote_server">Koneksi ke server lokal gagal dan Anda belum mengkonfigurasi remote server</string>
-    <string name="resolving_openhab">Mencoba menemukan server instance \u2026 openHAB</string>
+    <string name="resolving_openhab">Mencoba menemukan server instance \u2026  e-Safe </string>
     <string name="waiting_for_wifi">Menunggu Wi-Fi terkoneksi \u2026</string>
     <!-- Log -->
     <string name="view_log">Lihat log</string>
@@ -195,10 +195,10 @@
     <string name="content_description_color_up">Hidupkan atau tahan untuk meningkatkan kecerahan</string>
     <string name="content_description_color_down">Matikan atau tahan untuk menurunkan kecerahan</string>
     <string name="content_description_open_number_picker">Membuka nomor picker</string>
-    <string name="content_description_open_openhab">Buka openHAB</string>
+    <string name="content_description_open_openhab">Buka  e-Safe </string>
     <string name="swipe_to_refresh_description">Aplikasi juga menyegarkan secara otomatis, umumnya Anda tidak perlu melakukan secara manual</string>
     <!-- Intro strings -->
-    <string name="intro_welcome">Selamat Datang di openHAB</string>
+    <string name="intro_welcome">Selamat Datang di  e-Safe </string>
     <string name="intro_whatis">Sebuah vendor dan teknologi agnostik perangkat lunak open source otomasi untuk rumah Anda</string>
     <string name="intro_voice_description">Kendalikan rumah Anda dengan suara Anda</string>
     <string name="intro_nfc_description">Kendali item dapat disambungkan kepada tag NFC dengan tekan dan tahan Item</string>

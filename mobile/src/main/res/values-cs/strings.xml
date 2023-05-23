@@ -7,7 +7,7 @@
     <string name="save">Uložit</string>
     <string name="discard">Zahodit</string>
     <string name="delete">Smazat</string>
-    <string name="attribution_tag_discover_server">Vyhledat openHAB server</string>
+    <string name="attribution_tag_discover_server">Vyhledat e-Safe server</string>
     <string name="attribution_tag_select_server_wifi">Vyberte server na základě Wi-Fi</string>
     <string name="attribution_tag_suggest_turn_on_wifi">Navrhnout zapnutí Wi-Fi</string>
     <!-- Main menu items -->
@@ -18,7 +18,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Oznámení</string>
     <string name="habpanel_error">Při načítání HABPanel došlo k chybě</string>
-    <string name="frontail_error">Při načítání Frontail došlo k chybě. Vezměte prosím na vědomí, že Frontail není k dispozici přes openHAB Cloud.</string>
+    <string name="frontail_error">Při načítání Frontail došlo k chybě. Vezměte prosím na vědomí, že Frontail není k dispozici přes e-Safe Cloud.</string>
     <string name="mainmenu_openhab_selectsitemap">Vyberte výchozí Sitemap</string>
     <string name="mainmenu_openhab_clearcache">Vyčistit vyrovnávací paměť obrázků</string>
     <!-- App settings strings -->
@@ -27,9 +27,9 @@
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Různé</string>
     <string name="settings_openhab_url">URL adresa lokálního serveru</string>
-    <string name="settings_openhab_url_summary">Adresa URL Vašeho openHAB serveru (název hostitele nebo IP). Je-li adresa zvolena ručně, automatické hledání adresy je vypnuto. Aktuální nastavení: %s</string>
+    <string name="settings_openhab_url_summary">Adresa URL Vašeho e-Safe serveru (název hostitele nebo IP). Je-li adresa zvolena ručně, automatické hledání adresy je vypnuto. Aktuální nastavení: %s</string>
     <string name="settings_openhab_alturl">URL adresa vzdáleného serveru</string>
-    <string name="settings_openhab_alturl_summary">Tato adresa openHAB serveru se použije, pokud server na lokální adrese není k dispozici. Aktuální nastavení: %s</string>
+    <string name="settings_openhab_alturl_summary">Tato adresa e-Safe serveru se použije, pokud server na lokální adrese není k dispozici. Aktuální nastavení: %s</string>
     <string name="settings_openhab_username">Uživatelské jméno</string>
     <string name="settings_openhab_password">Heslo</string>
     <string name="settings_openhab_password_summary_weak">Slabé heslo</string>
@@ -39,9 +39,9 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Klepnutím sem získáte informace o tom, jak nastavit ověřování klientských certifikátů SSL</string>
     <string name="settings_openhab_sslclientcert_not_supported">Certifikáty SSL klienta nejsou podporována vaším zařízením</string>
     <string name="settings_openhab_screentimeroff">Zakázat zhasnutí displeje</string>
-    <string name="settings_openhab_screentimeroff_summary">Obrazovka se nevypne, když je spuštěn openHAB</string>
+    <string name="settings_openhab_screentimeroff_summary">Obrazovka se nevypne, když je spuštěn  e-Safe </string>
     <string name="settings_openhab_demomode">Ukázkový režim</string>
-    <string name="settings_openhab_demomode_summary">Pokud nemáte openHAB server, povolte režim demo abyste získali představu o možnostech openHAB.</string>
+    <string name="settings_openhab_demomode_summary">Pokud nemáte e-Safe server, povolte režim demo abyste získali představu o možnostech  e-Safe .</string>
     <string name="start_page_title">Úvodní stránka</string>
     <string name="drawer_entries">Položky postranního menu</string>
     <string name="settings_openhab_theme">Motivy vzhledu</string>
@@ -91,7 +91,7 @@
     <string name="settings_screen_lock_off_summary">Přístup k této aplikaci není omezen</string>
     <string name="settings_screen_lock_kiosk_summary">Přístup k nastavení aplikace je uzamčen zámkem obrazovky zařízení nebo otiskem prstu</string>
     <string name="settings_screen_lock_on_summary">Přístup k aplikaci je chráněn zámkem obrazovky zařízení nebo otiskem prstu\nPoznámka: Widgety mohou být použity bez omezení</string>
-    <string name="screen_lock_unlock_screen_description">Odemknout openHAB</string>
+    <string name="screen_lock_unlock_screen_description">Odemknout  e-Safe </string>
     <string name="screen_lock_unlock_preferences_description">Odemknout nastavení</string>
     <string name="settings_screen_lock_off">Vypnuto</string>
     <string name="settings_screen_lock_kiosk">Kioskový režim</string>
@@ -108,7 +108,7 @@
     <string name="settings_server_primary_title">Primární server</string>
     <string name="settings_server_primary_summary_is_primary">Tento server je primární.\nV současné době je všemi funkcemi této aplikace podporován pouze primární server. Pro více informací klepněte na tlačítko nápovědy.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" je primární server. Klepněte pro nastavení tohoto serveru jako primárního.\nV současné době je všemi funkcemi této aplikace podporován pouze primární server. Pro více informací klepněte na tlačítko nápovědy.</string>
-    <string name="settings_server_default_name">openHAB %d</string>
+    <string name="settings_server_default_name"> e-Safe  %d</string>
     <string name="settings_advanced">Rozšířené</string>
     <string name="click_here_for_more_information">Po klepnutí sem získáte další informace</string>
     <string name="settings_multi_server_wifi_ssid_summary_hint">Aplikace vybere tento server při připojení k jedné z těchto Wi-Fi. Více názvů Wi-Fi lze zadat tak, že každá bude na samostatném řádku.</string>
@@ -128,7 +128,7 @@
     <string name="title_voice_widget">Hlasové příkazy</string>
     <string name="voice_command">Hlasový příkaz</string>
     <string name="title_voice_widget_icon">Hlasové příkazy a zástupce aplikace</string>
-    <string name="info_voice_input">openHAB, k Vašim službám!</string>
+    <string name="info_voice_input"> e-Safe , k Vašim službám!</string>
     <string name="info_voice_recognized_text">Rozpoznán příkaz: %1$s</string>
     <string name="info_demo_mode_short">Spuštěno v ukázkovém režimu</string>
     <!-- Please try to keep the string as short as possible -->
@@ -143,13 +143,13 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">Zkopírováno \"%s\"</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB vrátil prázdný seznam Sitemap</string>
+    <string name="error_empty_sitemap_list"> e-Safe  vrátil prázdný seznam Sitemap</string>
     <string name="error_sitemap_generic_load_error">Nelze načíst Sitemap. Došlo k následující chybě: %1$s</string>
     <string name="error_network_not_available">Síť není k dispozici</string>
     <string name="error_wifi_not_available">Wi-Fi je vypnuta</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
     <string name="error_wifi_restricted">Místní připojení k serveru %1$s jsou omezena na následující názvy Wi-Fi: %2$s</string>
-    <string name="error_http_connection_failed">Připojení se nezdařilo. Byla přijata neočekávaná odpověď při pokusu o připojení k serveru openHAB (HTTP kód odpovědi: %d).</string>
+    <string name="error_http_connection_failed">Připojení se nezdařilo. Byla přijata neočekávaná odpověď při pokusu o připojení k serveru e-Safe (HTTP kód odpovědi: %d).</string>
     <string name="error_invalid_url">Zadejte platnou adresu URL ve formátu \'http(s)://host(:port) /\'</string>
     <string name="error_invalid_https_url">Zadejte platnou adresu URL ve formátu \'https://host(:port)/\'</string>
     <string name="error_port_seems_invalid">Port, který jste zadali, se zdá být neplatný pro vybraný protokol</string>
@@ -177,13 +177,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Ověření se nezdařilo. Zkontrolujte klientský certifikát SSL (kód HTTP %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">Je vyžadován klientský certifikát SSL (kód HTTP %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Vaše reverse proxy obdržela chybnou odpověď ze serveru openHAB (kód odpovědi HTTP %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Server openHAB je dočasně nedostupný (HTTP kód %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Zdá se, že Vaše reverse proxy běží, ale nemůže získat odpověď od serveru openHAB (kód odpovědi HTTP %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">Server openHAB nemá dostatek volného místa (kód HTTP %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Vaše reverse proxy obdržela chybnou odpověď ze serveru e-Safe (kód odpovědi HTTP %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Server e-Safe je dočasně nedostupný (HTTP kód %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Zdá se, že Vaše reverse proxy běží, ale nemůže získat odpověď od serveru e-Safe (kód odpovědi HTTP %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">Server e-Safe nemá dostatek volného místa (kód HTTP %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Vyžaduje se síťové ověření (kód HTTP %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline">openHAB je offline</string>
+    <string name="error_short_openhab_offline"> e-Safe  je offline</string>
     <string name="error_short_http_connection_failed">HTTP kód %d</string>
     <string name="error_short_unable_to_resolve_hostname">Chyba při řešení názvu hostitele</string>
     <string name="error_short_unknown">Neznámá chyba: %s</string>
@@ -202,12 +202,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">Vyžaduje HTTPS (kód HTTP %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Ověření selhalo (kód HTTP %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">Je vyžadován klientský certifikát SSL (kód HTTP %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Reverse proxy obdržela chybnou odpověď ze serveru openHAB (kód odpovědi HTTP %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">openHAB je dočasně nedostupný (HTTP kód %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Reverse proxy obdržela chybnou odpověď ze serveru e-Safe (kód odpovědi HTTP %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  je dočasně nedostupný (HTTP kód %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Gateway time-out (kód HTTP %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Nedostatek volného místa na serveru (kód HTTP %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Vyžaduje se síťové ověření (kód HTTP %d)</string>
-    <string name="error_openhab_offline">Váš openHAB server je offline, zatímco cloud funguje</string>
+    <string name="error_openhab_offline">Váš e-Safe server je offline, zatímco cloud funguje</string>
     <string name="error_no_browser_found">Na Vašem zařízení nebyl nalezen žádný prohlížeč</string>
     <string name="error_no_speech_to_text_app_found">Aplikace k převodu řeči na text nenalezena</string>
     <string name="error_sse_failed">Nastal problém s aktualizacemi widgetu</string>
@@ -263,7 +263,7 @@
     <string name="settings_charging_state_summary_off">Neodesílat stav nabíjení</string>
     <string name="settings_wifi_ssid">Název Wi-Fi</string>
     <string name="settings_wifi_ssid_summary_on">Odeslat název Wi-Fi (SSID) do Item \'%1$s\'</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Odeslat název Wi-Fi (SSID) do položky \'%1$s\'. \"Zjišťování polohy\" musí být zapnuto, jinak openHAB nemůže získat název Wi-Fi.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Odeslat název Wi-Fi (SSID) do položky \'%1$s\'. \"Zjišťování polohy\" musí být zapnuto, jinak e-Safe nemůže získat název Wi-Fi.</string>
     <string name="settings_wifi_ssid_summary_off">Neodesílat název sítě Wi-Fi (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">Odesílání názvu Wi-Fi bylo zakázáno kvůli chybějícím oprávněním</string>
     <string name="settings_wifi_ssid_restrict">Omezit lokální připojení na tyto názvy Wi-Fi</string>
@@ -304,7 +304,7 @@
     </plurals>
     <string name="push_notification_status_no_remote_configured">Upozornění nejsou k dispozici: Vzdálený server není nakonfigurován</string>
     <string name="push_notification_status_http_error">Upozornění nejsou k dispozici: Chyba při připojování ke vzdálenému serveru: %s</string>
-    <string name="push_notification_status_remote_no_cloud">Oznámení nejsou k dispozici: Vzdálený server není instance openHAB cloudu</string>
+    <string name="push_notification_status_remote_no_cloud">Oznámení nejsou k dispozici: Vzdálený server není instance e-Safe cloudu</string>
     <string name="push_notification_status">Stav</string>
     <string name="push_notification_hint">Oznámení jsou stahována v pravidelném intervalu, který je stejný jako pro \"Odeslat informace o zařízení na server\"</string>
     <plurals name="item_update_error_title">
@@ -337,7 +337,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Použít pro hlasové příkazy předponu \'&lt;Device identifier&gt;|\'</string>
     <string name="device_identifier_bg_tasks">Použít předponu u názvu položek \"Odeslat informace o zařízení na server\" s tímto identifikátorem</string>
-    <string name="device_identifier_hint">Tento identifikátor zařízení může být libovolný textový řetězec a měl by být jedinečný pro všechna zařízení, která přistupují na váš openHAB server. Kromě dvou výše uvedených případů jej můžete použít i jako stav na NFC tagu, abyste věděli, které zařízení čte tag.</string>
+    <string name="device_identifier_hint">Tento identifikátor zařízení může být libovolný textový řetězec a měl by být jedinečný pro všechna zařízení, která přistupují na váš e-Safe server. Kromě dvou výše uvedených případů jej můžete použít i jako stav na NFC tagu, abyste věděli, které zařízení čte tag.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Identifikátor skenovacího zařízení (\"%s\" pro toto zařízení)</string>
     <string name="device_identifier_summary_not_set">Data odeslaná na server a hlasové příkazy nemají předponu s identifikátorem zařízení</string>
     <!-- Notification list strings -->
@@ -420,9 +420,9 @@
     <string name="about_issues">Nahlásit problém</string>
     <string name="about_docs">Dokumentace</string>
     <string name="about_community_forum">Komunitní fórum</string>
-    <string name="about_foundation">openHAB Foundation</string>
-    <string name="about_community">komunita openHAB</string>
-    <string name="about_translation">Pomozte nám přeložit openHAB</string>
+    <string name="about_foundation"> e-Safe  Foundation</string>
+    <string name="about_community">komunita  e-Safe </string>
+    <string name="about_translation">Pomozte nám přeložit  e-Safe </string>
     <string name="about_privacy_policy">Ochrana osobních údajů</string>
     <string name="about_rate_this_app">Ohodnotit aplikaci</string>
     <string name="settings_debug_messages_title">Zobrazit informace pro řešení problémů</string>
@@ -433,9 +433,9 @@
     <string name="switch_wifi_button">Připojit k jiné Wi-Fi</string>
     <string name="go_to_settings_button">Přejít do nastavení</string>
     <string name="enable_demo_mode_button">Spustit v ukázkovém režimu</string>
-    <string name="configuration_missing">Ve vaší síti jsme nenašli openHAB server. Pokud již máte server, nakonfigurujte jeho IP adresu nebo název hostitele v nastavení serveru. Pokud ještě server nemáte, můžete spustit ukázkový režim, abyste viděl, jaké jsou možosti openHAB.</string>
+    <string name="configuration_missing">Ve vaší síti jsme nenašli e-Safe server. Pokud již máte server, nakonfigurujte jeho IP adresu nebo název hostitele v nastavení serveru. Pokud ještě server nemáte, můžete spustit ukázkový režim, abyste viděl, jaké jsou možosti  e-Safe .</string>
     <string name="no_remote_server">Připojení k místnímu serveru selhalo a vzdálený server není nakonfigurovaný</string>
-    <string name="resolving_openhab">Hledám openHAB server\u2026</string>
+    <string name="resolving_openhab">Hledám e-Safe server\u2026</string>
     <string name="waiting_for_wifi">Čekám než Wi-Fi naváže spojení\u2026</string>
     <string name="visit_status_openhab_org">Navštivte status.openhab.org</string>
     <!-- Log -->
@@ -467,15 +467,15 @@
     <string name="content_description_color_down">Vypnout, nebo držením snížit jas</string>
     <string name="content_description_open_number_picker">Otevřít výběr čísla</string>
     <string name="content_description_video">Video</string>
-    <string name="content_description_open_openhab">Spustit openHAB</string>
+    <string name="content_description_open_openhab">Spustit  e-Safe </string>
     <string name="content_description_increase_item_value">Zvýšit hodnotu Item</string>
     <string name="content_description_decrease_item_value">Snížit hodnotu Item</string>
     <string name="swipe_to_refresh_description">Aplikace se aktualizuje automaticky, obvykle není třeba to dělat ručně</string>
     <string name="got_it">Chápu!</string>
     <!-- Intro strings -->
     <string name="app_intro">Úvod</string>
-    <string name="intro_welcome">Vítejte v openHAB</string>
-    <string name="intro_welcome_back">Vítejte zpět v openHAB</string>
+    <string name="intro_welcome">Vítejte v  e-Safe </string>
+    <string name="intro_welcome_back">Vítejte zpět v  e-Safe </string>
     <string name="intro_app_restored">Většina vašich nastavení byla obnovena, s výjimkou přihlašovacích údajů na server</string>
     <string name="intro_whatis">Open source program pro domácí automatizaci</string>
     <string name="intro_voice_description">Ovládejte svůj domov hlasem</string>
@@ -609,7 +609,7 @@
     <string name="tile_label_12">Dlaždice 12</string>
     <string name="error_missing_prefs">Vyplňte prosím každou možnost nastavení</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">openHAB ikona</string>
+    <string name="tile_icon_openhab"> e-Safe  ikona</string>
     <string name="tile_icon_tv">TV</string>
     <string name="tile_icon_radio">Přepínací políčko</string>
     <string name="tile_icon_bulb">Žárovka</string>

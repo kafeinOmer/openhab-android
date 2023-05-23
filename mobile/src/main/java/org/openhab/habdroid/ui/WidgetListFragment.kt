@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the openHAB project
+ * Copyright (c) 2010-2023 Contributors to the e-Safe project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -80,7 +80,7 @@ import org.openhab.habdroid.util.openInBrowser
 import org.openhab.habdroid.util.useCompactSitemapLayout
 
 /**
- * This class is apps' main fragment which displays list of openHAB
+ * This class is apps' main fragment which displays list of  e-Safe
  * widgets from sitemap page with further navigation through sitemap and everything else!
  */
 
@@ -595,7 +595,7 @@ class WidgetListFragment :
             }
             IconCompat.createWithAdaptiveBitmap(bitmapWithBackground)
         } else {
-            // Fall back to openHAB icon
+            // Fall back to e-Safe icon
             IconCompat.createWithResource(activity, R.mipmap.icon)
         }
 

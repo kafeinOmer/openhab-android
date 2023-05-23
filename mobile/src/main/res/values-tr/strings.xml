@@ -15,7 +15,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Bildirimler</string>
     <string name="habpanel_error">HABPanel yüklenirken bir hata oluştu</string>
-    <string name="frontail_error">Kayıt Defteri yüklenirken bir hata oluştu. Lütfen bunun openHAB Cloud aracılığıyla mevcut olmadığını unutmayın.</string>
+    <string name="frontail_error">Kayıt Defteri yüklenirken bir hata oluştu. Lütfen bunun e-Safe Cloud aracılığıyla mevcut olmadığını unutmayın.</string>
     <string name="mainmenu_openhab_selectsitemap">Varsayılan Sitemap \'i seç</string>
     <string name="mainmenu_openhab_clearcache">Resim önbelleğini temizle</string>
     <!-- App settings strings -->
@@ -24,9 +24,9 @@
     <string name="settings_sitemap_title">Site Haritası</string>
     <string name="settings_misc_title">Çeşitli</string>
     <string name="settings_openhab_url">Yerel sunucu URL\'si</string>
-    <string name="settings_openhab_url_summary">openHAB panel URL\'si (Ana bilgisayar adına ya da IP\'ye göre). Eğer yapılandırılmışsa, otomatik keşfetme devredışı bırakılır. Geçerli ayar: %s</string>
+    <string name="settings_openhab_url_summary"> e-Safe  panel URL\'si (Ana bilgisayar adına ya da IP\'ye göre). Eğer yapılandırılmışsa, otomatik keşfetme devredışı bırakılır. Geçerli ayar: %s</string>
     <string name="settings_openhab_alturl">Uzak sunucu URL\'si</string>
-    <string name="settings_openhab_alturl_summary">Yerel adres kullanılabilir durumda değilken kullanılan openHAB panel URL\'si. Geçerli ayar: %s</string>
+    <string name="settings_openhab_alturl_summary">Yerel adres kullanılabilir durumda değilken kullanılan e-Safe panel URL\'si. Geçerli ayar: %s</string>
     <string name="settings_openhab_username">Kullanıcı Adı</string>
     <string name="settings_openhab_password">Şifre</string>
     <string name="settings_openhab_password_summary_weak">Zayıf şifre ayarlandı</string>
@@ -36,7 +36,7 @@
     <string name="settings_openhab_sslclientcert_howto_summary">SSL müşteri sertifikası yetkilendirilmesi kurulu hakkında ipuçları ve açıklamalar için buraya tıklayınız</string>
     <string name="settings_openhab_sslclientcert_not_supported">SSL istemci sertifikaları cihazınız tarafından desteklenmiyor</string>
     <string name="settings_openhab_demomode">Deneme Modu</string>
-    <string name="settings_openhab_demomode_summary">openHAB sunucunuz yoksa, openHAB\'ın ne yapabileceğini hayal etmek için demo modunu etkinleştirin.</string>
+    <string name="settings_openhab_demomode_summary"> e-Safe  sunucunuz yoksa,  e-Safe \'ın ne yapabileceğini hayal etmek için demo modunu etkinleştirin.</string>
     <string name="start_page_title">Başlangıç sayfası</string>
     <string name="drawer_entries">Yan menü öğeleri</string>
     <string name="settings_openhab_theme">Tema</string>
@@ -80,7 +80,7 @@
     <string name="settings_screen_lock_off_summary">Uygulamaya erişim kilitli değil</string>
     <string name="settings_screen_lock_kiosk_summary">Uygulama ayarlarına erişim Android ekran kilidi veya parmak izi ile kilitlendi</string>
     <string name="settings_screen_lock_on_summary">Uygulamaya erişim Android ekran kilidi veya parmak izi ile kilitlendi \ n Not: Widget\'lar yine de kullanılabilir</string>
-    <string name="screen_lock_unlock_screen_description">openHAB\'a erişim kilidini aç</string>
+    <string name="screen_lock_unlock_screen_description"> e-Safe \'a erişim kilidini aç</string>
     <string name="screen_lock_unlock_preferences_description">Ayarlara erişmek için kilidi aç</string>
     <string name="settings_screen_lock_off">Kapalı</string>
     <string name="settings_screen_lock_kiosk">Kiosk modu</string>
@@ -97,7 +97,7 @@
     <string name="settings_server_primary_title">Birinci sunucu</string>
     <string name="settings_server_primary_summary_is_primary">Bu sunucu birincil sunucudur.\nŞu anda yalnızca birincil sunucu bu uygulamanın tüm özellikleri tarafından desteklenmektedir. Daha fazla bilgi için yardım düğmesine dokunun.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" birincil sunucudur. Bu sunucuyu birincil sunucu yapmak için dokunun.\nŞu anda yalnızca birincil sunucu bu uygulamanın tüm özellikleri tarafından desteklenmektedir. Daha fazla bilgi için yardım düğmesine dokunun.</string>
-    <string name="settings_server_default_name">openHAB %d</string>
+    <string name="settings_server_default_name"> e-Safe  %d</string>
     <string name="settings_advanced">Gelişmiş</string>
     <string name="click_here_for_more_information">Daha fazla bilgi için buraya göz atın</string>
     <string name="settings_multi_server_wifi_ssid_switched">Wi-Fi tabanlı \"%s\" sunucusuna geçildi</string>
@@ -109,7 +109,7 @@
     <string name="title_voice_widget">Sesli komutlar</string>
     <string name="voice_command">Sesli Komut</string>
     <string name="title_voice_widget_icon">Sesli komutlar ve uygulama kısayolu</string>
-    <string name="info_voice_input">openHAB Emrinizdedir!</string>
+    <string name="info_voice_input"> e-Safe  Emrinizdedir!</string>
     <string name="info_voice_recognized_text">Tanımlanmış Emir: %1$s</string>
     <string name="info_demo_mode_short">Demo modunda çalışıyor</string>
     <!-- Please try to keep the string as short as possible -->
@@ -124,7 +124,7 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">%s kopyalandı</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">openHAB boş Sitemap listesine döndü</string>
+    <string name="error_empty_sitemap_list"> e-Safe  boş Sitemap listesine döndü</string>
     <string name="error_sitemap_generic_load_error">Sitemap yüklenmemiş olabilir. Şu hata oluştu: %1$s</string>
     <string name="error_network_not_available">Network müsait değil</string>
     <string name="error_wifi_not_available">Wi-Fi kapatıldı</string>
@@ -146,7 +146,7 @@
     <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline">openHAB Çevrimdışı</string>
+    <string name="error_short_openhab_offline"> e-Safe  Çevrimdışı</string>
     <string name="error_short_certificate_not_trusted">Sertifika güvenilir değil</string>
     <string name="error_short_certificate_expired">Sertifika süresi dolmadı</string>
     <string name="error_short_certificate_not_valid_yet">Sertifika geçerli değil</string>
@@ -156,7 +156,7 @@
     <string name="error_short_http_to_https_port">HTTP üzerinden HTTPS bağlantı noktasına mı bağlanıyorsunuz?</string>
     <string name="error_short_certificate_wrong_host">%s için sertifika geçerli değil</string>
     <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
-    <string name="error_openhab_offline">Bulut örneğinin çalıştığı sırada, openHAB sunucu çevrimdışı</string>
+    <string name="error_openhab_offline">Bulut örneğinin çalıştığı sırada, e-Safe sunucu çevrimdışı</string>
     <string name="error_no_browser_found">Cihazınızda hiç tarayıcı bulunamadı</string>
     <string name="error_no_speech_to_text_app_found">Hiç bir bir ses tanıma uygulaması bulunamadı</string>
     <string name="install">Yükle</string>
@@ -244,17 +244,17 @@
     <string name="about_issues">Bir hata bildir</string>
     <string name="about_docs">Dökümantasyon</string>
     <string name="about_community_forum">Topluluk Forumu</string>
-    <string name="about_foundation">openHAB Vakfı</string>
-    <string name="about_community">openHAB Topluluğu</string>
-    <string name="about_translation">openHAB\'ı çevirmemizde yardım et</string>
+    <string name="about_foundation"> e-Safe  Vakfı</string>
+    <string name="about_community"> e-Safe  Topluluğu</string>
+    <string name="about_translation"> e-Safe \'ı çevirmemizde yardım et</string>
     <string name="about_privacy_policy">Gizlilik politikası</string>
     <string name="try_again_button">Tekrar deneyin</string>
     <string name="enable_wifi_button">WiFi\'yi aç</string>
     <string name="go_to_settings_button">Ayarlara git</string>
     <string name="enable_demo_mode_button">Demo modunda çalıştır</string>
-    <string name="configuration_missing">Ağınızda bir openHAB sunucu bulamadık. Bir sunucunuz zaten varsa, lütfen önce sunucunuzun IP adresi veya ana bilgisayar adını sunucu ayarlarından yapılandırın. Henüz bir sunucunuz yoksa, openHAB\' ın yeteneklerini keşfetmek için demo modunu etkinleştirebilirsiniz.</string>
+    <string name="configuration_missing">Ağınızda bir e-Safe sunucu bulamadık. Bir sunucunuz zaten varsa, lütfen önce sunucunuzun IP adresi veya ana bilgisayar adını sunucu ayarlarından yapılandırın. Henüz bir sunucunuz yoksa,  e-Safe \' ın yeteneklerini keşfetmek için demo modunu etkinleştirebilirsiniz.</string>
     <string name="no_remote_server">Yerel sunucuya bağlantı başarısız oldu ve yapılandırılmış bir uzak sunucunuz yok</string>
-    <string name="resolving_openhab">openHAB serveri bulma deneniyor\u2026</string>
+    <string name="resolving_openhab"> e-Safe  serveri bulma deneniyor\u2026</string>
     <string name="waiting_for_wifi">Wi-Fi için bağlantısının kurulması bekleniyor\u2026</string>
     <!-- Log -->
     <string name="log">Günlük kayıtları</string>
@@ -277,13 +277,13 @@
     <string name="content_description_color_up">Işığı aç yada ışık şiddetini artırmak için basılı tut</string>
     <string name="content_description_color_down">Işığı kapat yada yada ışık şiddetini azaltmak için basılı tut</string>
     <string name="content_description_open_number_picker">Numara Seçiciyi aç</string>
-    <string name="content_description_open_openhab">openHAB\'ı aç</string>
+    <string name="content_description_open_openhab"> e-Safe \'ı aç</string>
     <string name="swipe_to_refresh_description">Bu uygulama aynı zamanda kendini otomatik yeniler, tekrar yenilemene gerek yok</string>
     <string name="got_it">Anladım!</string>
     <!-- Intro strings -->
     <string name="app_intro">Giriş</string>
-    <string name="intro_welcome">openHAB\'a Hoş geldiniz</string>
-    <string name="intro_welcome_back">openHAB\'a Hoş geldiniz</string>
+    <string name="intro_welcome"> e-Safe \'a Hoş geldiniz</string>
+    <string name="intro_welcome_back"> e-Safe \'a Hoş geldiniz</string>
     <string name="intro_app_restored">Sunucu kimlik bilgileri dışında, ayarlarınızın çoğu geri yüklendi</string>
     <string name="intro_whatis">Eviniz için sağlayıcı ve yeni teknolojiye geçişlerden etkilenmeyen açık kaynak otomasyon yazılımı</string>
     <string name="intro_voice_description">Evinizi sesinizle kontrol edin</string>

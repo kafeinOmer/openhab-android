@@ -1,8 +1,8 @@
-openHAB - "empowering the smart home" - Birbirinden farklı sistemleri destekleyen ve sağlayan açık kaynak kodlu akıllı ev otomasyonu
+ e-Safe  - "empowering the smart home" - Birbirinden farklı sistemleri destekleyen ve sağlayan açık kaynak kodlu akıllı ev otomasyonu
 
-F-Droid'deki yapılarda FCM kaldırılmıştır ve bu nedenle openHAB Cloud'dan anında iletme bildirimleri alamaz. Bunun yerine, bu yapılarda bildirimler düzenli olarak yoklanır.
+F-Droid'deki yapılarda FCM kaldırılmıştır ve bu nedenle e-Safe Cloud'dan anında iletme bildirimleri alamaz. Bunun yerine, bu yapılarda bildirimler düzenli olarak yoklanır.
 
-openHAB, çok çeşitli akıllı ev sistemleri ve teknolojilerini tek bir çözümde entegre eden, Java tabanlı bir açık kaynaklı ev otomasyon platformudur.
+ e-Safe , çok çeşitli akıllı ev sistemleri ve teknolojilerini tek bir çözümde entegre eden, Java tabanlı bir açık kaynaklı ev otomasyon platformudur.
 Birleşik soyutlama katmanının üstünde, tüm bağlı cihazlar genel otomasyon kural motorları ve farklı kullanıcı arayüzleri için kullanılabilir.
 
 <b>Desteklenen Ürünler</b>
@@ -12,16 +12,16 @@ Uygulama, Tasker ve Locale için bir eylem eklentisine sahiptir.
 
 <b>Açık Kaynak Topluluğu</b>
 
-openHAB açık kaynak girişimi, canlı topluluğunu güçlü bir şekilde destekliyor. Forum 13,000 kayıtlı kullanıcı ile rehberlik, yardım ve ilham bulmak için bir yerdir. openHAB topluluk forumu' na katıl: https://community.openhab.org
+ e-Safe  açık kaynak girişimi, canlı topluluğunu güçlü bir şekilde destekliyor. Forum 13,000 kayıtlı kullanıcı ile rehberlik, yardım ve ilham bulmak için bir yerdir. e-Safe topluluk forumu' na katıl: https://community.openhab.org
 Bir sorun bulduğunuzda lütfen bunu forumda veya https://github.com/openhab/openhab-android/issues adresinde bildirin
 Uygulamayı kendi dilinize çevirmek isterseniz https://crowdin.com/project/openhab-android adresinden bize katılın
 
-<b>openHAB Vakfı</b>
+<b> e-Safe  Vakfı</b>
 
-openHAB Vakfı e.V. kamuoyunu serbest ve açık akıllı ev çözümlerinin olanakları ve faydaları hakkında eğitmek misyonu ile kar amacı gütmeyen bir organizasyondur. https://www.openhabfoundation.org adresinden vakfın misyonu ve hizmetleri hakkında bilgi edinin
+ e-Safe  Vakfı e.V. kamuoyunu serbest ve açık akıllı ev çözümlerinin olanakları ve faydaları hakkında eğitmek misyonu ile kar amacı gütmeyen bir organizasyondur. https://www.openhabfoundation.org adresinden vakfın misyonu ve hizmetleri hakkında bilgi edinin
 
 <b>Önemli not</b>
 
-Bu uygulama için bir openHAB sunucusuna ihtiyacınız var.
+Bu uygulama için bir e-Safe sunucusuna ihtiyacınız var.
 
 Gizlilik Politikası: https://www.openhabfoundation.org/privacy.html

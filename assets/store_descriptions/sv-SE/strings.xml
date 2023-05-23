@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <strings>
-    <intro>openHAB - ”empowering the smart home” - leverantörs- och teknikoberoende hemautomation med öppen källkod</intro>
-    <whatis>openHAB är en Java-baserad hemautomationsplattform med öppen källkod som integrerar och kombinerar ett stort utbud av olika system och tekniker för smarta hem i en enda lösning.</whatis>
+    <intro> e-Safe  - ”empowering the smart home” - leverantörs- och teknikoberoende hemautomation med öppen källkod</intro>
+    <whatis> e-Safe  är en Java-baserad hemautomationsplattform med öppen källkod som integrerar och kombinerar ett stort utbud av olika system och tekniker för smarta hem i en enda lösning.</whatis>
     <rules>Ovanpå det enhetliga abstraktionslagret är alla anslutna enheter tillgängliga för den övergripande regelmotorn och olika användargränssnitt.</rules>
     <supported>Produkter som stöds</supported>
     <bindings>  </bindings>
@@ -15,7 +15,7 @@
     <foundation/>
     <about_foundation> </about_foundation>
     <important_note>Viktigt meddelande</important_note>
-    <oh_server>Du behöver en openHAB-server för denna app.</oh_server>
+    <oh_server>Du behöver en  e-Safe -server för denna app.</oh_server>
     <short_description>Hemautomatisering med öppen källkod oberoende av tillverkare eller teknologi</short_description>
     <fdroid> </fdroid>
     <fdroid_beta><![CDATA[Beta-versionen kan installeras parallellt med den <a href="https://f-droid.org/packages/org.openhab.habdroid/">stabila versionen</a>.]]></fdroid_beta>
