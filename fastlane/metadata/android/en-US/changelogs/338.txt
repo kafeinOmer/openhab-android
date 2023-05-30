@@ -1,2 +1,2 @@
 ## Added
-* Display new e-Safe 3 UI (#2244)
+* Display new e-SAFE 3 UI (#2244)

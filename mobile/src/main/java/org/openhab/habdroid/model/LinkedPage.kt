@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the e-Safe project
+ * Copyright (c) 2010-2023 Contributors to the e-SAFE project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -22,7 +22,7 @@ import org.openhab.habdroid.util.optStringOrNull
 import org.w3c.dom.Node
 
 /**
- * This is a class to hold information about e-Safe linked page.
+ * This is a class to hold information about e-SAFE linked page.
  */
 
 @Parcelize

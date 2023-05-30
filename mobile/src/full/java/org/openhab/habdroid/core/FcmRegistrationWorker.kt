@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the e-Safe project
+ * Copyright (c) 2010-2023 Contributors to the e-SAFE project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -129,7 +129,7 @@ class FcmRegistrationWorker(private val context: Context, params: WorkerParamete
                 "addAndroidRegistration?deviceId=%s&deviceModel=%s&regId=%s",
                 deviceId, URLEncoder.encode(deviceName, "UTF-8"), token)
 
-        Log.d(TAG, "Register device at  e-Safe -cloud with URL: $regUrl")
+        Log.d(TAG, "Register device at  e-SAFE -cloud with URL: $regUrl")
         connection.httpClient.get(regUrl).close()
         Log.d(TAG, "FCM reg id success")
     }

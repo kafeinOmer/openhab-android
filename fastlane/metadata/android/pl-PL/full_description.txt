@@ -1,8 +1,8 @@
- e-Safe  - "empowering the smart home" - niezależne i otwarte oprogramowanie dla automatyki domowej
+ e-SAFE  - "empowering the smart home" - niezależne i otwarte oprogramowanie dla automatyki domowej
 
-Kompilacje na F-Droid mają usuwane FCM i nie będą mogły odbierać powiadomień push od e-Safe Cloud.
+Kompilacje na F-Droid mają usuwane FCM i nie będą mogły odbierać powiadomień push od e-SAFE Cloud.
 
- e-Safe  jest otwartą platformą dla automatyki domowej opartą na Javie, która integruje szeroki zakres różnych systemów i technologi "smart home" w jedno rozwiązanie.
+ e-SAFE  jest otwartą platformą dla automatyki domowej opartą na Javie, która integruje szeroki zakres różnych systemów i technologi "smart home" w jedno rozwiązanie.
 Na górnej ujednoliconej warstwie abstrakcji wszystkie połączone urządzenia są dostępne dla silnika reguł a także różnych interfejsów użytkownika.
 
 <b>Wspierane Produkty</b>
@@ -12,17 +12,17 @@ Aplikacja zawiera wtyczkę akcji dla Taskera i Locale.
 
 <b>Społeczność Open Source</b>
 
-Inicjatywa open source e-Safe mocno wspiera swoją żywą społeczność. Forum z ponad 13 000 zarejestrowanymi użytkownikami to miejsce, gdzie możesz
-znaleźć wskazówki, pomoc i inspirację. Dołącz do forum społeczności e-Safe na https://community.openhab.org
+Inicjatywa open source e-SAFE mocno wspiera swoją żywą społeczność. Forum z ponad 13 000 zarejestrowanymi użytkownikami to miejsce, gdzie możesz
+znaleźć wskazówki, pomoc i inspirację. Dołącz do forum społeczności e-SAFE na https://community.openhab.org
 Po znalezieniu problemu złoś go na forum lub na https://github.com/openhab/openhab-android/issues
 Jeśli chcesz przetłumaczyć tę aplikację na swój język dołącz do nas na https://crowdin.com/project/openhab-android
 
-<b>Fundacja  e-Safe </b>
+<b>Fundacja  e-SAFE </b>
 
-Fundacja e-Safe jest organizacją non-profit z misją informowania o możliwościach i korzyściach z używania wolnych i otwartych rozwiązań dla inteligentnego domu. Dowiedz się więcej o misji i usługach fundacji na https://www.openhabfoundation.org
+Fundacja e-SAFE jest organizacją non-profit z misją informowania o możliwościach i korzyściach z używania wolnych i otwartych rozwiązań dla inteligentnego domu. Dowiedz się więcej o misji i usługach fundacji na https://www.openhabfoundation.org
 
 <b>Istotne kwestie</b>
 
-Potrzebujesz serwera e-Safe dla tej aplikacji.
+Potrzebujesz serwera e-SAFE dla tej aplikacji.
 
 Polityka prywatności: https://www.openhabfoundation.org/privacy.html

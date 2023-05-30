@@ -15,7 +15,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Notificacions</string>
     <string name="habpanel_error">S\'ha produït un error durant la càrrega d\'HABPanel</string>
-    <string name="frontail_error">S\'ha produït un error en carregar el Frontail. Tingueu en compte que no està disponible mitjançant e-Safe Cloud.</string>
+    <string name="frontail_error">S\'ha produït un error en carregar el Frontail. Tingueu en compte que no està disponible mitjançant e-SAFE Cloud.</string>
     <string name="mainmenu_openhab_selectsitemap">Seleccioneu el mapa del lloc predeterminat</string>
     <string name="mainmenu_openhab_clearcache">Buida la memòria cau de les imatges</string>
     <!-- App settings strings -->
@@ -24,9 +24,9 @@
     <string name="settings_sitemap_title">Mapa del lloc</string>
     <string name="settings_misc_title">Miscel·lània</string>
     <string name="settings_openhab_url">URL del servidor local</string>
-    <string name="settings_openhab_url_summary">L\'URL del quadre e-Safe (basat en el nom d\'amfitrió o la IP). Si és en ús, es desactiva la descoberta automàtica. La configuració actual és: %s</string>
+    <string name="settings_openhab_url_summary">L\'URL del quadre e-SAFE (basat en el nom d\'amfitrió o la IP). Si és en ús, es desactiva la descoberta automàtica. La configuració actual és: %s</string>
     <string name="settings_openhab_alturl">URL del servidor remot</string>
-    <string name="settings_openhab_alturl_summary">La URL del panell d\' e-Safe  utilitzada en local no està disponible. La configuració actual: %s</string>
+    <string name="settings_openhab_alturl_summary">La URL del panell d\' e-SAFE  utilitzada en local no està disponible. La configuració actual: %s</string>
     <string name="settings_openhab_username">Nom d\'usuari</string>
     <string name="settings_openhab_password">Contrasenya</string>
     <string name="settings_openhab_password_summary_weak">La contrasenya és dèbil</string>
@@ -36,9 +36,9 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Toqueu aquí per a obtenir alguns consells i explicacions sobre com configurar l\'autenticació amb certificat SSL de client</string>
     <string name="settings_openhab_sslclientcert_not_supported">Els certificats SSL de client no estan suportats per al teu dispositiu</string>
     <string name="settings_openhab_screentimeroff">Desactiva el temps d\'espera de la pantalla</string>
-    <string name="settings_openhab_screentimeroff_summary">La pantalla no s\'apagarà quan e-Safe estigui actiu</string>
+    <string name="settings_openhab_screentimeroff_summary">La pantalla no s\'apagarà quan e-BEMS estigui actiu</string>
     <string name="settings_openhab_demomode">Mode de demostració</string>
-    <string name="settings_openhab_demomode_summary">Si no tens un servidor  e-Safe , activa el mode demo per fer-te una idea de què és capaç.</string>
+    <string name="settings_openhab_demomode_summary">Si no tens un servidor  e-SAFE , activa el mode demo per fer-te una idea de què és capaç.</string>
     <string name="start_page_title">Pàgina d\'inici</string>
     <string name="drawer_entries">Entrades del menú lateral</string>
     <string name="settings_openhab_theme">Tema</string>
@@ -84,7 +84,7 @@
     <string name="settings_screen_lock_off_summary">L\'accés a l\'aplicació no està bloquejat</string>
     <string name="settings_screen_lock_kiosk_summary">L\'accés a la configuració de l\'aplicació està bloquejat amb el bloqueig de la pantalla o l\'empremta digital d\'Android</string>
     <string name="settings_screen_lock_on_summary">L\'accés a l\'aplicació està bloquejat amb el bloqueig de pantalla d\'Android o l\'empremta digital\nNota: Tanmateix, els ginys es poden utilitzar</string>
-    <string name="screen_lock_unlock_screen_description">Desbloqueja per accedir a  e-Safe </string>
+    <string name="screen_lock_unlock_screen_description">Desbloqueja per accedir a  e-SAFE </string>
     <string name="screen_lock_unlock_preferences_description">Desbloqueja per accedir a la configuració</string>
     <string name="settings_screen_lock_off">Desactivat</string>
     <string name="settings_screen_lock_kiosk">Mode Quiosc</string>
@@ -101,7 +101,7 @@
     <string name="settings_server_primary_title">Servidor principal</string>
     <string name="settings_server_primary_summary_is_primary">Aquest servidor és el principal.\nActualment aquesta aplicació només suporta totes les funcionalitats per al servidor principal. Prem el botó d\'ajuda per a més informació.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" és el servidor principal.\n Toca per fer aquest servidor principal.\nActualment aquesta aplicació només suporta totes les funcionalitats per al servidor principal. Prem el botó d\'ajuda per a més informació.</string>
-    <string name="settings_server_default_name"> e-Safe  %d</string>
+    <string name="settings_server_default_name"> e-SAFE  %d</string>
     <string name="settings_advanced">Avançat</string>
     <string name="click_here_for_more_information">Feu clic aquí per a més informació</string>
     <string name="settings_multi_server_wifi_ssid_summary_hint">L\'app escollirà aquest servidor quan es connecti a una d\'aquestes xarxes Wi-Fi. Es poden introduïr més d\'una xarxa amb línies diferents.</string>
@@ -115,7 +115,7 @@
     <string name="title_voice_widget">Ordres de veu</string>
     <string name="voice_command">Ordre de veu</string>
     <string name="title_voice_widget_icon">Ordres de veu i drecera d\'aplicació</string>
-    <string name="info_voice_input"> e-Safe , a les ordres!</string>
+    <string name="info_voice_input"> e-SAFE , a les ordres!</string>
     <string name="info_voice_recognized_text">Ordre reconeguda: %1$s</string>
     <string name="info_demo_mode_short">Execució en mode de demostració</string>
     <!-- Please try to keep the string as short as possible -->
@@ -130,7 +130,7 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">S\'ha copiat \"%s\"</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">l\' e-Safe  ha retornat un llistat de mapa de llocs buit</string>
+    <string name="error_empty_sitemap_list">l\' e-SAFE  ha retornat un llistat de mapa de llocs buit</string>
     <string name="error_sitemap_generic_load_error">67 / 5000
 Resultats de traducció
 No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</string>
@@ -138,7 +138,7 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <string name="error_wifi_not_available">Wi-Fi està desactivat</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
     <string name="error_wifi_restricted">Les connexions al servidor %1$s estan restringides a les següents xarxes Wi-Fi: %2$s</string>
-    <string name="error_http_connection_failed">La connexió no s\'ha realitzat correctament. S\'ha rebut una resposta inesperada mentre intentava connectar-se al servidor e-Safe configurat (codi HTTP %d).</string>
+    <string name="error_http_connection_failed">La connexió no s\'ha realitzat correctament. S\'ha rebut una resposta inesperada mentre intentava connectar-se al servidor e-SAFE configurat (codi HTTP %d).</string>
     <string name="error_invalid_url">Introduïu un URL vàlid en un formulari \"http(s)://host(:port)/\"</string>
     <string name="error_invalid_https_url">Introduïu un URL vàlid en un formulari \"https://host(:port)/\"</string>
     <string name="error_port_seems_invalid">El port que heu introduït no sembla vàlid per al protocol seleccionat</string>
@@ -165,13 +165,13 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">L\'autenticació ha fallat. Comproveu el certificat de client SSL proporcionat (codi HTTP %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">Cal un certificat de client SSL (codi HTTP %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">El vostre servidor intermediari invers ha rebut una resposta no vàlida del servidor d\' e-Safe  (codi HTTP %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">El servidor e-Safe està temporalment no disponible (codi HTTP %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Time-out de la passarel·la. Sembla que el vostre servidor intermediari invers s\'està executant, però no ha pogut obtenir una resposta del servidor e-Safe (codi HTTP %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">El servidor e-Safe no té prou espai lliure (codi HTTP %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">El vostre servidor intermediari invers ha rebut una resposta no vàlida del servidor d\' e-SAFE  (codi HTTP %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">El servidor e-SAFE està temporalment no disponible (codi HTTP %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Time-out de la passarel·la. Sembla que el vostre servidor intermediari invers s\'està executant, però no ha pogut obtenir una resposta del servidor e-SAFE (codi HTTP %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">El servidor e-SAFE no té prou espai lliure (codi HTTP %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Es requereix autenticació de xarxa (codi HTTP %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline"> e-Safe  fora de línia</string>
+    <string name="error_short_openhab_offline"> e-SAFE  fora de línia</string>
     <string name="error_short_http_connection_failed">codi HTTP %d</string>
     <string name="error_short_unable_to_resolve_hostname">Error en resoldre el nom d\'amfitrió</string>
     <string name="error_short_unknown">Error desconegut: %s</string>
@@ -190,12 +190,12 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">Es requereix HTTPS (codi HTTP %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">L\'autenticació ha fallat (codi HTTP %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">Cal un certificat de client SSL (codi HTTP %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">El vostre servidor intermediari invers ha rebut una resposta no vàlida del servidor d\' e-Safe  (codi HTTP %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">El servidor e-Safe està temporalment no disponible (codi HTTP %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">El vostre servidor intermediari invers ha rebut una resposta no vàlida del servidor d\' e-SAFE  (codi HTTP %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">El servidor e-SAFE està temporalment no disponible (codi HTTP %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Time-out de la passarel·la (codi HTTP %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">No hi ha suficient espai lliure al servidor (codi HTTP %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Es requereix autenticació de xarxa (codi HTTP %d)</string>
-    <string name="error_openhab_offline">El vostre servidor d\' e-Safe  està fora de línia mentre s\'està executant la instància del núvol</string>
+    <string name="error_openhab_offline">El vostre servidor d\' e-SAFE  està fora de línia mentre s\'està executant la instància del núvol</string>
     <string name="error_no_browser_found">No s\'ha trobat navegador en el teu dispositiu</string>
     <string name="error_no_speech_to_text_app_found">No s\'ha trobat cap aplicació de reconeixement de veu</string>
     <string name="error_video_player">%s no s\'ha pogut carregar</string>
@@ -246,7 +246,7 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <string name="settings_charging_state_summary_off">No enviïs l\'estat de càrrega</string>
     <string name="settings_wifi_ssid">Nom del Wi-Fi</string>
     <string name="settings_wifi_ssid_summary_on">Envia el nom del Wi-Fi (SSID) a l\'Item \'%1$s\'</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Envia la xarxa Wi-Fi (SSID) a l\'Item \'%1$s\'. Heu de tenir la localització activada, d\'altra banda e-Safe no té accés al nom del Wi-Fi.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Envia la xarxa Wi-Fi (SSID) a l\'Item \'%1$s\'. Heu de tenir la localització activada, d\'altra banda e-SAFE no té accés al nom del Wi-Fi.</string>
     <string name="settings_wifi_ssid_summary_off">No enviïs el nom del Wi-Fi (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">L\'enviament del nom de la Wi-Fi s\'ha desactivat perquè falten permisos</string>
     <string name="settings_wifi_ssid_restrict">Restringeix les connexions locals a aquestes xarxes Wi-Fi</string>
@@ -280,7 +280,7 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     </plurals>
     <string name="push_notification_status_no_remote_configured">Les notificacions no estan disponibles: el servidor remot no està configurat</string>
     <string name="push_notification_status_http_error">Les notificacions no estan disponibles: Error en connectar-se al servidor remot: %s</string>
-    <string name="push_notification_status_remote_no_cloud">Les notificacions no estan disponibles: El servidor remot no és una instància d\' e-Safe  cloud</string>
+    <string name="push_notification_status_remote_no_cloud">Les notificacions no estan disponibles: El servidor remot no és una instància d\' e-SAFE  cloud</string>
     <string name="push_notification_status">Estat</string>
     <string name="push_notification_hint">Les notificacions es consulten regularment, amb la mateixa freqüència que \"Envia informació del dispositiu al servidor\"</string>
     <plurals name="item_update_error_title">
@@ -311,7 +311,7 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Precedeix les comandes de veu amb \'&lt;Device identifier&gt;|\'</string>
     <string name="device_identifier_bg_tasks">Prefixa els noms dels Items de \"Envia informació del dispositiu al servidor\" amb aquest identificador</string>
-    <string name="device_identifier_hint">Aquest identificador de dispositiu pot ser qualsevol cadena i ha de ser únic per a tots els dispositius que accedeixen al vostre servidor d\' e-Safe . A més dels dos casos d\'ús anteriors, també podeu utilitzar-lo com a estat a les etiquetes NFC, de manera que sapigueu quin dispositiu llegeix l\'etiqueta.</string>
+    <string name="device_identifier_hint">Aquest identificador de dispositiu pot ser qualsevol cadena i ha de ser únic per a tots els dispositius que accedeixen al vostre servidor d\' e-SAFE . A més dels dos casos d\'ús anteriors, també podeu utilitzar-lo com a estat a les etiquetes NFC, de manera que sapigueu quin dispositiu llegeix l\'etiqueta.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Identificador del dispositiu d\'escaneig (\"%s\" per a aquest dispositiu)</string>
     <string name="device_identifier_summary_not_set">Les dades enviades al servidor i les ordres de veu no tenen el prefix d\'un identificador de dispositiu</string>
     <!-- Notification list strings -->
@@ -392,9 +392,9 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <string name="about_issues">Notifica un problema</string>
     <string name="about_docs">Documentació</string>
     <string name="about_community_forum">Fòrum de la comunitat</string>
-    <string name="about_foundation">Fundació  e-Safe </string>
-    <string name="about_community">Comunitat  e-Safe </string>
-    <string name="about_translation">Ajudeu-nos en traduir  e-Safe </string>
+    <string name="about_foundation">Fundació  e-SAFE </string>
+    <string name="about_community">Comunitat  e-SAFE </string>
+    <string name="about_translation">Ajudeu-nos en traduir  e-SAFE </string>
     <string name="about_privacy_policy">Política de privadesa</string>
     <string name="about_rate_this_app">Valora l\'aplicació</string>
     <string name="settings_troubleshooting_title">Resolució de problemes</string>
@@ -404,9 +404,9 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <string name="switch_wifi_button">Connecta a una altra Wi-Fi</string>
     <string name="go_to_settings_button">Vés a la configuració</string>
     <string name="enable_demo_mode_button">Activa el mode de demostració</string>
-    <string name="configuration_missing">No hem trobat cap servidor e-Safe a la vostra xarxa. Si ja teniu un servidor, configureu-ne l\'adreça IP o el nom d\'amfitrió a la configuració del servidor. Si encara no teniu cap servidor, podeu activar el mode de demostració per veure de què és capaç l\' e-Safe .</string>
+    <string name="configuration_missing">No hem trobat cap servidor e-SAFE a la vostra xarxa. Si ja teniu un servidor, configureu-ne l\'adreça IP o el nom d\'amfitrió a la configuració del servidor. Si encara no teniu cap servidor, podeu activar el mode de demostració per veure de què és capaç l\' e-SAFE .</string>
     <string name="no_remote_server">La connexió al servidor local ha fallat i no heu configurat cap servidor remot</string>
-    <string name="resolving_openhab">S\'està intentant descobrir la instància del servidor  e-Safe \u2026</string>
+    <string name="resolving_openhab">S\'està intentant descobrir la instància del servidor  e-SAFE \u2026</string>
     <string name="waiting_for_wifi">S\'està esperant que la Wi-Fi s\'estableixi la connexió\u2026</string>
     <string name="visit_status_openhab_org">Visiteu status.openhab.org</string>
     <!-- Log -->
@@ -434,13 +434,13 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <string name="content_description_color_down">Apaga o mantenir premut per disminuir la intensitat</string>
     <string name="content_description_open_number_picker">Obre el selector numèric</string>
     <string name="content_description_video">Vídeo</string>
-    <string name="content_description_open_openhab">Obrir  e-Safe </string>
+    <string name="content_description_open_openhab">Obrir  e-SAFE </string>
     <string name="swipe_to_refresh_description">L\'aplicació també s\'actualitza automàticament, normalment no cal que ho feu manualment</string>
     <string name="got_it">Ja està!</string>
     <!-- Intro strings -->
     <string name="app_intro">Introducció</string>
-    <string name="intro_welcome">Us donem la benvinguda a l\' e-Safe </string>
-    <string name="intro_welcome_back">Us donem la benvinguda a l\' e-Safe </string>
+    <string name="intro_welcome">Us donem la benvinguda a l\' e-SAFE </string>
+    <string name="intro_welcome_back">Us donem la benvinguda a l\' e-SAFE </string>
     <string name="intro_app_restored">La majoria de la vostra configuració s\'ha restaurat, excepte les credencials del servidor</string>
     <string name="intro_whatis">Un programari d\'automatització de codi obert independent de proveïdors i tecnologia per a la vostra llar</string>
     <string name="intro_voice_description">Controleu casa vostra amb la veu</string>
@@ -562,7 +562,7 @@ No s\'ha pogut carregar el Sitemap. S\'ha produït l\'error següent: %1$s</stri
     <string name="tile_label_12">Tecla 12</string>
     <string name="error_missing_prefs">Si us plau, ompliu cada configuració</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">icona  e-Safe </string>
+    <string name="tile_icon_openhab">icona  e-SAFE </string>
     <string name="tile_icon_tv">TV</string>
     <string name="tile_icon_radio">Ràdio</string>
     <string name="tile_icon_bulb">Bombeta</string>

@@ -3,6 +3,6 @@
     <!-- Attention translators! Do NOT submit localized strings through GitHub Pull Request. -->
     <!-- See: https://github.com/openhab/openhab-android/blob/main/README.md#localization -->
     <!-- Name used for beta builds -->
-    <string name="app_name"> e-Safe  测试版</string>
-    <string name="tasker_item_picker_title"> e-Safe  测试版项目</string>
+    <string name="app_name"> e-SAFE  测试版</string>
+    <string name="tasker_item_picker_title"> e-SAFE  测试版项目</string>
 </resources>

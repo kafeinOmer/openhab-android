@@ -15,10 +15,10 @@
     <string name="settings_connection_title">Σύνδεση</string>
     <string name="settings_display_title">Εμφάνιση</string>
     <string name="settings_misc_title">Διάφορα</string>
-    <string name="settings_openhab_url">Διεύθυνση  e-Safe </string>
-    <string name="settings_openhab_url_summary">Η διεύθυνση του e-Safe (όνομα διακομιστή ή IP). Αν ρυθμιστεί, απενεργοποιεί την αυτόματη εύρεση. Τρέχουσα ρύθμιση: %s</string>
-    <string name="settings_openhab_alturl">Απομακρυσμένη διεύθυνση  e-Safe </string>
-    <string name="settings_openhab_alturl_summary">Η διεύθυνση του e-Safe όταν η τοπική διεύθυνση δεν είναι διαθέσιμη. Τρέχουσα ρύθμιση: %s</string>
+    <string name="settings_openhab_url">Διεύθυνση  e-SAFE </string>
+    <string name="settings_openhab_url_summary">Η διεύθυνση του e-SAFE (όνομα διακομιστή ή IP). Αν ρυθμιστεί, απενεργοποιεί την αυτόματη εύρεση. Τρέχουσα ρύθμιση: %s</string>
+    <string name="settings_openhab_alturl">Απομακρυσμένη διεύθυνση  e-SAFE </string>
+    <string name="settings_openhab_alturl_summary">Η διεύθυνση του e-SAFE όταν η τοπική διεύθυνση δεν είναι διαθέσιμη. Τρέχουσα ρύθμιση: %s</string>
     <string name="settings_openhab_username">Όνομα χρήστη</string>
     <string name="settings_openhab_password">Κωδικός</string>
     <string name="settings_openhab_password_summary_weak">Ασθενής κωδικός πρόσβασης</string>
@@ -51,7 +51,7 @@
     <!-- %1$s: URL, %2$s: Reason why connection is insecure -->
     <string name="settings_screen_lock_off">Σβηστό</string>
     <!-- App messages strings -->
-    <string name="info_voice_input"> e-Safe , στις προσταγές σας!</string>
+    <string name="info_voice_input"> e-SAFE , στις προσταγές σας!</string>
     <string name="info_voice_recognized_text">Αναγνωρισμένη εντολή: %1$s</string>
     <string name="info_demo_mode_short">Εκτέλεση σε κατάσταση παρουσίασης (demo)</string>
     <!-- Please try to keep the string as short as possible -->
@@ -59,7 +59,7 @@
     <string name="info_conn_rem_url">Σύνδεση στην απομακρυσμένη διεύθυνση</string>
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list">Το e-Safe επέστρεψε μια άδεια λίστα Sitemap</string>
+    <string name="error_empty_sitemap_list">Το e-SAFE επέστρεψε μια άδεια λίστα Sitemap</string>
     <string name="error_network_not_available">Το δίκτυο δεν είναι διαθέσιμο</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
     <string name="error_invalid_url">Παρακαλώ εισάγετε ενα σωστό URL της μορφής \'πρωτόκολλο://διακομιστής:πόρτα/\'</string>
@@ -75,7 +75,7 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
     <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
-    <string name="error_openhab_offline">Ο e-Safe διακομιστής σας βρίσκεται εκτός σύνδεσης ενώ εκτελείται η παρουσία στο cloud</string>
+    <string name="error_openhab_offline">Ο e-SAFE διακομιστής σας βρίσκεται εκτός σύνδεσης ενώ εκτελείται η παρουσία στο cloud</string>
     <string name="title_activity_openhabwritetag">Εγγραφή ετικέτας NFC</string>
     <string name="title_activity_libraries">Χρησιμοποιημένες βιβλιοθήκες</string>
     <string name="info_write_tag">Αγγίξτε την ετικέτα NFC και κρατήστε την κοντά μέχρι να εμφανιστεί το μήνυμα επιβεβαίωσης</string>
@@ -132,13 +132,13 @@
     <string name="about_issues">Αναφορά προβλήματος</string>
     <string name="about_docs">Τεκμηρίωση</string>
     <string name="about_community_forum">Φόρουμ κοινότητας</string>
-    <string name="about_foundation">Ίδρυμα  e-Safe </string>
-    <string name="about_community">Κοινότητα  e-Safe </string>
-    <string name="about_translation">Βοηθείστε μας να μεταφράσουμε το  e-Safe </string>
+    <string name="about_foundation">Ίδρυμα  e-SAFE </string>
+    <string name="about_community">Κοινότητα  e-SAFE </string>
+    <string name="about_translation">Βοηθείστε μας να μεταφράσουμε το  e-SAFE </string>
     <string name="about_privacy_policy">Πολιτική Απορρήτου</string>
     <string name="try_again_button">Προσπαθήστε ξανά</string>
     <string name="go_to_settings_button">Μετάβαση στις ρυθμίσεις</string>
-    <string name="resolving_openhab">Προσπάθεια εύρεσης του διακομιστή  e-Safe </string>
+    <string name="resolving_openhab">Προσπάθεια εύρεσης του διακομιστή  e-SAFE </string>
     <!-- Log -->
     <string name="log_activity_action_clear_log">Καθαρισμός αρχείου καταγραφής</string>
     <!-- Home screen shortcuts -->
@@ -151,11 +151,11 @@
     <string name="content_description_color_down">Απενενεργοποίηση ή κράτηστε για την μείωση της φωτεινότητας</string>
     <string name="content_description_open_number_picker">Άνοιγμα επιλογέα αριθμών</string>
     <string name="content_description_video">Βίντεο</string>
-    <string name="content_description_open_openhab">Άνοιγμα  e-Safe </string>
+    <string name="content_description_open_openhab">Άνοιγμα  e-SAFE </string>
     <string name="swipe_to_refresh_description">Η εφαρμογή ανανεώνεται αυτόματα, κανονικά δε χρειάζεται να το κάνετε με το χέρι</string>
     <!-- Intro strings -->
     <string name="app_intro">Εισαγωγή</string>
-    <string name="intro_welcome">Καλώς ήρθατε στο  e-Safe </string>
+    <string name="intro_welcome">Καλώς ήρθατε στο  e-SAFE </string>
     <string name="intro_whatis">Λογισμικό ανοιχτού κώδικα αυτοματοποίησης, ανεξάρτητο κατασκευαστή και τεχνολογίας, για το σπίτι σας.</string>
     <string name="intro_voice_description">Ελέγξτε το σπίτι σας με την φωνή σας</string>
     <string name="intro_nfc_description">Το στοιχείο ελέγχου μπορεί να συνδεθεί σε ετικέτες NFC κρατώντας πατημένο το στοιχείο</string>

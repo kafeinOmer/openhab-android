@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <strings>
-    <intro> e-Safe  - "empowering the smart home" - Birbirinden farklı sistemleri destekleyen ve sağlayan açık kaynak kodlu akıllı ev otomasyonu</intro>
-    <whatis> e-Safe , çok çeşitli akıllı ev sistemleri ve teknolojilerini tek bir çözümde entegre eden, Java tabanlı bir açık kaynaklı ev otomasyon platformudur.</whatis>
+    <intro> e-SAFE  - "empowering the smart home" - Birbirinden farklı sistemleri destekleyen ve sağlayan açık kaynak kodlu akıllı ev otomasyonu</intro>
+    <whatis> e-SAFE , çok çeşitli akıllı ev sistemleri ve teknolojilerini tek bir çözümde entegre eden, Java tabanlı bir açık kaynaklı ev otomasyon platformudur.</whatis>
     <rules>Birleşik soyutlama katmanının üstünde, tüm bağlı cihazlar genel otomasyon kural motorları ve farklı kullanıcı arayüzleri için kullanılabilir.</rules>
     <supported>Desteklenen Ürünler</supported>
     <bindings>200'den fazla özel eklenti, markalar, cihazlar, teknolojiler ve iletişim protokolleri için destek sağlar. Örnekler Z-Wave, Philips Hue, Amazon Echo, Chromecast ve Sonos'tur. Mevcut tüm eklentileri ve desteklenen cihazları ve / veya işlevleri şu adreste keşfedin: https://www.openhab.org/addons/</bindings>
     <automation_apps>Uygulama, Tasker ve Locale için bir eylem eklentisine sahiptir.</automation_apps>
 
     <oss_community>Açık Kaynak Topluluğu</oss_community>
-    <forum> e-Safe  açık kaynak girişimi, canlı topluluğunu güçlü bir şekilde destekliyor. Forum 13,000 kayıtlı kullanıcı ile rehberlik, yardım ve ilham bulmak için bir yerdir. e-Safe topluluk forumu' na katıl: https://community.openhab.org</forum>
+    <forum> e-SAFE  açık kaynak girişimi, canlı topluluğunu güçlü bir şekilde destekliyor. Forum 13,000 kayıtlı kullanıcı ile rehberlik, yardım ve ilham bulmak için bir yerdir. e-SAFE topluluk forumu' na katıl: https://community.openhab.org</forum>
 
     <report_issues>Bir sorun bulduğunuzda lütfen bunu forumda veya https://github.com/openhab/openhab-android/issues adresinde bildirin</report_issues>
     <translation>Uygulamayı kendi dilinize çevirmek isterseniz https://crowdin.com/project/openhab-android adresinden bize katılın</translation>
-    <foundation> e-Safe  Vakfı</foundation>
-    <about_foundation> e-Safe  Vakfı e.V. kamuoyunu serbest ve açık akıllı ev çözümlerinin olanakları ve faydaları hakkında eğitmek misyonu ile kar amacı gütmeyen bir organizasyondur. https://www.openhabfoundation.org adresinden vakfın misyonu ve hizmetleri hakkında bilgi edinin</about_foundation>
+    <foundation> e-SAFE  Vakfı</foundation>
+    <about_foundation> e-SAFE  Vakfı e.V. kamuoyunu serbest ve açık akıllı ev çözümlerinin olanakları ve faydaları hakkında eğitmek misyonu ile kar amacı gütmeyen bir organizasyondur. https://www.openhabfoundation.org adresinden vakfın misyonu ve hizmetleri hakkında bilgi edinin</about_foundation>
     <important_note>Önemli not</important_note>
-    <oh_server>Bu uygulama için bir e-Safe sunucusuna ihtiyacınız var.</oh_server>
+    <oh_server>Bu uygulama için bir e-SAFE sunucusuna ihtiyacınız var.</oh_server>
     <short_description>Satıcı ve teknoloji agnostik açık kaynaklı ev otomasyonu</short_description>
-    <fdroid>F-Droid'deki yapılarda FCM kaldırılmıştır ve bu nedenle e-Safe Cloud'dan anında iletme bildirimleri alamaz. Bunun yerine, bu yapılarda bildirimler düzenli olarak yoklanır.</fdroid>
+    <fdroid>F-Droid'deki yapılarda FCM kaldırılmıştır ve bu nedenle e-SAFE Cloud'dan anında iletme bildirimleri alamaz. Bunun yerine, bu yapılarda bildirimler düzenli olarak yoklanır.</fdroid>
     <fdroid_beta><![CDATA[Beta sürümünü <a href="https://f-droid.org/packages/org.openhab.habdroid/">kararlı sürüm</a> ile birlikte kurabilirsiniz.]]></fdroid_beta>
     <fdroid_privacy_policy>Gizlilik Politikası: https://www.openhabfoundation.org/privacy.html</fdroid_privacy_policy>
     <beta>Yeni özellikleri deneyin ve erken geri bildirimde bulunun!</beta>

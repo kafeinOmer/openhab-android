@@ -15,7 +15,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Сповіщення</string>
     <string name="habpanel_error">Сталася помилка під час завантаження HABPanel</string>
-    <string name="frontail_error">Сталася помилка при завантаженні Frontail. Зверніть увагу, що він недоступний через e-Safe Cloud.</string>
+    <string name="frontail_error">Сталася помилка при завантаженні Frontail. Зверніть увагу, що він недоступний через e-SAFE Cloud.</string>
     <string name="mainmenu_openhab_selectsitemap">Оберіть сторінку інтерфейсу за замовчанням</string>
     <string name="mainmenu_openhab_clearcache">Очистити кеш зображень</string>
     <!-- App settings strings -->
@@ -24,9 +24,9 @@
     <string name="settings_sitemap_title">Сторінкa інтерфейсу</string>
     <string name="settings_misc_title">Різне</string>
     <string name="settings_openhab_url">URL-адреса локального сервера</string>
-    <string name="settings_openhab_url_summary">URL-адреса інформаційної панелі e-Safe (на основі імені вузла або IP-адреси). Якщо налаштовано, автоматичне виявлення вимкнено. Поточне налаштування: %s</string>
+    <string name="settings_openhab_url_summary">URL-адреса інформаційної панелі e-SAFE (на основі імені вузла або IP-адреси). Якщо налаштовано, автоматичне виявлення вимкнено. Поточне налаштування: %s</string>
     <string name="settings_openhab_alturl">URL-адреса віддаленого сервера</string>
-    <string name="settings_openhab_alturl_summary">URL-адреса інформаційної панелі e-Safe яка використовується, коли локальна адреса недоступна. Поточний параметр: %s</string>
+    <string name="settings_openhab_alturl_summary">URL-адреса інформаційної панелі e-SAFE яка використовується, коли локальна адреса недоступна. Поточний параметр: %s</string>
     <string name="settings_openhab_username">Ім\'я користувача</string>
     <string name="settings_openhab_password">Пароль</string>
     <string name="settings_openhab_password_summary_weak">Слабкий пароль</string>
@@ -36,9 +36,9 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Натисніть тут, щоб отримати підказки та пояснення, щодо налаштування SSL сертифікату автентифікації клієнта</string>
     <string name="settings_openhab_sslclientcert_not_supported">Клієнтські сертифікати SSL не підтримуються вашим пристроєм</string>
     <string name="settings_openhab_screentimeroff">Вимкнути вичерпання часу екрана</string>
-    <string name="settings_openhab_screentimeroff_summary">Екран не вимикатиметься коли працює  e-Safe </string>
+    <string name="settings_openhab_screentimeroff_summary">Екран не вимикатиметься коли працює  e-BEMS </string>
     <string name="settings_openhab_demomode">Демонстраційний режим</string>
-    <string name="settings_openhab_demomode_summary">Якщо ви не маєте сервера  e-Safe , увімкніть демонстраційний режим, щоб мати уяву на що e-Safe здатний.</string>
+    <string name="settings_openhab_demomode_summary">Якщо ви не маєте сервера  e-SAFE , увімкніть демонстраційний режим, щоб мати уяву на що e-SAFE здатний.</string>
     <string name="start_page_title">Початкова сторінка</string>
     <string name="drawer_entries">Елементи бічного меню</string>
     <string name="settings_openhab_theme">Тема</string>
@@ -82,7 +82,7 @@
     <string name="settings_screen_lock_off_summary">Доступ до програми не заблоковано</string>
     <string name="settings_screen_lock_kiosk_summary">Доступ до програми заблоковано екраном блокування Android, або відбитком пальця</string>
     <string name="settings_screen_lock_on_summary">Доступ до програми заблоковано екраном блокування Android, або відбитком пальця\nПримітка: віджети доступні</string>
-    <string name="screen_lock_unlock_screen_description">Розблокувати для доступу до  e-Safe </string>
+    <string name="screen_lock_unlock_screen_description">Розблокувати для доступу до  e-SAFE </string>
     <string name="screen_lock_unlock_preferences_description">Розблокуйте для доступу до налаштувань</string>
     <string name="settings_screen_lock_off">Вимкнено</string>
     <string name="settings_screen_lock_kiosk">Режим Kiosk</string>
@@ -99,7 +99,7 @@
     <string name="settings_server_primary_title">Основний сервер</string>
     <string name="settings_server_primary_summary_is_primary">Цей сервер є основним.\nНаразі лише основним сервером підтримуються усі функції цього застосунку. Торкніться кнопки Довідка для отримання додаткової інформації.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" є основним сервером. Торкніться щоб зробити цей сервер основним.\nНаразі лише основним сервером підтримуються усі функції цього застосунку. Щоб дізнатися більше, торкніться кнопки довідки.</string>
-    <string name="settings_server_default_name"> e-Safe  %d</string>
+    <string name="settings_server_default_name"> e-SAFE  %d</string>
     <string name="settings_advanced">Додатково</string>
     <string name="click_here_for_more_information">Натисніть тут для отримання додаткової інформації</string>
     <string name="settings_multi_server_wifi_ssid_summary_hint">Програма вибере цей сервер, якщо підʼєднатися до однієї з цих назв Wi-Fi. Можна вводити кілька назв Wi-Fi розділивши їх новим рядком.</string>
@@ -114,7 +114,7 @@
     <string name="title_voice_widget">Голосові команди</string>
     <string name="voice_command">Голосова команда</string>
     <string name="title_voice_widget_icon">Голосові команди та ярлик застосунку</string>
-    <string name="info_voice_input"> e-Safe , очікує на команду!</string>
+    <string name="info_voice_input"> e-SAFE , очікує на команду!</string>
     <string name="info_voice_recognized_text">Отримано команду: %1$s</string>
     <string name="info_demo_mode_short">Працює в демо-режимі</string>
     <!-- Please try to keep the string as short as possible -->
@@ -129,13 +129,13 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">Скопійовано \"%s\"</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list"> e-Safe  повернув порожній список сторінок інтерфейсу</string>
+    <string name="error_empty_sitemap_list"> e-SAFE  повернув порожній список сторінок інтерфейсу</string>
     <string name="error_sitemap_generic_load_error">Неможливо завантажити Sitemap. Сталася помилка: %1$s</string>
     <string name="error_network_not_available">Мережа недоступна</string>
     <string name="error_wifi_not_available">Wi-Fi вимкнено</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
     <string name="error_wifi_restricted">Локальні підʼєднання до сервера %1$s обмежено до наступних назв Wi-Fi: %2$s</string>
-    <string name="error_http_connection_failed">З’єднання невдале. Отримана неочікувана відповідь під час підключення до налаштованого сервера e-Safe (код HTTP %d).</string>
+    <string name="error_http_connection_failed">З’єднання невдале. Отримана неочікувана відповідь під час підключення до налаштованого сервера e-SAFE (код HTTP %d).</string>
     <string name="error_invalid_url">Будь ласка, введіть правильне посилання URL у форматі \'http(s)://хост(:порт)/\'</string>
     <string name="error_invalid_https_url">Будь ласка, введіть правильне посилання URL у форматі \"https://хост(:порт)/\"</string>
     <string name="error_port_seems_invalid">Введений порт здається непридатний для вибраного протоколу</string>
@@ -162,13 +162,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Не вдалося виконати аутентифікацію. Будь ласка, перевірте наданий SSL-сертифікат клієнта (код HTTP %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">Потрібен SSL-сертифікат клієнта (код HTTP %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Ваш зворотний проксі отримав неприпустиму відповідь від сервера e-Safe (код HTTP %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Сервер e-Safe тимчасово недоступний (код HTTP %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Тайм-аут шлюзу. Здається, що Ваш проксі-сервер працює, але не зміг отримати відповідь від сервера e-Safe (код HTTP %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">На сервері e-Safe не достатньо вільного місця (код HTTP %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Ваш зворотний проксі отримав неприпустиму відповідь від сервера e-SAFE (код HTTP %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Сервер e-SAFE тимчасово недоступний (код HTTP %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Тайм-аут шлюзу. Здається, що Ваш проксі-сервер працює, але не зміг отримати відповідь від сервера e-SAFE (код HTTP %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">На сервері e-SAFE не достатньо вільного місця (код HTTP %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Потрібна аутентифікація мережі (код HTTP %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline"> e-Safe  не в мережі</string>
+    <string name="error_short_openhab_offline"> e-SAFE  не в мережі</string>
     <string name="error_short_http_connection_failed">Код HTTP %d</string>
     <string name="error_short_unable_to_resolve_hostname">Помилка пошуку доменного імені</string>
     <string name="error_short_unknown">Невідома помилка: %s</string>
@@ -187,12 +187,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">Вимагається HTTPS (код HTTP %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Помилка аутентифікації (код HTTP %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">Потрібен SSL-сертифікат клієнта (код HTTP %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Зворотний проксі отримав неприпустиму відповідь від e-Safe (код HTTP %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  тимчасово недоступний (код HTTP %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Зворотний проксі отримав неприпустиму відповідь від e-SAFE (код HTTP %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-SAFE  тимчасово недоступний (код HTTP %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Тайм-аут шлюзу (код HTTP %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Недостатньо вільного місця на сервері (код HTTP %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Потрібна автентифікація мережі (код HTTP %d)</string>
-    <string name="error_openhab_offline">Сервер e-Safe недоступний, але його хмарний екземпляр працює</string>
+    <string name="error_openhab_offline">Сервер e-SAFE недоступний, але його хмарний екземпляр працює</string>
     <string name="error_no_browser_found">На пристрої не знайдено браузер</string>
     <string name="error_no_speech_to_text_app_found">Не знайдено застосунок розпізнавання мови</string>
     <string name="error_video_player">%s неможливо завантажити</string>
@@ -244,7 +244,7 @@
     <string name="settings_charging_state_summary_off">Не надсилати стан зарядки</string>
     <string name="settings_wifi_ssid">Ім’я Wi-Fi</string>
     <string name="settings_wifi_ssid_summary_on">Відправляє ім\'я Wi-Fi (SSID) об\'єкту \'%1$s</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Відправляє назву Wi-Fi (SSID) до об\'єкта%1$s. \"Місцезнаходження\" має бути увімкнено, інакше e-Safe не дозволено отримувати назву Wi-Fi.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Відправляє назву Wi-Fi (SSID) до об\'єкта%1$s. \"Місцезнаходження\" має бути увімкнено, інакше e-SAFE не дозволено отримувати назву Wi-Fi.</string>
     <string name="settings_wifi_ssid_summary_off">Не надсилати ім\'я Wi-Fi (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">Відправка назви Wi-Fi відключена через брак дозволів</string>
     <string name="settings_wifi_ssid_restrict">Обмежити локальні зʼєднання до цих назв Wi-Fi</string>
@@ -281,7 +281,7 @@
     </plurals>
     <string name="push_notification_status_no_remote_configured">Сповіщення недоступні: віддалений сервер не налаштовано</string>
     <string name="push_notification_status_http_error">Сповіщення недоступні: помилка підключення до віддаленого сервера: %s</string>
-    <string name="push_notification_status_remote_no_cloud">Сповіщення недоступні: віддалений сервер не є хмарним екземпляром  e-Safe </string>
+    <string name="push_notification_status_remote_no_cloud">Сповіщення недоступні: віддалений сервер не є хмарним екземпляром  e-SAFE </string>
     <string name="push_notification_status">Стан</string>
     <string name="push_notification_hint">Сповіщення відтворюються за звичайним розкладом, таким самим як \"Відправити інформацію про пристрій на сервер\"</string>
     <plurals name="item_update_error_title">
@@ -314,7 +314,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Префіксувати голосові команди за допомогою \'&lt;Ідентифікатор пристрою&gt;|\'</string>
     <string name="device_identifier_bg_tasks">Префіксувати імена об’єктів \"Відправити інформацію про пристрій на сервер\" з цим ідентифікатором</string>
-    <string name="device_identifier_hint">Цей ідентифікатор пристрою може бути будь-яким рядком і має бути унікальним для всіх пристроїв, що мають доступ до вашого сервера  e-Safe . Окрім двох випадків вище, ви можете використовувати його як стан за NFC мітками, щоб знати, який пристрій зчитав мітку.</string>
+    <string name="device_identifier_hint">Цей ідентифікатор пристрою може бути будь-яким рядком і має бути унікальним для всіх пристроїв, що мають доступ до вашого сервера  e-SAFE . Окрім двох випадків вище, ви можете використовувати його як стан за NFC мітками, щоб знати, який пристрій зчитав мітку.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Ідентифікатор пристрою сканування (\"%s\" для цього пристрою)</string>
     <string name="device_identifier_summary_not_set">Дані надіслані на сервер і голосові команди не префіксуються ідентифікатором пристрою</string>
     <!-- Notification list strings -->
@@ -395,9 +395,9 @@
     <string name="about_issues">Повідомити про проблему</string>
     <string name="about_docs">Документація</string>
     <string name="about_community_forum">Форум спільноти</string>
-    <string name="about_foundation"> e-Safe  Foundation</string>
-    <string name="about_community">Спільнота  e-Safe </string>
-    <string name="about_translation">Допоможіть нам перекласти  e-Safe </string>
+    <string name="about_foundation"> e-SAFE  Foundation</string>
+    <string name="about_community">Спільнота  e-SAFE </string>
+    <string name="about_translation">Допоможіть нам перекласти  e-SAFE </string>
     <string name="about_privacy_policy">Політика конфіденційності</string>
     <string name="about_rate_this_app">Оцінить цей додаток</string>
     <string name="settings_troubleshooting_title">Виправлення несправностей</string>
@@ -407,9 +407,9 @@
     <string name="switch_wifi_button">Підʼєднатися до іншої мережі Wi-Fi</string>
     <string name="go_to_settings_button">Перейти до налаштувань</string>
     <string name="enable_demo_mode_button">Увімкнути Демо-режим</string>
-    <string name="configuration_missing">Ми не знайшли сервер e-Safe у вашій мережі. Якщо він у вас є, будь ласка вкажіть його адресу або ім’я у налаштуваннях. Якщо у вас ще немає працюючого сервера, ви можете увімкнути демонстраційний режим, щоб побачити на що здатний  e-Safe .</string>
+    <string name="configuration_missing">Ми не знайшли сервер e-SAFE у вашій мережі. Якщо він у вас є, будь ласка вкажіть його адресу або ім’я у налаштуваннях. Якщо у вас ще немає працюючого сервера, ви можете увімкнути демонстраційний режим, щоб побачити на що здатний  e-SAFE .</string>
     <string name="no_remote_server">Під’єднання до локального сервера не вдалось, а віддалений не налаштовано</string>
-    <string name="resolving_openhab">Шукаю сервер  e-Safe \u2026</string>
+    <string name="resolving_openhab">Шукаю сервер  e-SAFE \u2026</string>
     <string name="waiting_for_wifi">Очікування встановлення з’єднання через Wi-Fi\u2026</string>
     <string name="visit_status_openhab_org">Відвідати status.openhab.org</string>
     <!-- Log -->
@@ -437,13 +437,13 @@
     <string name="content_description_color_down">Натискайте або утримуйте щоб зменшити яскравість</string>
     <string name="content_description_open_number_picker">Введення числа</string>
     <string name="content_description_video">Відео</string>
-    <string name="content_description_open_openhab">Відкрити  e-Safe </string>
+    <string name="content_description_open_openhab">Відкрити  e-SAFE </string>
     <string name="swipe_to_refresh_description">Додаток періодично оновлюється автоматично, зазвичай не потрібно робити це вручну</string>
     <string name="got_it">Зрозуміло!</string>
     <!-- Intro strings -->
     <string name="app_intro">Вступ</string>
-    <string name="intro_welcome">Ласкаво просимо до  e-Safe </string>
-    <string name="intro_welcome_back">З поверненням до  e-Safe </string>
+    <string name="intro_welcome">Ласкаво просимо до  e-SAFE </string>
+    <string name="intro_welcome_back">З поверненням до  e-SAFE </string>
     <string name="intro_app_restored">Більшість налаштувань відновлено, крім облікових даних</string>
     <string name="intro_whatis">Універсальна система автоматизації з відкритим початковим кодом для твого будинку</string>
     <string name="intro_voice_description">Керуйте будинком за допомогою голосу</string>
@@ -572,7 +572,7 @@
     <string name="tile_label_12">Плитка 12</string>
     <string name="error_missing_prefs">Будь ласка, заповніть всі налаштування</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab">значок  e-Safe </string>
+    <string name="tile_icon_openhab">значок  e-SAFE </string>
     <string name="tile_icon_tv">ТБ</string>
     <string name="tile_icon_radio">Радіо</string>
     <string name="tile_icon_bulb">Лампочка</string>

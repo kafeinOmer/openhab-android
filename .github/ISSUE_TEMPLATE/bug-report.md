@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: 'Create a report to help us improve the e-Safe client for Android'
+about: 'Create a report to help us improve the e-SAFE client for Android'
 labels: bug
 
 ---
@@ -38,9 +38,9 @@ Describe us what should happen
 * Reverse Proxy:
 * Authentication method <!--(None, user and password, SSL Client certificate)-->:
 
-#### e-Safe Cloud
+#### e-SAFE Cloud
 * Self hosted cloud or myopenhab.org:
-* e-Safe Cloud version <!-- If self hosted -->:
+* e-SAFE Cloud version <!-- If self hosted -->:
 * Authentication method <!--(None, user and password, SSL Client certificate)-->:
 
 ### Logs
@@ -56,13 +56,13 @@ Open the app, go to `Settings` => `View log` and insert the log here.
 </details>
 
 
-#### e-Safe Server log
+#### e-SAFE Server log
 <details>
   <summary>Click to expand</summary>
 
 ```
 Not required.
-If you have installed e-Safe via `apt-get`, the log is located under `/var/log/openhab2/openhab.log`
+If you have installed e-SAFE via `apt-get`, the log is located under `/var/log/openhab2/openhab.log`
 ```
 
 </details>

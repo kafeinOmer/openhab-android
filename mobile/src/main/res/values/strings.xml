@@ -4,13 +4,13 @@
     <!-- See: https://github.com/openhab/openhab-android/blob/main/README.md#localization -->
 
     <!-- General app strings -->
-    <string name="openhab" translatable="false">e-Safe</string>
+    <string name="openhab" translatable="false">e-SAFE</string>
     <string name="app_preferences_name">Settings</string>
     <string name="empty_string" translatable="false" />
     <string name="save">Save</string>
     <string name="discard">Discard</string>
     <string name="delete">Delete</string>
-    <string name="attribution_tag_discover_server">Discover e-Safe server</string>
+    <string name="attribution_tag_discover_server">Discover e-SAFE server</string>
     <string name="attribution_tag_select_server_wifi">Select server based on Wi-Fi</string>
     <string name="attribution_tag_suggest_turn_on_wifi">Suggest to turn on Wi-Fi</string>
 
@@ -18,14 +18,14 @@
     <string name="mainmenu_openhab_sitemaps">Sitemaps</string>
     <string name="mainmenu_openhab_preferences">Settings</string>
     <string name="mainmenu_openhab_habpanel">HABPanel</string>
-    <string name="mainmenu_openhab_oh3_ui">Main UI</string>
+    <string name="mainmenu_openhab_oh3_ui">Resident View</string>
     <string name="mainmenu_openhab_frontail">Frontail</string>
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="ui_on_server">%1$s (%2$s)</string>
     <string name="app_notifications">Notifications</string>
     <string name="habpanel_error">An error occurred while loading HABPanel</string>
     <string name="oh3_ui_error">An error occurred while loading Main UI</string>
-    <string name="frontail_error">An error occurred while loading Frontail. Please note that it\'s not available via e-Safe Cloud.</string>
+    <string name="frontail_error">An error occurred while loading Frontail. Please note that it\'s not available via e-SAFE Cloud.</string>
     <string name="mainmenu_openhab_selectsitemap">Select default Sitemap</string>
     <string name="mainmenu_openhab_clearcache">Clear images cache</string>
 
@@ -35,9 +35,9 @@
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Miscellaneous</string>
     <string name="settings_openhab_url">Local server URL</string>
-    <string name="settings_openhab_url_summary">The URL of the e-Safe dashboard (based on hostname or IP). If configured, autodiscovery is disabled. Current setting: %s</string>
+    <string name="settings_openhab_url_summary">The URL of the e-SAFE dashboard (based on hostname or IP). If configured, autodiscovery is disabled. Current setting: %s</string>
     <string name="settings_openhab_alturl">Remote server URL</string>
-    <string name="settings_openhab_alturl_summary">The URL of the e-Safe dashboard used when the local address is unavailable. Current setting: %s</string>
+    <string name="settings_openhab_alturl_summary">The URL of the e-SAFE dashboard used when the local address is unavailable. Current setting: %s</string>
     <string name="settings_openhab_username">Username</string>
     <string name="settings_openhab_password">Password</string>
     <string name="settings_openhab_password_summary_weak">Weak password set</string>
@@ -50,9 +50,9 @@
     <string name="frontail_url_title">Frontail URL</string>
     <string name="frontail_url_summary">The URL of Frontail. It\'s bundled with openHABian or can be installed manually. Leave empty to use the default settings. Current setting: %s</string>
     <string name="settings_openhab_screentimeroff">Disable screen timeout</string>
-    <string name="settings_openhab_screentimeroff_summary">The screen doesn\'t turn off when e-Safe is running</string>
+    <string name="settings_openhab_screentimeroff_summary">The screen doesn\'t turn off when e-BEMS is running</string>
     <string name="settings_openhab_demomode">Demo mode</string>
-    <string name="settings_openhab_demomode_summary">If you don\'t have an e-Safe server, enable demo mode to get an imagination of what e-Safe is capable of.</string>
+    <string name="settings_openhab_demomode_summary">If you don\'t have an e-SAFE server, enable demo mode to get an imagination of what e-SAFE is capable of.</string>
     <string name="start_page_title">Start page</string>
     <string name="drawer_entries">Side menu entries</string>
     <string name="settings_openhab_theme">Theme</string>
@@ -109,7 +109,7 @@
     <string name="settings_screen_lock_off_summary">Access to the app is not locked</string>
     <string name="settings_screen_lock_kiosk_summary">Access to app settings is locked with Android screen lock or fingerprint</string>
     <string name="settings_screen_lock_on_summary">Access to the app is locked with Android screen lock or fingerprint\nNote: Widgets can be used nevertheless</string>
-    <string name="screen_lock_unlock_screen_description">Unlock to access  e-Safe </string>
+    <string name="screen_lock_unlock_screen_description">Unlock to access  e-SAFE </string>
     <string name="screen_lock_unlock_preferences_description">Unlock to access settings</string>
     <string name="settings_screen_lock_off">Off</string>
     <string name="settings_screen_lock_kiosk">Kiosk mode</string>
@@ -130,7 +130,7 @@
     <string name="settings_server_primary_summary_is_primary">This server is the primary one.\nCurrently only the primary server is supported by all features of this app. Touch the help button for more information.</string>
     <string name="settings_server_primary_summary_is_not_primary">"%s" is the primary server. Touch to make this server the primary one.\nCurrently only the primary server is supported by all features of this app. Touch the help button for more information.</string>
     <string name="settings_server_primary_url" translatable="false">https://www.openhab.org/docs/apps/android.html#multi-server-support</string>
-    <string name="settings_server_default_name"> e-Safe  %d</string>
+    <string name="settings_server_default_name"> e-SAFE  %d</string>
     <string name="settings_advanced">Advanced</string>
     <string name="click_here_for_more_information">Touch here for more information</string>
     <string name="settings_multi_server_wifi_ssid_summary_hint">The app will select this server when connected to one of these Wi-Fi names. Multiple Wi-Fi names can be entered by separating them with new lines.</string>
@@ -155,7 +155,7 @@
     <string name="title_voice_widget">Voice commands</string>
     <string name="voice_command">Voice command</string>
     <string name="title_voice_widget_icon">Voice commands and app shortcut</string>
-    <string name="info_voice_input"> e-Safe , at your command!</string>
+    <string name="info_voice_input"> e-SAFE , at your command!</string>
     <string name="info_voice_recognized_text">Recognized command: %1$s</string>
     <string name="info_demo_mode_short">Running in demo mode</string>
     <!-- Please try to keep the string as short as possible -->
@@ -171,13 +171,13 @@
     <string name="copied_item_name">Copied \"%s\"</string>
 
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list"> e-Safe  returned empty Sitemap list</string>
+    <string name="error_empty_sitemap_list"> e-SAFE  returned empty Sitemap list</string>
     <string name="error_sitemap_generic_load_error">The Sitemap could not be loaded. The following error occurred: %1$s</string>
     <string name="error_network_not_available">Network is not available</string>
     <string name="error_wifi_not_available">Wi-Fi is turned off</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
     <string name="error_wifi_restricted">Local connections to server %1$s are restricted to the following Wi-Fi names: %2$s</string>
-    <string name="error_http_connection_failed">Connection unsuccessful. An unexpected response was received while trying to connect to the configured e-Safe server (HTTP code %d).</string>
+    <string name="error_http_connection_failed">Connection unsuccessful. An unexpected response was received while trying to connect to the configured e-SAFE server (HTTP code %d).</string>
     <string name="error_invalid_url">Please enter a valid URL in a \'http(s)://host(:port)/\' form</string>
     <string name="error_invalid_https_url">Please enter a valid URL in a \'https://host(:port)/\' form</string>
     <string name="error_port_seems_invalid">The port you have entered seems invalid for the selected protocol</string>
@@ -208,13 +208,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Authentication failed. Please check the provided SSL client certificate (HTTP code %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">SSL client certificate is required (HTTP code %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Your reverse proxy got an invalid answer from the e-Safe server (HTTP code %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">The e-Safe server is temporarily unavailable (HTTP code %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Seems that your reverse proxy is running, but couldn\'t get an answer from the e-Safe server (HTTP code %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">The e-Safe server hasn\'t enough free space (HTTP code %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Your reverse proxy got an invalid answer from the e-SAFE server (HTTP code %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">The e-SAFE server is temporarily unavailable (HTTP code %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Seems that your reverse proxy is running, but couldn\'t get an answer from the e-SAFE server (HTTP code %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">The e-SAFE server hasn\'t enough free space (HTTP code %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Network authentication is required (HTTP code %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline"> e-Safe  is offline</string>
+    <string name="error_short_openhab_offline"> e-SAFE  is offline</string>
     <string name="error_short_http_connection_failed">HTTP code %d</string>
     <string name="error_short_unable_to_resolve_hostname">Error resolving hostname</string>
     <string name="error_short_unknown">Unknown error: %s</string>
@@ -235,12 +235,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS required (HTTP code %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Authentication failed (HTTP code %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">SSL client certificate required (HTTP code %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Reverse proxy got invalid answer from e-Safe (HTTP code %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  temporarily unavailable (HTTP code %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Reverse proxy got invalid answer from e-SAFE (HTTP code %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-SAFE  temporarily unavailable (HTTP code %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Gateway time-out (HTTP code %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Not enough free space on server (HTTP code %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Network authentication required (HTTP code %d)</string>
-    <string name="error_openhab_offline">Your e-Safe server is offline while the cloud instance is running</string>
+    <string name="error_openhab_offline">Your e-SAFE server is offline while the cloud instance is running</string>
     <string name="error_no_browser_found">No browser found on your device</string>
     <string name="error_no_speech_to_text_app_found">No voice recognition app found</string>
     <string name="error_sse_failed">Event subscription failed, Widget refresh may be impaired</string>
@@ -301,7 +301,7 @@
     <string name="settings_charging_state_howto_url" translatable="false">https://www.openhab.org/docs/apps/android.html#charging-state</string>
     <string name="settings_wifi_ssid">Wi-Fi name</string>
     <string name="settings_wifi_ssid_summary_on">Sends Wi-Fi name (SSID) to Item \'%1$s\'</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Sends Wi-Fi name (SSID) to Item \'%1$s\'. \"Location\" must be turned on, otherwise e-Safe isn\'t allowed to get the Wi-Fi name.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Sends Wi-Fi name (SSID) to Item \'%1$s\'. \"Location\" must be turned on, otherwise e-SAFE isn\'t allowed to get the Wi-Fi name.</string>
     <string name="settings_wifi_ssid_summary_off">Don\'t send Wi-Fi name (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">Sending Wi-Fi name has been disabled due to missing permissions</string>
     <string name="settings_wifi_ssid_howto_url" translatable="false">https://www.openhab.org/docs/apps/android.html#wifi-name-ssid</string>
@@ -344,7 +344,7 @@
     </plurals>
     <string name="push_notification_status_no_remote_configured">Notifications are unavailable: Remote server isn\'t configured</string>
     <string name="push_notification_status_http_error">Notifications are unavailable: Error connecting to remote server: %s</string>
-    <string name="push_notification_status_remote_no_cloud">Notifications are unavailable: Remote server isn\'t an e-Safe cloud instance</string>
+    <string name="push_notification_status_remote_no_cloud">Notifications are unavailable: Remote server isn\'t an e-SAFE cloud instance</string>
     <string name="push_notification_status">Status</string>
     <string name="push_notification_hint">The notifications are polled on a regular schedule, which is the same than for \"Send device information to server\"</string>
     <plurals name="item_update_error_title">
@@ -376,7 +376,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Prefix voice commands with \'&lt;Device identifier&gt;|\'</string>
     <string name="device_identifier_bg_tasks">Prefix the Item names of \"Send device information to server\" with this identifier</string>
-    <string name="device_identifier_hint">This device identifier can be any string and should be unique for all devices accessing your e-Safe server. Besides the two use cases above, you can also use it as state on NFC tags, so you know which device read the tag.</string>
+    <string name="device_identifier_hint">This device identifier can be any string and should be unique for all devices accessing your e-SAFE server. Besides the two use cases above, you can also use it as state on NFC tags, so you know which device read the tag.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Device identifier of scanning device (\"%s\" for this device)</string>
     <string name="device_identifier_summary_not_set">Data sent to the server and voice commands aren\'t prefixed with a device identifier</string>
 
@@ -473,15 +473,15 @@
     <string name="about_title">About</string>
     <string name="about_license_title">License</string>
     <string name="about_license" translatable="false">Eclipse Public License - v 2.0</string>
-    <string name="about_copyright" translatable="false">© 2012 - %s e-Safe community</string>
+    <string name="about_copyright" translatable="false">© 2012 - %s e-SAFE community</string>
     <string name="about_changelog">Changelog</string>
     <string name="about_source_code">Source code</string>
     <string name="about_issues">Report an issue</string>
     <string name="about_docs">Documentation</string>
     <string name="about_community_forum">Community forum</string>
-    <string name="about_foundation"> e-Safe  Foundation</string>
-    <string name="about_community"> e-Safe  community</string>
-    <string name="about_translation">Help us translating  e-Safe </string>
+    <string name="about_foundation"> e-SAFE  Foundation</string>
+    <string name="about_community"> e-SAFE  community</string>
+    <string name="about_translation">Help us translating  e-SAFE </string>
     <string name="about_privacy_policy">Privacy policy</string>
     <string name="about_rate_this_app">Rate this app</string>
 
@@ -493,9 +493,9 @@
     <string name="switch_wifi_button">Connect to other Wi-Fi</string>
     <string name="go_to_settings_button">Go to settings</string>
     <string name="enable_demo_mode_button">Turn on demo mode</string>
-    <string name="configuration_missing">We didn\'t find an e-Safe server in your network. If you already have a server, please configure its IP address or host name in the server settings. If you don\'t yet have a server, you can enable demo mode to see what e-Safe is capable of.</string>
+    <string name="configuration_missing">We didn\'t find an e-SAFE server in your network. If you already have a server, please configure its IP address or host name in the server settings. If you don\'t yet have a server, you can enable demo mode to see what e-SAFE is capable of.</string>
     <string name="no_remote_server">Connection to local server failed and you haven\'t configured a remote server</string>
-    <string name="resolving_openhab">Trying to discover e-Safe server instance\u2026</string>
+    <string name="resolving_openhab">Trying to discover e-SAFE server instance\u2026</string>
     <string name="waiting_for_wifi">Waiting for Wi-Fi to establish connection\u2026</string>
     <string name="visit_status_openhab_org">Visit status.openhab.org</string>
 
@@ -530,7 +530,7 @@
     <string name="content_description_color_down">Off or hold to decrease brightness</string>
     <string name="content_description_open_number_picker">Open number picker</string>
     <string name="content_description_video">Video</string>
-    <string name="content_description_open_openhab">Open  e-Safe </string>
+    <string name="content_description_open_openhab">Open  e-SAFE </string>
     <string name="content_description_increase_item_value">Increase Item value</string>
     <string name="content_description_decrease_item_value">Decrease Item value</string>
     <string name="swipe_to_refresh_description">The app also refreshes automatically, you normally don\'t need to do it manually</string>
@@ -538,8 +538,8 @@
 
     <!-- Intro strings -->
     <string name="app_intro">Intro</string>
-    <string name="intro_welcome">Welcome to  e-Safe </string>
-    <string name="intro_welcome_back">Welcome back to  e-Safe </string>
+    <string name="intro_welcome">Welcome to  e-SAFE </string>
+    <string name="intro_welcome_back">Welcome back to  e-SAFE </string>
     <string name="intro_app_restored">Most of your settings have been restored, except the server credentials</string>
     <string name="intro_whatis">A vendor and technology agnostic open source automation software for your home</string>
     <string name="intro_voice_description">Control your home with your voice</string>
@@ -676,7 +676,7 @@
     <string name="error_missing_prefs">Please fill out every setting</string>
 
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab"> e-Safe  icon</string>
+    <string name="tile_icon_openhab"> e-SAFE  icon</string>
     <string name="tile_icon_tv">TV</string>
     <string name="tile_icon_radio">Radio</string>
     <string name="tile_icon_bulb">Bulb</string>

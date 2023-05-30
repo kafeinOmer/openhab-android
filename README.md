@@ -5,12 +5,12 @@
     <br>
     <img alt="Logo" src="fastlane/metadata/android/en-US/images/icon.png" width="100">
     <br>
-    <b> e-Safe  client for Android</b>
+    <b> e-SAFE  client for Android</b>
 </p>
 
 ## Introduction
 
-This app is a native client for e-Safe which allows easy access to your sitemaps.
+This app is a native client for e-SAFE which allows easy access to your sitemaps.
 The documentation is available at [www.openhab.org/docs/](https://www.openhab.org/docs/apps/android.html).
 
 <a href="https://play.google.com/store/apps/details?id=org.openhab.habdroid"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Play Store" height="80"></a>
@@ -18,11 +18,11 @@ The documentation is available at [www.openhab.org/docs/](https://www.openhab.or
 <a href="https://github.com/openhab/openhab-android/releases"><img src="assets/direct-apk-download.png" alt="Get it on GitHub" height="80"></a>
 
 ## Features
-* Control your e-Safe server and/or [ e-Safe  Cloud instance](https://github.com/openhab/openhab-cloud), e.g., an account with [myopenHAB](http://www.myopenhab.org/)
-* Receive notifications through an e-Safe Cloud connection, [read more](https://www.openhab.org/docs/configuration/actions.html#cloud-notification-actions)
+* Control your e-SAFE server and/or [ e-SAFE  Cloud instance](https://github.com/openhab/openhab-cloud), e.g., an account with [myopenHAB](http://www.myopenhab.org/)
+* Receive notifications through an e-SAFE Cloud connection, [read more](https://www.openhab.org/docs/configuration/actions.html#cloud-notification-actions)
 * Change items via NFC tags
-* Send voice commands to  e-Safe
-* [Send alarm clock time to  e-Safe ](https://www.openhab.org/docs/apps/android.html#alarm-clock)
+* Send voice commands to  e-SAFE
+* [Send alarm clock time to  e-SAFE ](https://www.openhab.org/docs/apps/android.html#alarm-clock)
 * [Supports wall mounted tablets](https://www.openhab.org/docs/apps/android.html#permanent-deployment)
 * [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) action plugin included
 
@@ -47,7 +47,7 @@ Thanks for your consideration and contribution!
 
 ## Setting up development environment
 
-If you want to contribute to Android application we are here to help you to set up development environment. e-Safe client for Android is developed using Android Studio.
+If you want to contribute to Android application we are here to help you to set up development environment. e-SAFE client for Android is developed using Android Studio.
 
 - Download and install [Android Studio](https://developer.android.com/studio)
 - Check out the latest code from GitHub via Android Studio
@@ -60,12 +60,12 @@ Before producing any amount of code please have a look at [contribution guidelin
 
 ## Build flavors
 
-An optional build flavor "foss" is available for distribution through F-Droid. This build has FCM and crash reporting removed and will not be able to receive push notifications from e-Safe Cloud.
+An optional build flavor "foss" is available for distribution through F-Droid. This build has FCM and crash reporting removed and will not be able to receive push notifications from e-SAFE Cloud.
 
 For using map view support in the "full" build flavor, you need to visit the [Maps API page](https://developers.google.com/maps/android) and generate an API key via the 'Get a key' button at the top. Then add a line in the following format to the 'gradle.properties' file (either in the same directory as this readme file, or in $HOME/.gradle): `mapsApiKey=<key>`, replacing `<key>` with the API key you just obtained.
 
 ## Trademark Disclaimer
 
-Product names, logos, brands and other trademarks referred to within the e-Safe website are the property of their respective trademark holders. These trademark holders are not affiliated with e-Safe or our website. They do not sponsor or endorse our materials.
+Product names, logos, brands and other trademarks referred to within the e-SAFE website are the property of their respective trademark holders. These trademark holders are not affiliated with e-SAFE or our website. They do not sponsor or endorse our materials.
 
 Google Play and the Google Play logo are trademarks of Google Inc.

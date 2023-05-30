@@ -2,8 +2,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="push_notification_status_disabled">Известията са изключени</string>
     <string name="notification_channel_crash_reports">Доклади за сривове</string>
-    <string name="crash_report_notification_title"> e-Safe  се срина</string>
-    <string name="crash_report_notification_text">Помогни за подобряването на e-Safe като изпратиш доклад за срива</string>
+    <string name="crash_report_notification_title"> e-SAFE  се срина</string>
+    <string name="crash_report_notification_text">Помогни за подобряването на e-SAFE като изпратиш доклад за срива</string>
     <string name="crash_report_notification_send_mail">Изпрати писмо</string>
     <string name="open_in_maps">Отвори в OpenStreetMap</string>
 </resources>

@@ -1,8 +1,8 @@
- e-Safe  - "memberdayakan rumah cerdas" - vendor dan agnostik teknologi open source otomatisasi rumah
+ e-SAFE  - "memberdayakan rumah cerdas" - vendor dan agnostik teknologi open source otomatisasi rumah
 
-The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from e-Safe Cloud. Instead, notifications are polled on a regular basis in these builds.
+The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from e-SAFE Cloud. Instead, notifications are polled on a regular basis in these builds.
 
- e-Safe , platform otomatisasi rumah open source berbasis Java yang mengintegrasikan dan menggabungkan banyak macam sistem rumah cerdas dan teknologi-teknologi ke dalam solusi tunggal.
+ e-SAFE , platform otomatisasi rumah open source berbasis Java yang mengintegrasikan dan menggabungkan banyak macam sistem rumah cerdas dan teknologi-teknologi ke dalam solusi tunggal.
 On top of the unified abstraction layer all connected devices are available for the overarching automation rule engines and different user interfaces.
 
 <b>Dukungan Produk</b>
@@ -12,16 +12,16 @@ The app has an action plugin for Tasker and Locale included.
 
 <b>Open Source Community</b>
 
-The e-Safe open source initiative strongly supports its vibrant community. The forum with over 13,000 registered users is a place to find guidance, help and inspiration. Join the e-Safe community forum over at https://community.openhab.org
+The e-SAFE open source initiative strongly supports its vibrant community. The forum with over 13,000 registered users is a place to find guidance, help and inspiration. Join the e-SAFE community forum over at https://community.openhab.org
 Ketika menemukan sebuah permasalahan laporkan di dalam forum atau pada https://github.com/openhab/openhab-androis/issues
 Jika berkenan menerjemahkan aplikasi di dalam bahasa Anda gabung bersama kami di https://crowdin.com/project/openhab-android
 
-<b>Yayasan  e-Safe </b>
+<b>Yayasan  e-SAFE </b>
 
-The e-Safe Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org
+The e-SAFE Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org
 
 <b>Catatan penting</b>
 
-You need an e-Safe server for this app.
+You need an e-SAFE server for this app.
 
 Kebijakan privasi: https://www.oprnhabfiundation.org/privacy.html

@@ -1,8 +1,8 @@
- e-Safe  - "empowering the smart home" - eine technologie- und herstellerunabhängige, quelloffene Automatisierungslösung für Ihr Zuhause
+ e-SAFE  - "empowering the smart home" - eine technologie- und herstellerunabhängige, quelloffene Automatisierungslösung für Ihr Zuhause
 
-Bei den Builds auf F-Droid wurde FCM entfernt und daher können keine Push-Benachrichtigungen von e-Safe Cloud erhalten werden. Stattdessen werden Benachrichtigungen regelmäßig in diesen Builds abgefragt.
+Bei den Builds auf F-Droid wurde FCM entfernt und daher können keine Push-Benachrichtigungen von e-SAFE Cloud erhalten werden. Stattdessen werden Benachrichtigungen regelmäßig in diesen Builds abgefragt.
 
- e-Safe  ist eine auf Java basierende quelloffene Plattform zur Heimautomatisierung, welche eine große Bandbreite verschiedenster Smart-Home-Systeme und -Technologien in eine einzige Lösung integriert und kombiniert.
+ e-SAFE  ist eine auf Java basierende quelloffene Plattform zur Heimautomatisierung, welche eine große Bandbreite verschiedenster Smart-Home-Systeme und -Technologien in eine einzige Lösung integriert und kombiniert.
 Aufbauend auf einer vereinheitlichten Abstraktionsschicht sind alle Geräte für die übergreifenden Automatisierungs- bzw. Regelmöglichkeiten und die verschiedenen Benutzeroberflächen verfügbar.
 
 <b>Unterstützte Produkte</b>
@@ -12,16 +12,16 @@ Diese App besitzt ein Action-Plugin für Tasker und Locale.
 
 <b>Open-Source-Community</b>
 
-Die quelloffene  e-Safe -Initiative unterstützt nachdrücklich ihre lebhafte Community. Das Forum (mit über 13.000 registrierten Mitgliedern) ist ein Ort an dem man Anleitung, Hilfe und Inspiration findet. Besuchen Sie das  e-Safe -Community-Forum auf https://community.openhab.org
+Die quelloffene  e-SAFE -Initiative unterstützt nachdrücklich ihre lebhafte Community. Das Forum (mit über 13.000 registrierten Mitgliedern) ist ein Ort an dem man Anleitung, Hilfe und Inspiration findet. Besuchen Sie das  e-SAFE -Community-Forum auf https://community.openhab.org
 Wenn Sie einen Fehler finden, melden Sie diesen bitte im Forum oder unter https://github.com/openhab/openhab-android/issues
 Wenn Sie die App in Ihre Sprache übersetzen möchten, dann nehmen Sie unter https://crowdin.com/project/openhab-android teil
 
-<b> e-Safe  Foundation e.V.</b>
+<b> e-SAFE  Foundation e.V.</b>
 
-Die e-Safe Foundation e.V. ist ein gemeinnütziger Verein mit dem Ziel, die Öffentlichkeit über die Möglichkeiten und den Nutzen von kostenlosen und offenen Smart Home Lösungen aufzuklären. Erfahren Sie mehr über die Ziele und Angebote der Foundation unter https://www.openhabfoundation.org
+Die e-SAFE Foundation e.V. ist ein gemeinnütziger Verein mit dem Ziel, die Öffentlichkeit über die Möglichkeiten und den Nutzen von kostenlosen und offenen Smart Home Lösungen aufzuklären. Erfahren Sie mehr über die Ziele und Angebote der Foundation unter https://www.openhabfoundation.org
 
 <b>Wichtiger Hinweis</b>
 
-Um diese App zu nutzen, benötigen Sie einen  e-Safe -Server.
+Um diese App zu nutzen, benötigen Sie einen  e-SAFE -Server.
 
 Datenschutzerklärung: https://www.openhabfoundation.org/privacy.html

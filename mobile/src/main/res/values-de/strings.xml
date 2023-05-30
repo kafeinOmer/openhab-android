@@ -7,21 +7,21 @@
     <string name="save">Speichern</string>
     <string name="discard">Verwerfen</string>
     <string name="delete">Löschen</string>
-    <string name="attribution_tag_discover_server">Suche  e-Safe -Server</string>
+    <string name="attribution_tag_discover_server">Suche  e-SAFE -Server</string>
     <string name="attribution_tag_select_server_wifi">Server basierend auf WLAN auswählen</string>
     <string name="attribution_tag_suggest_turn_on_wifi">Empfehle WLAN zu aktivieren</string>
     <!-- Main menu items -->
     <string name="mainmenu_openhab_sitemaps">Sitemaps</string>
     <string name="mainmenu_openhab_preferences">Einstellungen</string>
     <string name="mainmenu_openhab_habpanel">HABPanel</string>
-    <string name="mainmenu_openhab_oh3_ui">Main UI</string>
+    <string name="mainmenu_openhab_oh3_ui">Resident View</string>
     <string name="mainmenu_openhab_frontail">Frontail</string>
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="ui_on_server">%1$s (%2$s)</string>
     <string name="app_notifications">Benachrichtigungen</string>
     <string name="habpanel_error">Beim Laden von HABPanel ist ein Fehler aufgetreten</string>
     <string name="oh3_ui_error">Beim Laden der Main UI ist ein Fehler aufgetreten</string>
-    <string name="frontail_error">Beim Laden von Frontail ist ein Fehler aufgetreten. Bitte beachten Sie, dass Frontail nicht über e-Safe Cloud verfügbar ist.</string>
+    <string name="frontail_error">Beim Laden von Frontail ist ein Fehler aufgetreten. Bitte beachten Sie, dass Frontail nicht über e-SAFE Cloud verfügbar ist.</string>
     <string name="mainmenu_openhab_selectsitemap">Standard-Sitemap auswählen</string>
     <string name="mainmenu_openhab_clearcache">Bilder-Cache leeren</string>
     <!-- App settings strings -->
@@ -30,9 +30,9 @@
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Verschiedenes</string>
     <string name="settings_openhab_url">Lokale Server-URL</string>
-    <string name="settings_openhab_url_summary">Die Adresse des  e-Safe -Dashboards (basierend auf Rechnername oder IP). Setzen dieser Option deaktiviert die automatische Ermittlung. Aktueller Wert: %s</string>
+    <string name="settings_openhab_url_summary">Die Adresse des  e-SAFE -Dashboards (basierend auf Rechnername oder IP). Setzen dieser Option deaktiviert die automatische Ermittlung. Aktueller Wert: %s</string>
     <string name="settings_openhab_alturl">Server-URL für Fernzugiff</string>
-    <string name="settings_openhab_alturl_summary">Diese Adresse zum  e-Safe -Dashboard wird verwendet, wenn die lokale Adresse nicht erreichbar ist. Aktueller Wert: %s</string>
+    <string name="settings_openhab_alturl_summary">Diese Adresse zum  e-SAFE -Dashboard wird verwendet, wenn die lokale Adresse nicht erreichbar ist. Aktueller Wert: %s</string>
     <string name="settings_openhab_username">Benutzername</string>
     <string name="settings_openhab_password">Passwort</string>
     <string name="settings_openhab_password_summary_weak">Schwaches Passwort gesetzt</string>
@@ -42,9 +42,9 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Für Hinweise und Erläuterungen zur SSL-Authentifizierung mittels Client-Zertifikat hier tippen</string>
     <string name="settings_openhab_sslclientcert_not_supported">SSL-Client-Zertifikate werden von Ihrem Gerät nicht unterstützt</string>
     <string name="settings_openhab_screentimeroff">Bildschirmabschaltung deaktivieren</string>
-    <string name="settings_openhab_screentimeroff_summary">Der Bildschirm schaltet sich nicht aus, wenn e-Safe läuft</string>
+    <string name="settings_openhab_screentimeroff_summary">Der Bildschirm schaltet sich nicht aus, wenn e-BEMS läuft</string>
     <string name="settings_openhab_demomode">Demomodus</string>
-    <string name="settings_openhab_demomode_summary">Aktivieren Sie den Demomodus, um auch ohne eigenen Server eine Vorstellung davon zu bekommen, wozu e-Safe in der Lage ist.</string>
+    <string name="settings_openhab_demomode_summary">Aktivieren Sie den Demomodus, um auch ohne eigenen Server eine Vorstellung davon zu bekommen, wozu e-SAFE in der Lage ist.</string>
     <string name="start_page_title">Startseite</string>
     <string name="drawer_entries">Einträge im Seitenmenü</string>
     <string name="settings_openhab_theme">Design</string>
@@ -95,7 +95,7 @@
     <string name="settings_screen_lock_off_summary">Zugriff auf die App ist nicht gesperrt</string>
     <string name="settings_screen_lock_kiosk_summary">Zugriff auf die App-Einstellungen ist mit Android-Bildschirmsperre oder Fingerabdruck gesperrt</string>
     <string name="settings_screen_lock_on_summary">Zugriff auf die App ist mit Android-Bildschirmsperre oder Fingerabdruck gesperrt\nHinweis: Widgets können trotzdem verwendet werden</string>
-    <string name="screen_lock_unlock_screen_description">Entsperren, um Zugriff auf e-Safe zu erlangen</string>
+    <string name="screen_lock_unlock_screen_description">Entsperren, um Zugriff auf e-SAFE zu erlangen</string>
     <string name="screen_lock_unlock_preferences_description">Entsperren, um Zugriff auf Einstellungen zu erlangen</string>
     <string name="settings_screen_lock_off">Aus</string>
     <string name="settings_screen_lock_kiosk">Kiosk-Modus</string>
@@ -112,7 +112,7 @@
     <string name="settings_server_primary_title">Primärer Server</string>
     <string name="settings_server_primary_summary_is_primary">Dieser Server ist der primäre Server.\nDerzeit wird nur der primäre Server von allen Funktionen dieser App unterstützt. Berühren Sie den Hilfe-Button für mehr Informationen.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" ist der primäre Server. Hier berühren, um diesen Server zum primären zu machen.\nDerzeit wird nur der primäre Server von allen Funktionen dieser App unterstützt. Berühren Sie den Hilfe-Button für mehr Informationen.</string>
-    <string name="settings_server_default_name"> e-Safe  %d</string>
+    <string name="settings_server_default_name"> e-SAFE  %d</string>
     <string name="settings_advanced">Erweitert</string>
     <string name="click_here_for_more_information">Hier berühren für mehr Informationen</string>
     <string name="settings_multi_server_wifi_ssid_summary_hint">Die App wählt diesen Server aus, wenn mit einem dieser WLAN-Namen verbunden. Mehrere WLAN-Namen können eingegeben werden, indem sie durch einen Zeilenumbruch getrennt werden.</string>
@@ -132,7 +132,7 @@
     <string name="title_voice_widget">Sprachbefehle</string>
     <string name="voice_command">Sprachbefehl</string>
     <string name="title_voice_widget_icon">Sprachbefehle und Startbildschirm-Verknüpfung</string>
-    <string name="info_voice_input"> e-Safe , zu Ihren Diensten!</string>
+    <string name="info_voice_input"> e-SAFE , zu Ihren Diensten!</string>
     <string name="info_voice_recognized_text">Erkannter Befehl: %1$s</string>
     <string name="info_demo_mode_short">Läuft im Demomodus</string>
     <!-- Please try to keep the string as short as possible -->
@@ -147,13 +147,13 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">„%s“ kopiert</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list"> e-Safe  schickte eine leere Sitemap-Liste</string>
+    <string name="error_empty_sitemap_list"> e-SAFE  schickte eine leere Sitemap-Liste</string>
     <string name="error_sitemap_generic_load_error">Die Sitemap konnte nicht geladen werden. Der folgende Fehler ist aufgetreten: %1$s</string>
     <string name="error_network_not_available">Netzwerk nicht verfügbar</string>
     <string name="error_wifi_not_available">WLAN ist ausgeschaltet</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
     <string name="error_wifi_restricted">Lokale Verbindungen zu Server %1$s sind auf folgende WLAN-Namen beschränkt: %2$s</string>
-    <string name="error_http_connection_failed">Verbindung fehlgeschlagen. Es wurde eine unerwartete Antwort während des Verbindungsversuches mit dem konfigurierten  e-Safe -Server empfangen (HTTP-Code %d).</string>
+    <string name="error_http_connection_failed">Verbindung fehlgeschlagen. Es wurde eine unerwartete Antwort während des Verbindungsversuches mit dem konfigurierten  e-SAFE -Server empfangen (HTTP-Code %d).</string>
     <string name="error_invalid_url">Bitte geben Sie eine gültige URL im Format \'http(s)://Adresse(:Port)/\' an</string>
     <string name="error_invalid_https_url">Bitte geben Sie eine gültige URL im Format \'https://Adresse(:Port)/\' an</string>
     <string name="error_port_seems_invalid">Der eingegebene Port für das ausgewählte Protokoll scheint ungültig zu sein</string>
@@ -181,13 +181,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Authentifizierung fehlgeschlagen. Bitte überprüfen Sie das bereitgestellte SSL-Client-Zertifikat (HTTP-Code %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">SSL-Client-Zertifikat ist erforderlich (HTTP-Code %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Ihr Reverse-Proxy hat eine ungültige Antwort vom  e-Safe -Server erhalten (HTTP-Code %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Der  e-Safe -Server ist vorübergehend nicht verfügbar (HTTP-Code %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway-Timeout. Ihr Reverse-Proxy scheint zu laufen, aber konnte keine Antwort vom  e-Safe -Server erhalten (HTTP-Code %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">Der  e-Safe -Server hat nicht genug freien Speicherplatz (HTTP-Code %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Ihr Reverse-Proxy hat eine ungültige Antwort vom  e-SAFE -Server erhalten (HTTP-Code %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Der  e-SAFE -Server ist vorübergehend nicht verfügbar (HTTP-Code %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway-Timeout. Ihr Reverse-Proxy scheint zu laufen, aber konnte keine Antwort vom  e-SAFE -Server erhalten (HTTP-Code %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">Der  e-SAFE -Server hat nicht genug freien Speicherplatz (HTTP-Code %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Netzwerkauthentifizierung ist erforderlich (HTTP-Code %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline"> e-Safe  ist offline</string>
+    <string name="error_short_openhab_offline"> e-SAFE  ist offline</string>
     <string name="error_short_http_connection_failed">HTTP-Code %d</string>
     <string name="error_short_unable_to_resolve_hostname">Fehler beim Auflösen des Hostnamens</string>
     <string name="error_short_unknown">Unbekannter Fehler: %s</string>
@@ -206,12 +206,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS erforderlich (HTTP-Code %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Authentifizierung fehlgeschlagen (HTTP-Code %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">SSL-Client-Zertifikat erforderlich (HTTP-Code %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Der Reverse-Proxy hat eine ungültige Antwort von e-Safe erhalten (HTTP-Code %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  vorübergehend nicht verfügbar (HTTP-Code %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Der Reverse-Proxy hat eine ungültige Antwort von e-SAFE erhalten (HTTP-Code %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-SAFE  vorübergehend nicht verfügbar (HTTP-Code %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Gateway-Timeout (HTTP-Code %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Nicht genügend freier Speicherplatz auf dem Server (HTTP-Code %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Netzwerkauthentifizierung erforderlich (HTTP-Code %d)</string>
-    <string name="error_openhab_offline">Die  e-Safe -Cloud-Instanz funktioniert, aber Ihr  e-Safe -Server ist offline</string>
+    <string name="error_openhab_offline">Die  e-SAFE -Cloud-Instanz funktioniert, aber Ihr  e-SAFE -Server ist offline</string>
     <string name="error_no_browser_found">Es wurde kein Browser auf Ihrem Gerät gefunden</string>
     <string name="error_no_speech_to_text_app_found">Keine Spracherkennungs-App gefunden</string>
     <string name="error_sse_failed">Ereignisabonnement fehlgeschlagen, Aktualisierung der Widgets kann beeinträchtigt sein</string>
@@ -267,7 +267,7 @@
     <string name="settings_charging_state_summary_off">Ladezustand nicht senden</string>
     <string name="settings_wifi_ssid">WLAN-Name</string>
     <string name="settings_wifi_ssid_summary_on">WLAN-Name (SSID) wird an Item \'%1$s\' gesendet</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">WLAN-Name (SSID) wird an Item \'%1$s\' gesendet. \"Standort\" muss eingeschaltet sein, sonst darf e-Safe den WLAN-Namen nicht abrufen.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">WLAN-Name (SSID) wird an Item \'%1$s\' gesendet. \"Standort\" muss eingeschaltet sein, sonst darf e-SAFE den WLAN-Namen nicht abrufen.</string>
     <string name="settings_wifi_ssid_summary_off">WLAN-Name (SSID) nicht senden</string>
     <string name="settings_wifi_ssid_permission_denied">Das Senden des WLAN-Namens wurde aufgrund fehlender Berechtigungen deaktiviert</string>
     <string name="settings_wifi_ssid_restrict">Lokale Verbindung zu diesen WLAN-Namen beschränken</string>
@@ -306,7 +306,7 @@
     </plurals>
     <string name="push_notification_status_no_remote_configured">Benachrichtigungen nicht verfügbar: Server für den Fernzugriff nicht konfiguriert</string>
     <string name="push_notification_status_http_error">Benachrichtigungen nicht verfügbar: Fehler beim Verbinden mit dem Server für den Fernzugriff: %s</string>
-    <string name="push_notification_status_remote_no_cloud">Benachrichtigungen nicht verfügbar: Server für den Fernzugriff ist keine  e-Safe -Cloud-Instanz</string>
+    <string name="push_notification_status_remote_no_cloud">Benachrichtigungen nicht verfügbar: Server für den Fernzugriff ist keine  e-SAFE -Cloud-Instanz</string>
     <string name="push_notification_status">Status</string>
     <string name="push_notification_hint">Die Benachrichtigungen werden nach einem regelmäßigen Zeitplan abgefragt, dessen Intervall mit dem für \"Geräteinformationen an Server senden\" eingestellten identisch ist</string>
     <plurals name="item_update_error_title">
@@ -337,7 +337,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Sprachbefehlen das Präfix \'&lt;Gerätekennung&gt;|\' voranstellen</string>
     <string name="device_identifier_bg_tasks">Als Präfix für die Item-Namen von \"Geräteinformationen an Server senden\" verwenden</string>
-    <string name="device_identifier_hint">Die Gerätekennung kann jede beliebige Zeichenkette sein und sollte für alle Geräte, die auf Ihren e-Safe Server zugreifen, einzigartig sein. Neben den beiden oben genannten Anwendungsfällen, kann die Gerätekennung auch als Status bei NFC-Tags verwendet werden, sodass Sie wissen, welches Gerät den Tag liest.</string>
+    <string name="device_identifier_hint">Die Gerätekennung kann jede beliebige Zeichenkette sein und sollte für alle Geräte, die auf Ihren e-SAFE Server zugreifen, einzigartig sein. Neben den beiden oben genannten Anwendungsfällen, kann die Gerätekennung auch als Status bei NFC-Tags verwendet werden, sodass Sie wissen, welches Gerät den Tag liest.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Gerätekennung des scannenden Gerätes (\"%s\" für dieses Gerät)</string>
     <string name="device_identifier_summary_not_set">Für Daten, die an den Server gesendet werden, und Sprachbefehle wird kein gerätespezifisches Präfix verwendet</string>
     <!-- Notification list strings -->
@@ -420,9 +420,9 @@
     <string name="about_issues">Einen Fehler melden</string>
     <string name="about_docs">Dokumentation</string>
     <string name="about_community_forum">Community-Forum</string>
-    <string name="about_foundation"> e-Safe  Foundation e.V.</string>
-    <string name="about_community"> e-Safe -Community</string>
-    <string name="about_translation">Helfen Sie uns bei der Übersetzung von  e-Safe </string>
+    <string name="about_foundation"> e-SAFE  Foundation e.V.</string>
+    <string name="about_community"> e-SAFE -Community</string>
+    <string name="about_translation">Helfen Sie uns bei der Übersetzung von  e-SAFE </string>
     <string name="about_privacy_policy">Datenschutzerklärung</string>
     <string name="about_rate_this_app">Bewerten Sie diese App</string>
     <string name="settings_debug_messages_title">Informationen zur Fehlerbehebung anzeigen</string>
@@ -433,9 +433,9 @@
     <string name="switch_wifi_button">Mit anderem WLAN verbinden</string>
     <string name="go_to_settings_button">Einstellungen öffnen</string>
     <string name="enable_demo_mode_button">Demomodus aktivieren</string>
-    <string name="configuration_missing">Wir konnten keinen  e-Safe -Server in Ihrem Netzwerk finden. Wenn sie bereits einen Server haben, konfigurieren Sie ihn in den Einstellungen. Andernfalls können Sie den Demomodus aktivieren, um eine Vorstellung davon zu bekommen, wozu e-Safe in der Lage ist.</string>
+    <string name="configuration_missing">Wir konnten keinen  e-SAFE -Server in Ihrem Netzwerk finden. Wenn sie bereits einen Server haben, konfigurieren Sie ihn in den Einstellungen. Andernfalls können Sie den Demomodus aktivieren, um eine Vorstellung davon zu bekommen, wozu e-SAFE in der Lage ist.</string>
     <string name="no_remote_server">Verbindung zu lokalem Server fehlgeschlagen und Sie haben keinen Server für den Fernzugriff konfiguriert</string>
-    <string name="resolving_openhab">Versuche  e-Safe -Server-Instanz zu finden\u2026</string>
+    <string name="resolving_openhab">Versuche  e-SAFE -Server-Instanz zu finden\u2026</string>
     <string name="waiting_for_wifi">Warte auf WLAN-Verbindung\u2026</string>
     <string name="visit_status_openhab_org">Besuchen Sie status.openhab.org</string>
     <!-- Log -->
@@ -467,15 +467,15 @@
     <string name="content_description_color_down">Aus oder Halten zum Verringern der Helligkeit</string>
     <string name="content_description_open_number_picker">Zahlenauswahl öffnen</string>
     <string name="content_description_video">Video</string>
-    <string name="content_description_open_openhab"> e-Safe  öffnen</string>
+    <string name="content_description_open_openhab"> e-SAFE  öffnen</string>
     <string name="content_description_increase_item_value">Item-Wert erhöhen</string>
     <string name="content_description_decrease_item_value">Item-Wert verringern</string>
     <string name="swipe_to_refresh_description">Die Inhalte werden automatisch aktualisiert, Sie müssen das normalerweise nicht manuell tun</string>
     <string name="got_it">Verstanden!</string>
     <!-- Intro strings -->
     <string name="app_intro">Einführung</string>
-    <string name="intro_welcome">Willkommen bei  e-Safe </string>
-    <string name="intro_welcome_back">Willkommen zurück bei  e-Safe </string>
+    <string name="intro_welcome">Willkommen bei  e-SAFE </string>
+    <string name="intro_welcome_back">Willkommen zurück bei  e-SAFE </string>
     <string name="intro_app_restored">Die meisten Einstellungen wurden wiederhergestellt, außer den Server-Zugangsdaten</string>
     <string name="intro_whatis">Eine technologie- und herstellerunabhängige, quelloffene Automatisierungslösung für Ihr Zuhause</string>
     <string name="intro_voice_description">Steuern Sie Ihr Zuhause mit Ihrer Stimme</string>
@@ -607,7 +607,7 @@
     <string name="tile_label_12">Kachel 12</string>
     <string name="error_missing_prefs">Bitte füllen Sie alle Einstellungen aus</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab"> e-Safe -Logo</string>
+    <string name="tile_icon_openhab"> e-SAFE -Logo</string>
     <string name="tile_icon_tv">Fernseher</string>
     <string name="tile_icon_radio">Radio</string>
     <string name="tile_icon_bulb">Glühbirne</string>

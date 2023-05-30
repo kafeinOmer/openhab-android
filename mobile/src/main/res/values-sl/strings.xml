@@ -22,9 +22,9 @@
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Razno</string>
     <string name="settings_openhab_url">URL lokalnega strežnika</string>
-    <string name="settings_openhab_url_summary">Naslov e-Safe nadzorne plošče (hostname ali IP naslov). Če je to nastavljeno, je avtomatsko odkrivanje onemogočeno. Trenutna nastavitev je:%s</string>
+    <string name="settings_openhab_url_summary">Naslov e-SAFE nadzorne plošče (hostname ali IP naslov). Če je to nastavljeno, je avtomatsko odkrivanje onemogočeno. Trenutna nastavitev je:%s</string>
     <string name="settings_openhab_alturl">Oddaljen naslov strežnika</string>
-    <string name="settings_openhab_alturl_summary">Naslov e-Safe nadzorne plošče, ki naj se uporablja, ko lokalni naslov ni dosegljiv. Trenutna nastavitev je:%s</string>
+    <string name="settings_openhab_alturl_summary">Naslov e-SAFE nadzorne plošče, ki naj se uporablja, ko lokalni naslov ni dosegljiv. Trenutna nastavitev je:%s</string>
     <string name="settings_openhab_username">Uporabniško ime</string>
     <string name="settings_openhab_password">Geslo</string>
     <string name="settings_openhab_password_summary_weak">Šibko geslo</string>
@@ -34,7 +34,7 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Povezava na namige in pojasnila kako vzpostaviti avtentikacijo s pomočjo SSL certifikata klienta</string>
     <string name="settings_openhab_sslclientcert_not_supported">SSL certifikati klienta niso podprti na vaši napravi</string>
     <string name="settings_openhab_demomode">Preizkusni način</string>
-    <string name="settings_openhab_demomode_summary">V kolikor nimate e-Safe strežnika, omogočite preizkusni način za ogled zmožnosti sistema  e-Safe .</string>
+    <string name="settings_openhab_demomode_summary">V kolikor nimate e-SAFE strežnika, omogočite preizkusni način za ogled zmožnosti sistema  e-SAFE .</string>
     <string name="drawer_entries">Vnosi stranskega menija</string>
     <string name="settings_openhab_theme">Tema</string>
     <string name="settings_openhab_fullscreen">Celozaslonski način</string>

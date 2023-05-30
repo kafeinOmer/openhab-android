@@ -4,8 +4,8 @@
     <string name="push_notification_status_disabled">Oznámení jsou vypnuta</string>
     <string name="notification_channel_crash_reports">Hlášení o chybách</string>
     <string name="notification_channel_crash_reports_description">Slouží k nastavení odesílání hlášení o chybách</string>
-    <string name="crash_report_notification_title"> e-Safe  spadl</string>
-    <string name="crash_report_notification_text">Pomozte zlepšit e-Safe odesláním hlášení chyb</string>
+    <string name="crash_report_notification_title"> e-SAFE  spadl</string>
+    <string name="crash_report_notification_text">Pomozte zlepšit e-SAFE odesláním hlášení chyb</string>
     <string name="crash_report_notification_send_mail">Poslat e-mail</string>
     <string name="open_in_maps">Otevřít v OpenStreetMap</string>
 </resources>

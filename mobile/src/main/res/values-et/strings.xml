@@ -140,8 +140,8 @@
     <string name="about_issues">Teavitage probleemist</string>
     <string name="about_docs">Dokumentatsioon</string>
     <string name="about_community_forum">Kogukonna foorum</string>
-    <string name="about_foundation"> e-Safe  sihtasutus</string>
-    <string name="about_community"> e-Safe  kogukond</string>
+    <string name="about_foundation"> e-SAFE  sihtasutus</string>
+    <string name="about_community"> e-SAFE  kogukond</string>
     <string name="about_privacy_policy">Privaatsuseeskirjad</string>
     <string name="about_rate_this_app">Hinda seda rakendust</string>
     <string name="try_again_button">Proovi uuesti</string>
@@ -158,7 +158,7 @@
     <!-- Home screen shortcuts -->
     <!-- Content description for images -->
     <string name="content_description_open_number_picker">Ava numbrivalija</string>
-    <string name="content_description_open_openhab">Ava  e-Safe </string>
+    <string name="content_description_open_openhab">Ava  e-SAFE </string>
     <string name="got_it">Selge!</string>
     <!-- Intro strings -->
     <string name="app_intro">Tutvustus</string>

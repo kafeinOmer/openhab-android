@@ -11,16 +11,16 @@
     <string name="app_notifications">Pranešimai</string>
     <string name="mainmenu_openhab_clearcache">Išvalyti paveikslėlių podėlį</string>
     <!-- App settings strings -->
-    <string name="settings_openhab_url"> e-Safe  URL</string>
-    <string name="settings_openhab_url_summary"> e-Safe  skydelio adresas (pagal kompiuterio vardą ar IP). Įvedus automatinis aptikimas išjungiamas. Dabartinis nustatymas: %s</string>
-    <string name="settings_openhab_alturl"> e-Safe  nuotolinis URL</string>
-    <string name="settings_openhab_alturl_summary"> e-Safe  adresas, naudojamas, kai vietinis adresas nepasiekiamas. Dabartinis nustatymas: %s</string>
+    <string name="settings_openhab_url"> e-SAFE  URL</string>
+    <string name="settings_openhab_url_summary"> e-SAFE  skydelio adresas (pagal kompiuterio vardą ar IP). Įvedus automatinis aptikimas išjungiamas. Dabartinis nustatymas: %s</string>
+    <string name="settings_openhab_alturl"> e-SAFE  nuotolinis URL</string>
+    <string name="settings_openhab_alturl_summary"> e-SAFE  adresas, naudojamas, kai vietinis adresas nepasiekiamas. Dabartinis nustatymas: %s</string>
     <string name="settings_openhab_username">Vartotojo vardas</string>
     <string name="settings_openhab_password">Slaptažodis</string>
     <string name="settings_openhab_sslclientcert">Kliento SSL sertifikatas</string>
     <string name="settings_openhab_sslclientcert_howto_summary">Paspauskite čia, kad gautumėte informacijos, kaip nustatyti SSL autentifikaciją</string>
     <string name="settings_openhab_demomode">Demonstracinis režimas</string>
-    <string name="settings_openhab_theme"> e-Safe  tema</string>
+    <string name="settings_openhab_theme"> e-SAFE  tema</string>
     <string name="settings_openhab_fullscreen">Pilnas ekranas</string>
     <string name="settings_openhab_icon_format">Piktogramų formatas</string>
     <string name="settings_openhab_icon_format_png">Taškinis</string>
@@ -28,7 +28,7 @@
     <!-- %1$s: Default Sitemap label -->
     <!-- %1$s: URL, %2$s: Reason why connection is insecure -->
     <!-- App messages strings -->
-    <string name="info_voice_input"> e-Safe , jūsų paliepimu!</string>
+    <string name="info_voice_input"> e-SAFE , jūsų paliepimu!</string>
     <string name="info_voice_recognized_text">Neatpažinta komanda: %1$s</string>
     <string name="info_demo_mode_short">Veikia demo režimu</string>
     <!-- Please try to keep the string as short as possible -->
@@ -83,7 +83,7 @@
     <!-- Home screen shortcuts -->
     <!-- Content description for images -->
     <!-- Intro strings -->
-    <string name="intro_welcome">Sveiki atvykę į  e-Safe </string>
+    <string name="intro_welcome">Sveiki atvykę į  e-SAFE </string>
     <string name="intro_whatis">Nepriklausomas atviro kodo išmanių namų sprendimas</string>
     <!-- Intro "SKIP" button -->
     <!-- Intro "DONE" button -->

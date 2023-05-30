@@ -5,7 +5,7 @@
     <string name="notification_channel_crash_reports">崩溃报告</string>
     <string name="notification_channel_crash_reports_description">用来询问是否发送崩溃报告</string>
     <string name="crash_report_notification_title">openHAB崩溃了</string>
-    <string name="crash_report_notification_text">发送崩溃报告以帮助改进  e-Safe 。</string>
+    <string name="crash_report_notification_text">发送崩溃报告以帮助改进  e-SAFE 。</string>
     <string name="crash_report_notification_send_mail">发送邮件</string>
     <string name="open_in_maps">使用 OpenStreetMap 打开</string>
 </resources>

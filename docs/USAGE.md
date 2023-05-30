@@ -10,8 +10,8 @@ source: https://github.com/openhab/openhab-android/blob/main/docs/USAGE.md
 
 # Android App
 
-The e-Safe Android application is a native client for  e-Safe , compatible with phones and tablets.
-The app follows the basic principles of the other e-Safe UIs, like Basic UI, and presents your predefined e-Safe [sitemap(s)](https://www.openhab.org/docs/configuration/sitemaps.html) and other UIs.
+The e-SAFE Android application is a native client for  e-SAFE , compatible with phones and tablets.
+The app follows the basic principles of the other e-SAFE UIs, like Basic UI, and presents your predefined e-SAFE [sitemap(s)](https://www.openhab.org/docs/configuration/sitemaps.html) and other UIs.
 
 <a href="https://play.google.com/store/apps/details?id=org.openhab.habdroid">
   <img alt="Get it on Google Play" src="images/en_badge_web_generic.png" width="240px">
@@ -28,7 +28,7 @@ The app follows the basic principles of the other e-Safe UIs, like Basic UI, and
 
 ## Getting Started
 
-On first start the app tries to discover your e-Safe server.
+On first start the app tries to discover your e-SAFE server.
 This will only work on local networks and when the server doesn't enforce authentication.
 If it fails, you can click on `Go to settings` and manually enter the server settings.
 
@@ -36,39 +36,39 @@ The URL field(s) might look like one of the following examples:
 
 * IP address: `http://192.168.1.3:8080`
 * Local hostname: `http://openhab:8080` (depending on your network the suffix `.local` needs to be added to the hostname)
-* Remote domain name: `https://myopenhab.org` for an e-Safe cloud account with [myopenHAB](http://www.myopenhab.org/)
+* Remote domain name: `https://myopenhab.org` for an e-SAFE cloud account with [myopenHAB](http://www.myopenhab.org/)
 
 **Local server settings:**
-Please enter the base URL of your e-Safe server, as you would enter it in the browser to reach the e-Safe dashboard.
+Please enter the base URL of your e-SAFE server, as you would enter it in the browser to reach the e-SAFE dashboard.
 
 **Remote server settings:**
-If your e-Safe instance is reachable via a public address/domain from outside your home network, these settings will be used when the local connection is not successful.
+If your e-SAFE instance is reachable via a public address/domain from outside your home network, these settings will be used when the local connection is not successful.
 Make sure to secure this connection against unauthorized access.
-There are a number of strategies available to provide [secure remote access]({{base}}/installation/security.html) to your e-Safe server.
+There are a number of strategies available to provide [secure remote access]({{base}}/installation/security.html) to your e-SAFE server.
 
 ## Features
 
-* Control your e-Safe server and/or [ e-Safe  Cloud instance](https://github.com/openhab/openhab-cloud), e.g., an account with [myopenHAB](http://www.myopenhab.org/)
-* Receive notifications through an e-Safe Cloud connection, [read more](https://www.openhab.org/docs/configuration/actions.html#cloud-notification-actions)
+* Control your e-SAFE server and/or [ e-SAFE  Cloud instance](https://github.com/openhab/openhab-cloud), e.g., an account with [myopenHAB](http://www.myopenhab.org/)
+* Receive notifications through an e-SAFE Cloud connection, [read more](https://www.openhab.org/docs/configuration/actions.html#cloud-notification-actions)
 * Change items via NFC tags
-* [Send voice commands to  e-Safe ](#send-voice-commands-to-openhab)
-* [Send device information to  e-Safe ](#send-device-information-to-openhab), like next alarm clock time or call state
+* [Send voice commands to  e-SAFE ](#send-voice-commands-to-openhab)
+* [Send device information to  e-SAFE ](#send-device-information-to-openhab), like next alarm clock time or call state
 * [Supports wall mounted tablets](#permanent-deployment)
 * [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) action plugin included
 * [Android Quick Access Device Controls](#quick-access-device-controls)
 
 ### Permanent Deployment
 
-If you want to use e-Safe Android on a wall mounted tablet, go to settings and select `Disable display timer` and `Fullscreen`.
+If you want to use e-SAFE Android on a wall mounted tablet, go to settings and select `Disable display timer` and `Fullscreen`.
 
-### Send voice commands to  e-Safe
+### Send voice commands to  e-SAFE
 
 It's required to have a voice recognizer app installed on the Android device, e.g. [by Google](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox).
 Voice recognizer apps may send the recorded sound to a server to convert it into text.
 
 To run your voice command rule please make sure that `Default Human Language Interpreter` is set to `Rule-based Interpreter` (http://openhab:8080/settings/services/org.openhab.voice) and that the correct Item is selected at `Other Services` => `Rule Voice Interpreter` => `Voice Command Item` (http://openhab:8080/settings/services/org.openhab.rulehli).
 
-### Send device information to  e-Safe
+### Send device information to  e-SAFE
 
 You have to enable every information you want to send in the settings.
 Every settings has a default item name which is also used for example item definitions and rules below.
@@ -77,7 +77,7 @@ If you have more than one device, it's recommended to fill out the [device ident
 This prefixes every item name, e.g. with the Prefix `John` the item `AlarmClock` becomes `JohnAlarmClock`.
 This way you don't have to change every item name.
 
-There are two different types of information that can be send to the e-Safe server:
+There are two different types of information that can be send to the e-SAFE server:
 * Event based (Alarm clock and call state)
 * Schedule based (Everything else)
 
@@ -91,7 +91,7 @@ However this will show a persistent notification and may increase battery usage.
 
 #### Alarm Clock
 
-The e-Safe app will send the next wake-up time from your alarm clock app to the server.
+The e-SAFE app will send the next wake-up time from your alarm clock app to the server.
 
 Example item definition:
 ```java
@@ -109,10 +109,10 @@ end
 
 ##### Limitations
 
-The e-Safe app uses the internal Android API [AlarmManager](https://developer.android.com/reference/kotlin/android/app/AlarmManager) to get the next alarm time.
+The e-SAFE app uses the internal Android API [AlarmManager](https://developer.android.com/reference/kotlin/android/app/AlarmManager) to get the next alarm time.
 Some apps use this API (e.g. the stock calendar app) for other purposes, e.g. scheduling notifications.
-Therefore the e-Safe app may send invalid alarm times to the server.
-To circumvent this the alarm times set by some apps are blocklisted in the e-Safe app and it'll send `UNDEF` instead.
+Therefore the e-SAFE app may send invalid alarm times to the server.
+To circumvent this the alarm times set by some apps are blocklisted in the e-SAFE app and it'll send `UNDEF` instead.
 It's not possible to read the time after the next.
 
 #### Call State
@@ -273,7 +273,7 @@ end
 
 #### Gadgetbridge Device Actions
 
-[Gadgetbridge](https://www.gadgetbridge.org/) can send an Android broadcast on some actions of a wearable and e-Safe can listen for these broadcasts to update an Item accordingly.
+[Gadgetbridge](https://www.gadgetbridge.org/) can send an Android broadcast on some actions of a wearable and e-SAFE can listen for these broadcasts to update an Item accordingly.
 Please keep the default values for broadcasts in Gadgetbridge.
 
 Example item definition:
@@ -299,10 +299,10 @@ end
 
 ### Device identifier
 
-The device identifier can be any string and should be unique for all devices accessing your e-Safe server.
+The device identifier can be any string and should be unique for all devices accessing your e-SAFE server.
 You can use it to distinguish between multiple clients:
 * Prefix the voice command with `<Device identifier>|`
-* Prefix the item names of [Send device information to  e-Safe ](#send-device-information-to-openhab)
+* Prefix the item names of [Send device information to  e-SAFE ](#send-device-information-to-openhab)
 * Use it as state on NFC tags
 
 ### Tasker Action Plugin
@@ -310,7 +310,7 @@ You can use it to distinguish between multiple clients:
 The Tasker Action Plugin can be used to send Item commands to the server.
 
 For security reasons the plugin is disabled by default.
-You can enable it by clicking on "Turn on" when trying to select an Item or go to the e-Safe app settings and turn on "Tasker integration".
+You can enable it by clicking on "Turn on" when trying to select an Item or go to the e-SAFE app settings and turn on "Tasker integration".
 
 Variables can be selected as state after they have been created in the task.
 The variable `%httpcode` is returned by the plugin and contains the HTTP code returned by the server.
@@ -325,7 +325,7 @@ In case of an error the plugin returns an error code.
 
 ### Quick Access Device Controls
 
- e-Safe  supports the device controls introduced in Android 11: https://www.android.com/intl/en_US/android-11/#a11-device-controls-article
+ e-SAFE  supports the device controls introduced in Android 11: https://www.android.com/intl/en_US/android-11/#a11-device-controls-article
 When using a [semantic model](https://www.openhab.org/docs/tutorial/model.html#semantic-model) the location and/or equipment name can be shown in the tiles.
 
 ## Multi server support
@@ -346,7 +346,7 @@ Features that don't support multiple servers, i.e. use the primary server:
 * Quick tiles
 * NFC tags
 * Push notifications
-* Send device information to  e-Safe
+* Send device information to  e-SAFE
 * Tasker plugin
 
 ## Help and Technical Details
@@ -360,16 +360,16 @@ If it claims that your device is successfully registered at FCM, please open an 
 
 ### My notifications are delayed
 
-All notifications are sent as "high priority" messages, which means that the device and the e-Safe app are waken up and display the notification.
+All notifications are sent as "high priority" messages, which means that the device and the e-SAFE app are waken up and display the notification.
 However vendors/third parties can implement custom "cleanup", "optimization" and "battery saver" apps, which might lead to delayed notifications.
-Please have a look at [dontkillmyapp.com](https://dontkillmyapp.com/) how to make an exception for e-Safe in these apps.
+Please have a look at [dontkillmyapp.com](https://dontkillmyapp.com/) how to make an exception for e-SAFE in these apps.
 
 ### Notifications in FOSS version
 
 The version on Play Store uses [FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) to receive push notifications in real time.
 In the FOSS version this library has to be removed and has been replaced by a polling mechanism.
 This has a few disadvantages:
-* Notifications are only fetched every 6 hours by default. It uses the same schedule than [Send device information to  e-Safe ](#send-device-information-to-openhab).
+* Notifications are only fetched every 6 hours by default. It uses the same schedule than [Send device information to  e-SAFE ](#send-device-information-to-openhab).
 * Read status aren't synced between devices.
 * The maximum number of messages that can be received during one fetch is limited to 20.
 

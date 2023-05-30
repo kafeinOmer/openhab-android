@@ -4,6 +4,6 @@
     <!-- See: https://github.com/openhab/openhab-android/blob/main/README.md#localization -->
 
     <!-- Name used for beta builds -->
-    <string name="app_name">changed e-Safe</string>
-    <string name="tasker_item_picker_title">e-Safe Items</string>
+    <string name="app_name">changed e-SAFE</string>
+    <string name="tasker_item_picker_title">e-SAFE Items</string>
 </resources>

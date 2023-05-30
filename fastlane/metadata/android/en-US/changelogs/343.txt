@@ -6,7 +6,7 @@
 * Improve notification status strings (#2330)
 
 ## Fixed
-* Fix issue with e-Safe 3 (#2329)
+* Fix issue with e-SAFE 3 (#2329)
 * Fix push notification status if remote server isn't a cloud server (#2325)
 * Allow clearing url in prefs (#2324)
 * Allow empty strings as tile state (#2310)

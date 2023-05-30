@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <strings>
-    <intro> e-Safe  - "memberdayakan rumah cerdas" - vendor dan agnostik teknologi open source otomatisasi rumah</intro>
-    <whatis> e-Safe , platform otomatisasi rumah open source berbasis Java yang mengintegrasikan dan menggabungkan banyak macam sistem rumah cerdas dan teknologi-teknologi ke dalam solusi tunggal.</whatis>
+    <intro> e-SAFE  - "memberdayakan rumah cerdas" - vendor dan agnostik teknologi open source otomatisasi rumah</intro>
+    <whatis> e-SAFE , platform otomatisasi rumah open source berbasis Java yang mengintegrasikan dan menggabungkan banyak macam sistem rumah cerdas dan teknologi-teknologi ke dalam solusi tunggal.</whatis>
     <rules/>
     <supported>Dukungan Produk</supported>
     <bindings>  </bindings>
@@ -12,7 +12,7 @@
 
     <report_issues>Ketika menemukan sebuah permasalahan laporkan di dalam forum atau pada https://github.com/openhab/openhab-androis/issues</report_issues>
     <translation>Jika berkenan menerjemahkan aplikasi di dalam bahasa Anda gabung bersama kami di https://crowdin.com/project/openhab-android</translation>
-    <foundation>Yayasan  e-Safe </foundation>
+    <foundation>Yayasan  e-SAFE </foundation>
     <about_foundation> </about_foundation>
     <important_note>Catatan penting</important_note>
     <oh_server/>

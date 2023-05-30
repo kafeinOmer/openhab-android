@@ -7,7 +7,7 @@
     <string name="save">Съхрани</string>
     <string name="discard">Отхвърли</string>
     <string name="delete">Изтрий</string>
-    <string name="attribution_tag_discover_server">Открий e-Safe сървър</string>
+    <string name="attribution_tag_discover_server">Открий e-SAFE сървър</string>
     <string name="attribution_tag_select_server_wifi">Избери сървър въз основа на Wi-Fi</string>
     <string name="attribution_tag_suggest_turn_on_wifi">Предлагам да вкличиш Wi-Fi</string>
     <!-- Main menu items -->
@@ -23,9 +23,9 @@
     <string name="settings_display_title">Изглед</string>
     <string name="settings_misc_title">Други</string>
     <string name="settings_openhab_url">Адрес на локален сървър</string>
-    <string name="settings_openhab_url_summary">URL на e-Safe (базиран хост или IP). Ако e ръчно конфигуриран, автоматичното откриване е изключено. Текущата настройка: %s</string>
+    <string name="settings_openhab_url_summary">URL на e-SAFE (базиран хост или IP). Ако e ръчно конфигуриран, автоматичното откриване е изключено. Текущата настройка: %s</string>
     <string name="settings_openhab_alturl">Адрес на отдалечен сървър</string>
-    <string name="settings_openhab_alturl_summary">URL на e-Safe табло се използва, когато локалният адрес е недостъпна. Текущата настройка: %s</string>
+    <string name="settings_openhab_alturl_summary">URL на e-SAFE табло се използва, когато локалният адрес е недостъпна. Текущата настройка: %s</string>
     <string name="settings_openhab_username">Потребителско име</string>
     <string name="settings_openhab_password">Парола</string>
     <string name="settings_openhab_password_summary_weak">Настроена слаба парола</string>
@@ -33,9 +33,9 @@
     <string name="settings_openhab_sslclientcert">SSL сертификат на клиент</string>
     <string name="settings_openhab_sslclientcert_howto_summary">Натиснете тук, за да получите някои съвети и обяснения за това как да настроите сертификат за удостоверяване на SSL клиент</string>
     <string name="settings_openhab_sslclientcert_not_supported">SSL клиентски сертификати не са съвместими с вашето устройство</string>
-    <string name="settings_openhab_screentimeroff_summary">Екранът не се изключва, докато e-Safe работи</string>
+    <string name="settings_openhab_screentimeroff_summary">Екранът не се изключва, докато e-BEMS работи</string>
     <string name="settings_openhab_demomode">Демонстрационен режим</string>
-    <string name="settings_openhab_demomode_summary">Ако нямаш e-Safe сървър избери този режим за да добиеш предтава на какво e-Safe е способен.</string>
+    <string name="settings_openhab_demomode_summary">Ако нямаш e-SAFE сървър избери този режим за да добиеш предтава на какво e-SAFE е способен.</string>
     <string name="start_page_title">Начална страница</string>
     <string name="settings_openhab_theme">Тема</string>
     <string name="settings_openhab_fullscreen">Пълен екран</string>
@@ -72,7 +72,7 @@
     <string name="settings_insecure_connection_no_auth">Няма зададени потребителско име и парола</string>
     <string name="settings_screen_lock">Заключване на екрана</string>
     <string name="settings_screen_lock_off_summary">Достъпът до приложението не е заключен</string>
-    <string name="screen_lock_unlock_screen_description">Отключи за достъп до  e-Safe </string>
+    <string name="screen_lock_unlock_screen_description">Отключи за достъп до  e-SAFE </string>
     <string name="screen_lock_unlock_preferences_description">Отключи за достъп до настройките</string>
     <string name="settings_screen_lock_off">Изключено</string>
     <string name="settings_screen_lock_kiosk">Павилионен режим</string>
@@ -102,7 +102,7 @@
     <!-- App messages strings -->
     <string name="title_voice_widget">Гласови команди</string>
     <string name="voice_command">Гласова команда</string>
-    <string name="info_voice_input"> e-Safe  на ваше командване!</string>
+    <string name="info_voice_input"> e-SAFE  на ваше командване!</string>
     <string name="info_voice_recognized_text">Разпозната команда: %1$s</string>
     <string name="info_demo_mode_short">Работи в демо режим</string>
     <!-- Please try to keep the string as short as possible -->
@@ -115,7 +115,7 @@
     <string name="no_position_set">Не е настроена позиция</string>
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list"> e-Safe  връща празен сайнмап списък</string>
+    <string name="error_empty_sitemap_list"> e-SAFE  връща празен сайнмап списък</string>
     <string name="error_network_not_available">Не е налична мрежа</string>
     <string name="error_wifi_not_available">Въздушната мрежа е изключена</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
@@ -145,7 +145,7 @@
     <string name="error_short_certificate_wrong_host">Сертификатът не е валиден за %s</string>
     <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
     <string name="error_short_http_code_404" tools:keep="@string/error_short_http_code_404">Не беше намерено (HTTP код %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  е временно недостъпен (HTTP код %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-SAFE  е временно недостъпен (HTTP код %d)</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Няма достатъчно свободно място на сървъра (HTTP грешка %d)</string>
     <string name="error_no_speech_to_text_app_found">Не е намерено приложение за разпознаване на глас</string>
     <string name="error_video_player">%s не може да бъде заредено</string>
@@ -264,9 +264,9 @@
     <string name="about_issues">Съобщи за проблем</string>
     <string name="about_docs">Документация</string>
     <string name="about_community_forum">Форум на Общността</string>
-    <string name="about_foundation"> e-Safe  фондация</string>
-    <string name="about_community"> e-Safe  Общност</string>
-    <string name="about_translation">Помогнете ни в превеждането на  e-Safe </string>
+    <string name="about_foundation"> e-SAFE  фондация</string>
+    <string name="about_community"> e-SAFE  Общност</string>
+    <string name="about_translation">Помогнете ни в превеждането на  e-SAFE </string>
     <string name="about_privacy_policy">Декларация за поверителност</string>
     <string name="about_rate_this_app">Оцени това приложение</string>
     <string name="settings_debug_messages_title">Покажи информация за отстраняване на неизправности</string>
@@ -275,9 +275,9 @@
     <string name="switch_wifi_button">Свържи се към други Wi-Fi</string>
     <string name="go_to_settings_button">Отворете приложението Настройки</string>
     <string name="enable_demo_mode_button">Включване на демо режим</string>
-    <string name="configuration_missing">Не откриваме e-Safe сървър във вашата мрежа. Ако вече имате сървър, моля конфигурирайте неговия IP адрес или host име в сървърните настройки. Ако все още нямате сървър, започнете демо режим за да видите e-Safe с неговите възможности.</string>
+    <string name="configuration_missing">Не откриваме e-SAFE сървър във вашата мрежа. Ако вече имате сървър, моля конфигурирайте неговия IP адрес или host име в сървърните настройки. Ако все още нямате сървър, започнете демо режим за да видите e-SAFE с неговите възможности.</string>
     <string name="no_remote_server">Връзката към местния сървър се провали и отдалечен сървър не е настроен</string>
-    <string name="resolving_openhab">Опитвам се да намеря e-Safe сървър\u2026</string>
+    <string name="resolving_openhab">Опитвам се да намеря e-SAFE сървър\u2026</string>
     <string name="waiting_for_wifi">Чакам Wi-Fi да се свърже\u2026</string>
     <string name="visit_status_openhab_org">Посети status.openhab.org</string>
     <!-- Log -->
@@ -296,7 +296,7 @@
     <string name="content_description_color_down">Изключи или задръж за да намалиш осветеността</string>
     <string name="content_description_open_number_picker">Отвори избора на цифри</string>
     <string name="content_description_video">Видео</string>
-    <string name="content_description_open_openhab">Отвори  e-Safe </string>
+    <string name="content_description_open_openhab">Отвори  e-SAFE </string>
     <string name="swipe_to_refresh_description">Тази програма се обновява автоматично, обикновено не е необходимо да го правите ръчно</string>
     <string name="got_it">Разбрах!</string>
     <!-- Intro strings -->

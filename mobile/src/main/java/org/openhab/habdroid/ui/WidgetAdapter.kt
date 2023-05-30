@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the e-Safe project
+ * Copyright (c) 2010-2023 Contributors to the e-SAFE project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -108,7 +108,7 @@ import org.openhab.habdroid.util.orDefaultIfEmpty
 import org.openhab.habdroid.util.resolveThemedColor
 
 /**
- * This class provides e-Safe widgets adapter for list view.
+ * This class provides e-SAFE widgets adapter for list view.
  */
 
 class WidgetAdapter(

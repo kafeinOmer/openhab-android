@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for the e-Safe client for Android
+about: Suggest an idea for the e-SAFE client for Android
 labels: enhancement
 
 ---

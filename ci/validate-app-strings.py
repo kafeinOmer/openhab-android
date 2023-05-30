@@ -17,8 +17,8 @@ def checkStrings(flavor):
         openhabOccurences = [m.start() for m in re.finditer("openhab", strings, re.I)]
         for i in openhabOccurences:
             openhabString = strings[i:i+7]
-            if openhabString != "openhab" and openhabString != " e-Safe ": # "openhab" is used in links
-                print("Incorrect spelling of  e-Safe ")
+            if openhabString != "openhab" and openhabString != " e-SAFE ": # "openhab" is used in links
+                print("Incorrect spelling of  e-SAFE ")
                 errorCount += 1
     if len(appStringsFiles) == 0:
         print("No files to validate")

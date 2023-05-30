@@ -1,8 +1,8 @@
- e-Safe  - «potenciant la llar intel·ligent» - automatització de la llar amb codi obert i independent del proveïdor i de la tecnologia
+ e-SAFE  - «potenciant la llar intel·ligent» - automatització de la llar amb codi obert i independent del proveïdor i de la tecnologia
 
-Les compilacions de F-Droid no tenen FCM ni informes d'error i per tant no poden rebre notificacions instantànies (push) d' e-Safe  Cloud. En comptes d'això, les notificacions es consulten regularment en aquestes compilacions.
+Les compilacions de F-Droid no tenen FCM ni informes d'error i per tant no poden rebre notificacions instantànies (push) d' e-SAFE  Cloud. En comptes d'això, les notificacions es consulten regularment en aquestes compilacions.
 
- e-Safe  és una plataforma feta en Java per a l'automatització de la llar basada en codi obert, que integra i combina una gran varietat de sistemes i tecnologies per a la llar intel·ligent en una solució única.
+ e-SAFE  és una plataforma feta en Java per a l'automatització de la llar basada en codi obert, que integra i combina una gran varietat de sistemes i tecnologies per a la llar intel·ligent en una solució única.
 Per sobre de la capa unificada d'abstracció, tots els dispositius connectats són disponibles per al motor de regles generals d'automatització i diferents interfícies d'usuari.
 
 <b>Productes suportats</b>
@@ -12,16 +12,16 @@ L'aplicació inclou un connector (action) per a Tasker i Locale.
 
 <b>Comunitat de codi obert</b>
 
-La iniciativa de codi obert e-Safe dona ferm suport a la seva vibrant comunitat. El fòrum, amb més de 13.000 usuaris registrats, és un lloc on trobar orientacions, ajuda i inspiració. Uniu-vos al fòrum de la comunitat e-Safe a https://community.openhab.org
+La iniciativa de codi obert e-SAFE dona ferm suport a la seva vibrant comunitat. El fòrum, amb més de 13.000 usuaris registrats, és un lloc on trobar orientacions, ajuda i inspiració. Uniu-vos al fòrum de la comunitat e-SAFE a https://community.openhab.org
 Si trobeu un problema, informeu-nos en en el fòrem o a https://github.com/openhab/openhab-android/issues
 Si voleu traduir la aplicació a la vostra llengua, uniu-vos a https://crowdin.com/project/openhab-android
 
-<b>Fundació  e-Safe </b>
+<b>Fundació  e-SAFE </b>
 
-La fundació e-Safe ( e-Safe  Foundation e.V.) és una organització sense afany de lucre amb la missió d'educar al públic sobre la possibilitats i beneficis de les solucions lliures i obertes per a la domòtica i llars intel·ligents. Teniu més informació sobre la missió i els serveis de la fundació a https://www.openhabfoundation.org
+La fundació e-SAFE ( e-SAFE  Foundation e.V.) és una organització sense afany de lucre amb la missió d'educar al públic sobre la possibilitats i beneficis de les solucions lliures i obertes per a la domòtica i llars intel·ligents. Teniu més informació sobre la missió i els serveis de la fundació a https://www.openhabfoundation.org
 
 <b>Nota important</b>
 
-Us cal un servidor e-Safe per a aquesta aplicació.
+Us cal un servidor e-SAFE per a aquesta aplicació.
 
 Política de privadesa: https://www.openhabfoundation.org/privacy.html

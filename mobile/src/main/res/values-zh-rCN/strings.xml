@@ -24,9 +24,9 @@
     <string name="settings_sitemap_title">网站地图</string>
     <string name="settings_misc_title">其他</string>
     <string name="settings_openhab_url">本地服务器 URL</string>
-    <string name="settings_openhab_url_summary"> e-Safe  仪表板的 URL (基于主机名或 IP)。如果已配置, 自动发现将被禁用。当前设置: %s</string>
+    <string name="settings_openhab_url_summary"> e-SAFE  仪表板的 URL (基于主机名或 IP)。如果已配置, 自动发现将被禁用。当前设置: %s</string>
     <string name="settings_openhab_alturl">远程服务器 URL</string>
-    <string name="settings_openhab_alturl_summary">本地地址时所使用的 e-Safe 仪表板 URL。当前设置为: %s</string>
+    <string name="settings_openhab_alturl_summary">本地地址时所使用的 e-SAFE 仪表板 URL。当前设置为: %s</string>
     <string name="settings_openhab_username">用户名</string>
     <string name="settings_openhab_password">密码</string>
     <string name="settings_openhab_password_summary_weak">弱密码</string>
@@ -36,7 +36,7 @@
     <string name="settings_openhab_sslclientcert_howto_summary">点击此处获取设置 SSL 客户端证书认证的信息</string>
     <string name="settings_openhab_sslclientcert_not_supported">您的设备不支持 SSL 客户端证书</string>
     <string name="settings_openhab_demomode">演示模式</string>
-    <string name="settings_openhab_demomode_summary">若您没有 e-Safe 服务器，请启用演示模式来一览 e-Safe 的功能。</string>
+    <string name="settings_openhab_demomode_summary">若您没有 e-SAFE 服务器，请启用演示模式来一览 e-SAFE 的功能。</string>
     <string name="start_page_title">首页</string>
     <string name="drawer_entries">侧边菜单项</string>
     <string name="settings_openhab_theme">主题</string>
@@ -80,7 +80,7 @@
     <string name="settings_screen_lock_off_summary">未锁定此应用程序</string>
     <string name="settings_screen_lock_kiosk_summary">已使用 Android 屏幕锁或指纹锁定程序设置</string>
     <string name="settings_screen_lock_on_summary">已使用 Android 屏幕锁或指纹锁定程序设置\n注意：您仍可使用小部件</string>
-    <string name="screen_lock_unlock_screen_description">解锁以使用  e-Safe </string>
+    <string name="screen_lock_unlock_screen_description">解锁以使用  e-SAFE </string>
     <string name="screen_lock_unlock_preferences_description">解锁以更改设置</string>
     <string name="settings_screen_lock_off">关闭</string>
     <string name="settings_screen_lock_kiosk">展示模式</string>
@@ -97,7 +97,7 @@
     <string name="settings_server_primary_title">主服务器</string>
     <string name="settings_server_primary_summary_is_primary">此服务器是主服务器。\n目前只有主服务器得到此应用程序所有功能的支持。 点击按钮以获取更多帮助信息。</string>
     <string name="settings_server_primary_summary_is_not_primary">%s是主服务器。点击可使此服务器成为主服务器。\n目前只有主服务器获得此应用所有功能支持。点击按钮以获取更多帮助信息。</string>
-    <string name="settings_server_default_name"> e-Safe  %d</string>
+    <string name="settings_server_default_name"> e-SAFE  %d</string>
     <string name="settings_advanced">高级选项</string>
     <string name="click_here_for_more_information">点击这里获得更多信息</string>
     <string name="settings_multi_server_wifi_ssid_switched">通过Wi-Fi切换到服务器 \"%s\"</string>
@@ -108,7 +108,7 @@
     <string name="title_voice_widget">语音命令</string>
     <string name="voice_command">语音命令</string>
     <string name="title_voice_widget_icon">语音命令和应用程序快捷方式</string>
-    <string name="info_voice_input"> e-Safe ，说出您的命令！</string>
+    <string name="info_voice_input"> e-SAFE ，说出您的命令！</string>
     <string name="info_voice_recognized_text">已识别命令: %1$s</string>
     <string name="info_demo_mode_short">正以演示模式运行</string>
     <!-- Please try to keep the string as short as possible -->
@@ -123,7 +123,7 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">已复制 %s</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list"> e-Safe  返回了空系统布局列表</string>
+    <string name="error_empty_sitemap_list"> e-SAFE  返回了空系统布局列表</string>
     <string name="error_sitemap_generic_load_error">无法载入站点地图。发生错误：%1$s</string>
     <string name="error_network_not_available">网络不可用</string>
     <string name="error_wifi_not_available">Wi-Fi 被关闭</string>
@@ -155,13 +155,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">认证失败，请检查提供的 SSL 客户端证书 (HTTP %d)。</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">需要 SSL 证书 (HTTP %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">您的反向代理从 e-Safe 服务器处收到了无效应答 (HTTP %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503"> e-Safe  服务器暂不可用 (HTTP %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">网关超时，您的反向代理似乎正在运行但无法从 e-Safe 服务器得到响应 (HTTP %d)。</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507"> e-Safe  服务器空间不足 (HTTP %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">您的反向代理从 e-SAFE 服务器处收到了无效应答 (HTTP %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503"> e-SAFE  服务器暂不可用 (HTTP %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">网关超时，您的反向代理似乎正在运行但无法从 e-SAFE 服务器得到响应 (HTTP %d)。</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507"> e-SAFE  服务器空间不足 (HTTP %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">需要网络认证 (HTTP %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline"> e-Safe  处于离线状态</string>
+    <string name="error_short_openhab_offline"> e-SAFE  处于离线状态</string>
     <string name="error_short_http_connection_failed">HTTP %d</string>
     <string name="error_short_unable_to_resolve_hostname">解析主机名时出错</string>
     <string name="error_short_unknown">未知错误：%s</string>
@@ -180,12 +180,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">需要 HTTPS (HTTP 代码 %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">身份验证失败 (HTTP 代码 %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">需要 SSL 客户端证书 (HTTP 代码 %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">反向代理从 e-Safe 得到无效应答(HTTP 代码 %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  服务器暂不可用 (HTTP %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">反向代理从 e-SAFE 得到无效应答(HTTP 代码 %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-SAFE  服务器暂不可用 (HTTP %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">网关超时 (HTTP 代码 %d)。</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">服务器上没有足够的可用空间 (HTTP 代码 %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">需要网络验证 (HTTP 代码 %d)</string>
-    <string name="error_openhab_offline">您的 e-Safe 服务器将在云端实例运行时离线</string>
+    <string name="error_openhab_offline">您的 e-SAFE 服务器将在云端实例运行时离线</string>
     <string name="error_no_browser_found">未在您的设备上找到浏览器</string>
     <string name="error_no_speech_to_text_app_found">未找到语音识别程序</string>
     <string name="error_video_player">无法加载 %s</string>
@@ -236,7 +236,7 @@
     <string name="settings_charging_state_summary_off">不显示充电状态</string>
     <string name="settings_wifi_ssid">Wi-Fi 名称</string>
     <string name="settings_wifi_ssid_summary_on">发送Wi-Fi名称 (SSID) 到项目%1$s</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">向项目%1$s发送Wi-Fi 名称 (SSID) 。\"定位\" 必须开启，否则 e-Safe 不允许获取Wi-Fi 名称。</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">向项目%1$s发送Wi-Fi 名称 (SSID) 。\"定位\" 必须开启，否则 e-SAFE 不允许获取Wi-Fi 名称。</string>
     <string name="settings_wifi_ssid_summary_off">不要发送 Wi-Fi 名称 (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">由于缺少权限，发送Wi-Fi名称已被禁用</string>
     <string name="settings_dnd_mode">DND 模式</string>
@@ -377,9 +377,9 @@
     <string name="about_issues">反馈问题</string>
     <string name="about_docs">文档</string>
     <string name="about_community_forum">社区论坛</string>
-    <string name="about_foundation"> e-Safe  基金会</string>
-    <string name="about_community"> e-Safe  社区</string>
-    <string name="about_translation">帮助我们翻译  e-Safe </string>
+    <string name="about_foundation"> e-SAFE  基金会</string>
+    <string name="about_community"> e-SAFE  社区</string>
+    <string name="about_translation">帮助我们翻译  e-SAFE </string>
     <string name="about_privacy_policy">隐私条款</string>
     <string name="about_rate_this_app">为此应用评分</string>
     <string name="settings_troubleshooting_title">疑难解答</string>
@@ -388,9 +388,9 @@
     <string name="enable_wifi_button">打开 Wi-Fi</string>
     <string name="go_to_settings_button">转到设置</string>
     <string name="enable_demo_mode_button">打开演示模式</string>
-    <string name="configuration_missing">我们未在您的网络上找到 e-Safe 服务器。若您确认有服务器存在，请在服务器设置中配置其 IP 地址或主机名。若您没有服务器，则您可启用演示模式一览 e-Safe 的功能。</string>
+    <string name="configuration_missing">我们未在您的网络上找到 e-SAFE 服务器。若您确认有服务器存在，请在服务器设置中配置其 IP 地址或主机名。若您没有服务器，则您可启用演示模式一览 e-SAFE 的功能。</string>
     <string name="no_remote_server">连接至本地服务器失败且未配置远程服务器</string>
-    <string name="resolving_openhab">正在寻找 e-Safe 服务器\u2026</string>
+    <string name="resolving_openhab">正在寻找 e-SAFE 服务器\u2026</string>
     <string name="waiting_for_wifi">等待 Wi-Fi 建立连接\u2026</string>
     <string name="visit_status_openhab_org">访问 status.openhab.org</string>
     <!-- Log -->
@@ -418,13 +418,13 @@
     <string name="content_description_color_down">关闭或长按以降低亮度</string>
     <string name="content_description_open_number_picker">打开数字选取器</string>
     <string name="content_description_video">视频</string>
-    <string name="content_description_open_openhab">打开  e-Safe </string>
+    <string name="content_description_open_openhab">打开  e-SAFE </string>
     <string name="swipe_to_refresh_description">此应用程序将自动刷新，您通常无需手动操作</string>
     <string name="got_it">明白！</string>
     <!-- Intro strings -->
     <string name="app_intro">介绍</string>
-    <string name="intro_welcome">欢迎来到  e-Safe </string>
-    <string name="intro_welcome_back">欢迎回到  e-Safe </string>
+    <string name="intro_welcome">欢迎来到  e-SAFE </string>
+    <string name="intro_welcome_back">欢迎回到  e-SAFE </string>
     <string name="intro_app_restored">除服务器凭据外，您的大多数设置已恢复</string>
     <string name="intro_whatis">开源家居自动化供应商与技术</string>
     <string name="intro_voice_description">使用声音控制您的家居</string>

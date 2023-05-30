@@ -1,6 +1,6 @@
-# Contributing to e-Safe Android application
+# Contributing to e-SAFE Android application
 
-Want to hack on e-Safe Android? Awesome!
+Want to hack on e-SAFE Android? Awesome!
 Here are instructions to get you started.
 They are probably not perfect, please let us know if anything feels wrong or incomplete.
 
@@ -122,7 +122,7 @@ There are several exceptions to the signing requirement. Currently these are:
 
 ## Community Guidelines
 
-We want to keep the e-Safe community awesome, growing and collaborative.
+We want to keep the e-SAFE community awesome, growing and collaborative.
 We need your help to keep it that way.
 To help with this we've come up with some general guidelines for the community as a whole:
 
@@ -184,7 +184,7 @@ For the latter case, it's probably useful to do a checkout of the server side co
 Yes, Android Kotlin Style Guide:
 https://developer.android.com/kotlin/style-guide
 
-In addition: Please omit " e-Safe " or "My" from class names.
+In addition: Please omit " e-SAFE " or "My" from class names.
 
 **How does the CI/CD pipeline work?**
 
@@ -192,7 +192,7 @@ Service | Shown as | Task | Desired result | How to fix
 :----|:----|:----|:----|:----
 GitHub Action | Build App | Runs full build and unit test suite | Must pass | Look at the check output and try to run the test locally.
 Stickler CI | stickler-ci | Runs ktlint to ensure the Kotlin Style Guide is followed | Must pass | Look at the check output.
-GitHub Action | Validate strings | Checks for common mistakes in strings.xml, e.g. wrong spelling of " e-Safe " | Must pass | Look at the check output.
+GitHub Action | Validate strings | Checks for common mistakes in strings.xml, e.g. wrong spelling of " e-SAFE " | Must pass | Look at the check output.
 Developer Certificate of Origin | DCO | Checks if commits are signed-of-by | Must pass | `git commit -s --amed` and `git push -f`
 WIP | WIP | Checks if the PR name contains "WIP" (Work in progress) | Must pass | Remove "WIP" from the PR title when you're done.
 

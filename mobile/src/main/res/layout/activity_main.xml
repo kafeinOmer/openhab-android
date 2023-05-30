@@ -37,7 +37,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true">
+                    android:layout_centerInParent="true"
+                    android:background="?android:colorBackground">
 
                     <ImageView
                         android:id="@+id/image"
@@ -64,7 +65,19 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
                         android:gravity="center"
-                        android:text="e-Safe" />
+                        android:text="e-BEMS" />
+
+                    <TextView
+                        android:id="@+id/txt_powered_by"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/button_open_main_ui"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center_horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingRight="15dp"
+                        android:text="Powered by OpenHAB"
+                        android:textStyle="italic" />
 
                 </RelativeLayout>
 

@@ -7,7 +7,7 @@
     <string name="save">Tallenna</string>
     <string name="discard">Hylkää</string>
     <string name="delete">Poista</string>
-    <string name="attribution_tag_discover_server">Etsi  e-Safe -palvelin</string>
+    <string name="attribution_tag_discover_server">Etsi  e-SAFE -palvelin</string>
     <!-- Main menu items -->
     <string name="mainmenu_openhab_sitemaps">Sitemapit</string>
     <string name="mainmenu_openhab_preferences">Asetukset</string>
@@ -16,7 +16,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Ilmoitukset</string>
     <string name="habpanel_error">Virhe ladattaessa HABPanel:ia</string>
-    <string name="frontail_error">Tapahtui virhe ladattaessa Frontailia. Huomaa, että se ei ole käytettävissä e-Safe Cloudin kautta.</string>
+    <string name="frontail_error">Tapahtui virhe ladattaessa Frontailia. Huomaa, että se ei ole käytettävissä e-SAFE Cloudin kautta.</string>
     <string name="mainmenu_openhab_selectsitemap">Valitse oletus Sitemap</string>
     <string name="mainmenu_openhab_clearcache">Tyhjennä kuvien välimuisti</string>
     <!-- App settings strings -->
@@ -25,9 +25,9 @@
     <string name="settings_sitemap_title">Sivukartta</string>
     <string name="settings_misc_title">Sekalaiset</string>
     <string name="settings_openhab_url">Paikallisen palvelimen URL osoite</string>
-    <string name="settings_openhab_url_summary"> e-Safe  palvelimen URL osoite (isäntänimi tai IP osoite). Jos määritetty, automaattinen etsintä poistetaan käytöstä. Nykyinen asetus: %s</string>
+    <string name="settings_openhab_url_summary"> e-SAFE  palvelimen URL osoite (isäntänimi tai IP osoite). Jos määritetty, automaattinen etsintä poistetaan käytöstä. Nykyinen asetus: %s</string>
     <string name="settings_openhab_alturl">Etäpalvelimen URL osoite</string>
-    <string name="settings_openhab_alturl_summary"> e-Safe  palvelimen URL osoite jota käytetään jos paikallinen osoite ei ole käytettävissä. Nykyinen asetus: %s</string>
+    <string name="settings_openhab_alturl_summary"> e-SAFE  palvelimen URL osoite jota käytetään jos paikallinen osoite ei ole käytettävissä. Nykyinen asetus: %s</string>
     <string name="settings_openhab_username">Käyttäjänimi</string>
     <string name="settings_openhab_password">Salasana</string>
     <string name="settings_openhab_password_summary_weak">Heikko salasana asetettu</string>
@@ -37,7 +37,7 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Näpäytä tästä nähdäksesi muutamia vinkkejä ja ohjeita kuinka asennat asiakkaan SSL todennuksen</string>
     <string name="settings_openhab_sslclientcert_not_supported">Laitteesi ei tue asiakkaan SSL sertifikaattia</string>
     <string name="settings_openhab_demomode">Esittelytila</string>
-    <string name="settings_openhab_demomode_summary">Jos sinulla ei ole e-Safe palvelinta, niin valitse demo moodi saadaksesi käsityksen mihin e-Safe pystyy.</string>
+    <string name="settings_openhab_demomode_summary">Jos sinulla ei ole e-SAFE palvelinta, niin valitse demo moodi saadaksesi käsityksen mihin e-SAFE pystyy.</string>
     <string name="start_page_title">Aloitussivu</string>
     <string name="settings_openhab_theme">Teema</string>
     <string name="settings_openhab_fullscreen">Kokonäyttö</string>
@@ -94,7 +94,7 @@
     <string name="settings_server_confirm_leave_title">Tallentamattomat muutokset</string>
     <string name="settings_server_confirm_leave_message">Teit joitakin muutoksia. Haluatko tallentaa tai hylätä ne?</string>
     <string name="settings_server_primary_title">Ensisijainen palvelin</string>
-    <string name="settings_server_default_name"> e-Safe  %d</string>
+    <string name="settings_server_default_name"> e-SAFE  %d</string>
     <string name="settings_advanced">Lisäasetukset</string>
     <string name="click_here_for_more_information">Napsauta tästä saadaksesi lisätietoja</string>
     <string name="settings_multi_server_wifi_ssid_switched">Vaihdettu palvelimeen \"%s\" WiFi-yhteyden perusteella</string>
@@ -103,7 +103,7 @@
     <string name="title_voice_widget">Äänikomennot</string>
     <string name="voice_command">Äänikomento</string>
     <string name="title_voice_widget_icon">Äänikomennot ja sovelluksen pikakuvake</string>
-    <string name="info_voice_input"> e-Safe , komennossasi!</string>
+    <string name="info_voice_input"> e-SAFE , komennossasi!</string>
     <string name="info_voice_recognized_text">Tunnistettu komento: %1$s</string>
     <string name="info_demo_mode_short">Sovellus esittelytilassa</string>
     <!-- Please try to keep the string as short as possible -->
@@ -117,12 +117,12 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">Kopioitu \"%s\"</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list"> e-Safe  palautti tyhjän Sitemap luettelon</string>
+    <string name="error_empty_sitemap_list"> e-SAFE  palautti tyhjän Sitemap luettelon</string>
     <string name="error_sitemap_generic_load_error">Sitemap ei ladattu. Virhe: %1$s</string>
     <string name="error_network_not_available">Verkko ei ole käytettävissä</string>
     <string name="error_wifi_not_available">Wi-Fi on pois päältä</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
-    <string name="error_http_connection_failed">Yhteys epäonnistui. Odottamaton vastaus yhdistettäessä asetettuun e-Safe palvelimeen (HTTP vastaus %d).</string>
+    <string name="error_http_connection_failed">Yhteys epäonnistui. Odottamaton vastaus yhdistettäessä asetettuun e-SAFE palvelimeen (HTTP vastaus %d).</string>
     <string name="error_invalid_url">Kirjoita kelvollinen URL osoite \'http(s)://isäntä(:portti)/\' muodossa</string>
     <string name="error_invalid_https_url">Kirjoita kelvollinen URL osoite \'https://isäntä(:port)/\' muodossa</string>
     <string name="error_port_seems_invalid">Antamasi portti ei sovi valitulle protokollalle</string>
@@ -147,13 +147,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Kirjautuminen epäonnistui. Ole hyvä ja tarkista annettu asiakkaan SSL sertifikaatti (HTTP vastaus %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">Asiakkaan SSL sertifikaatti on pakollinen (HTTP vastaus %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Sinun käänteinen välityspalvelin vastaanotti epäkelvon vastauksen e-Safe palvelimelta (HTTP vastaus %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503"> e-Safe  palvelin on väliaikaisesti pois käytöstä (HTTP vastaus %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Välityspalvelimen aikakatkaisu. Näyttää siltä että sinun käänteinen välityspalvelin on toiminnassa, mutta ei saanut vastausta e-Safe palvelimelta (HTTP vastaus %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507"> e-Safe  palvelimella ei ole tarpeeksi tilaa (HTTP vastaus %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Sinun käänteinen välityspalvelin vastaanotti epäkelvon vastauksen e-SAFE palvelimelta (HTTP vastaus %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503"> e-SAFE  palvelin on väliaikaisesti pois käytöstä (HTTP vastaus %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Välityspalvelimen aikakatkaisu. Näyttää siltä että sinun käänteinen välityspalvelin on toiminnassa, mutta ei saanut vastausta e-SAFE palvelimelta (HTTP vastaus %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507"> e-SAFE  palvelimella ei ole tarpeeksi tilaa (HTTP vastaus %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Verkkoon kirjautuminen vaaditaan (HTTP vastaus %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline"> e-Safe  ei ole verkossa</string>
+    <string name="error_short_openhab_offline"> e-SAFE  ei ole verkossa</string>
     <string name="error_short_http_connection_failed">HTTP koodi %d</string>
     <string name="error_short_unable_to_resolve_hostname">Virhe isäntänimen selvityksessä</string>
     <string name="error_short_unknown">Tuntematon virhe: %s</string>
@@ -172,12 +172,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS vaaditaan (HTTP vastaus %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Kirjautuminen epäonnistui (HTTP vastaus %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">Asiakkaan SSL sertifikaatti vaadittu (HTTP vastaus %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Käänteinen välityspalvelin vastaanotti epäkelvon vastauksen e-Safe palvelimelta (HTTP vastaus %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  palvelin väliaikaisesti saavuttamattomissa (HTTP vastaus %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Käänteinen välityspalvelin vastaanotti epäkelvon vastauksen e-SAFE palvelimelta (HTTP vastaus %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-SAFE  palvelin väliaikaisesti saavuttamattomissa (HTTP vastaus %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Välityspalvelimen aikakatkaisu (HTTP vastus %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Palvelimella liian vähän vapaata tilaa (HTTP vastaus %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Verkkoon kirjautuminen vaaditaan (HTTP vastaus %d)</string>
-    <string name="error_openhab_offline">Sinun e-Safe palvelin on offline tilassa, mutta pilvipalvelin toimii</string>
+    <string name="error_openhab_offline">Sinun e-SAFE palvelin on offline tilassa, mutta pilvipalvelin toimii</string>
     <string name="error_no_browser_found">Laitteeltasi ei löytynyt selainta</string>
     <string name="error_no_speech_to_text_app_found">Puheentunnistussovellusta ei löytynyt</string>
     <string name="error_video_player">%s ei voitu ladata</string>
@@ -228,7 +228,7 @@
     <string name="settings_charging_state_summary_off">Älä lähetä latauksen tilaa</string>
     <string name="settings_wifi_ssid">Langattoman yhteyden nimi</string>
     <string name="settings_wifi_ssid_summary_on">Lähettää langattoman yhteyden nimen (SSID) Itemiin \'%1$s\'</string>
-    <string name="settings_wifi_ssid_summary_on_location_on">Lähettää langattoman yhteyden nimen (SSID) Itemiin \'%1$s\'. Paikannus pitää olla aktiivisena, muuten e-Safe ei saa langattoman yhteyden nimeä.</string>
+    <string name="settings_wifi_ssid_summary_on_location_on">Lähettää langattoman yhteyden nimen (SSID) Itemiin \'%1$s\'. Paikannus pitää olla aktiivisena, muuten e-SAFE ei saa langattoman yhteyden nimeä.</string>
     <string name="settings_wifi_ssid_summary_off">Älä lähetä langattoman yhteyden nimeä (SSID)</string>
     <string name="settings_wifi_ssid_permission_denied">Langattoman yhteyden nimen lähettäminen on estetty puuttuvien oikeuksien takia</string>
     <string name="settings_dnd_mode">DND moodi</string>
@@ -279,7 +279,7 @@
     <!-- Please translate "Device identifier" in this string -->
     <string name="device_identifier_prefix_voice">Lisää äänikomentoihin etuliite \'&lt;Device identifier&gt;|\'</string>
     <string name="device_identifier_bg_tasks">\"Lähetä laitteen tiedot palvelimelle\" Itemeihin etuliitetään tämä tunnistin</string>
-    <string name="device_identifier_hint">Tämä laitteen tunniste voi olla mikä tahansa merkkijono, ja sen pitäisi olla yksilöllinen kaikille laitteille, jotka käyttävät e-Safe -palvelintasi. Edellä mainittujen kahden käyttötapauksen lisäksi voit käyttää sitä myös NFC-tageissa, joten tiedät, mikä laite on lukenut tagin.</string>
+    <string name="device_identifier_hint">Tämä laitteen tunniste voi olla mikä tahansa merkkijono, ja sen pitäisi olla yksilöllinen kaikille laitteille, jotka käyttävät e-SAFE -palvelintasi. Edellä mainittujen kahden käyttötapauksen lisäksi voit käyttää sitä myös NFC-tageissa, joten tiedät, mikä laite on lukenut tagin.</string>
     <string name="device_identifier_suggested_command_nfc_tag">Skannaavan laitteen tunnus (\"%s\" for this device)</string>
     <string name="device_identifier_summary_not_set">Palvelimelle lähetetty data tai äänikomennot eivät sisällä laitteen tunnusta etuliiteenä</string>
     <!-- Notification list strings -->
@@ -358,9 +358,9 @@
     <string name="about_issues">Ilmoita ongelmasta</string>
     <string name="about_docs">Dokumentointi</string>
     <string name="about_community_forum">Yhteisön foorumi</string>
-    <string name="about_foundation"> e-Safe  Säätiö</string>
-    <string name="about_community"> e-Safe  yhteisö</string>
-    <string name="about_translation">Auta meitä kääntämään  e-Safe </string>
+    <string name="about_foundation"> e-SAFE  Säätiö</string>
+    <string name="about_community"> e-SAFE  yhteisö</string>
+    <string name="about_translation">Auta meitä kääntämään  e-SAFE </string>
     <string name="about_privacy_policy">Tietosuojakäytäntö</string>
     <string name="about_rate_this_app">Arvostele tämä sovellus</string>
     <string name="settings_troubleshooting_title">Vianmääritys</string>
@@ -368,9 +368,9 @@
     <string name="enable_wifi_button">Käynnistä Wi-Fi</string>
     <string name="go_to_settings_button">Mene asetuksiin</string>
     <string name="enable_demo_mode_button">Käynnistä esittelytila</string>
-    <string name="configuration_missing">Emme löydä  e-Safe -palvelinta verkosta. Jos sinulla on jo palvelin, määritä sen IP-osoite tai isäntänimi asetuksiin. Jos sinulla ei vielä ole palvelinta, ota käyttöön esittelytila nähdäksesi mihin e-Safe pystyy.</string>
+    <string name="configuration_missing">Emme löydä  e-SAFE -palvelinta verkosta. Jos sinulla on jo palvelin, määritä sen IP-osoite tai isäntänimi asetuksiin. Jos sinulla ei vielä ole palvelinta, ota käyttöön esittelytila nähdäksesi mihin e-SAFE pystyy.</string>
     <string name="no_remote_server">Yhteys paikalliseen palvelimeen epäonnistui etkä ole määrittänyt etäpalvelinta</string>
-    <string name="resolving_openhab">Etsitään  e-Safe -palvelinta\u2026</string>
+    <string name="resolving_openhab">Etsitään  e-SAFE -palvelinta\u2026</string>
     <string name="waiting_for_wifi">Odotetaan Wi-Fi yhteyttä\u2026</string>
     <!-- Log -->
     <string name="log">Loki</string>
@@ -395,7 +395,7 @@
     <string name="content_description_color_down">Sammuta tai pidä painettuna vähentääksesi kirkkautta</string>
     <string name="content_description_open_number_picker">Avaa numerovalitsin</string>
     <string name="content_description_video">Video</string>
-    <string name="content_description_open_openhab">Avaa  e-Safe </string>
+    <string name="content_description_open_openhab">Avaa  e-SAFE </string>
     <string name="swipe_to_refresh_description">Sovellus päivittää automaattisesti joten sitä ei tavallisesti tarvitse tehdä itse</string>
     <string name="got_it">Selvä!</string>
     <!-- Intro strings -->
@@ -507,7 +507,7 @@
     <string name="tile_label_12">Laatta 12</string>
     <string name="error_missing_prefs">Ole hyvä ja täytä kaikki asetukset</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab"> e-Safe  kuvake</string>
+    <string name="tile_icon_openhab"> e-SAFE  kuvake</string>
     <string name="tile_icon_tv">Televisio</string>
     <string name="tile_icon_radio">Radio</string>
     <string name="tile_icon_bulb">Polttimo</string>

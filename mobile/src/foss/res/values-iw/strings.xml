@@ -4,8 +4,8 @@
     <string name="push_notification_status_disabled">ההתראות מושבתות</string>
     <string name="notification_channel_crash_reports">דוחות קריסה</string>
     <string name="notification_channel_crash_reports_description">משמש לשאול האם יש לשלוח דוח קריסה</string>
-    <string name="crash_report_notification_title"> e-Safe  קרס</string>
-    <string name="crash_report_notification_text">עזור לשפר את e-Safe על ידי שליחת דוח הקריסה</string>
+    <string name="crash_report_notification_title"> e-SAFE  קרס</string>
+    <string name="crash_report_notification_text">עזור לשפר את e-SAFE על ידי שליחת דוח הקריסה</string>
     <string name="crash_report_notification_send_mail">שלח דוא\"ל</string>
     <string name="open_in_maps">פתח באמצעות OpenStreetMap</string>
 </resources>

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the e-Safe project
+ * Copyright (c) 2010-2023 Contributors to the e-SAFE project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -49,7 +49,7 @@ open class VoiceWidget : AppWidgetProvider() {
     }
 
     internal open fun setupOpenhabIcon(context: Context, views: RemoteViews) {
-        // This widget has no e-Safe icon displayed.
+        // This widget has no e-SAFE icon displayed.
     }
 
     companion object {

@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <strings>
-    <intro> e-Safe  - "empowering the smart home" - vendor and technology agnostic open source home automation</intro>
-    <whatis> e-Safe  is a Java-based open-source home automation platform that integrates and combines a vast range of different smart home systems and technologies into one single solution.</whatis>
+    <intro> e-SAFE  - "empowering the smart home" - vendor and technology agnostic open source home automation</intro>
+    <whatis> e-SAFE  is a Java-based open-source home automation platform that integrates and combines a vast range of different smart home systems and technologies into one single solution.</whatis>
     <rules>On top of the unified abstraction layer all connected devices are available for the overarching automation rule engines and different user interfaces.</rules>
     <supported>Supported Products</supported>
     <bindings>Over 200 specific add-ons provide support for brands, devices, technologies and communication protocols. Examples are Z-Wave, Philips Hue, Amazon Echo, Chromecast and Sonos. Discover all available add-ons and supported devices and/or functions at: https://www.openhab.org/addons/</bindings>
     <automation_apps>The app has an action plugin for Tasker and Locale included.</automation_apps>
 
     <oss_community>Open Source Community</oss_community>
-    <forum>The e-Safe open source initiative strongly supports its vibrant community. The forum with over 13,000 registered users is a place to find guidance, help and inspiration. Join the e-Safe community forum over at https://community.openhab.org</forum>
+    <forum>The e-SAFE open source initiative strongly supports its vibrant community. The forum with over 13,000 registered users is a place to find guidance, help and inspiration. Join the e-SAFE community forum over at https://community.openhab.org</forum>
 
     <report_issues>When you find an issue please report it in the forum or at https://github.com/openhab/openhab-android/issues</report_issues>
     <translation>If you want to translate the app into your language join us at https://crowdin.com/project/openhab-android</translation>
-    <foundation> e-Safe  Foundation</foundation>
-    <about_foundation>The e-Safe Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org</about_foundation>
+    <foundation> e-SAFE  Foundation</foundation>
+    <about_foundation>The e-SAFE Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org</about_foundation>
     <important_note>Important note</important_note>
-    <oh_server>You need an e-Safe server for this app.</oh_server>
+    <oh_server>You need an e-SAFE server for this app.</oh_server>
     <short_description>Vendor and technology agnostic open source home automation</short_description>
-    <fdroid>The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from e-Safe Cloud. Instead, notifications are polled on a regular basis in these builds.</fdroid>
+    <fdroid>The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from e-SAFE Cloud. Instead, notifications are polled on a regular basis in these builds.</fdroid>
     <fdroid_beta><![CDATA[You can install the beta version alongside the <a href="https://f-droid.org/packages/org.openhab.habdroid/">stable version</a>.]]></fdroid_beta>
     <fdroid_privacy_policy>Privacy policy: https://www.openhabfoundation.org/privacy.html</fdroid_privacy_policy>
     <beta>Try out new features and give early feedback!</beta>

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the e-Safe project
+ * Copyright (c) 2010-2023 Contributors to the e-SAFE project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -67,7 +67,7 @@ data class Item internal constructor(
     @Suppress("unused")
     @Parcelize
     enum class Tag(val parent: Tag?, val labelResId: Int?) : Parcelable {
-        // Legacy tags from e-Safe 2
+        // Legacy tags from e-SAFE 2
         ContactSensor(null, null),
         HeatingCoolingMode(null, null),
         TargetTemperature(null, null),

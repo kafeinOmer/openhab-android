@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010-2023 Contributors to the e-Safe project
+ * Copyright (c) 2010-2023 Contributors to the e-SAFE project
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information.
@@ -242,7 +242,7 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
             shortcutManager = getSystemService(ShortcutManager::class.java)
         }
 
-        // Check if we have e-Safe page url in saved instance state?
+        // Check if we have e-SAFE page url in saved instance state?
         if (savedInstanceState != null) {
             serverProperties = savedInstanceState.parcelable(STATE_KEY_SERVER_PROPERTIES)
             val lastConnectionHash = savedInstanceState.getInt(STATE_KEY_CONNECTION_HASH)
@@ -757,7 +757,7 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
                     serverProperties = result.props
                     updateSitemapDrawerEntries()
                     if (result.props.sitemaps.isEmpty()) {
-                        Log.e(TAG, " e-Safe  returned empty Sitemap list")
+                        Log.e(TAG, " e-SAFE  returned empty Sitemap list")
                         Log.e(TAG, "sitemaps isEmpty temporary null " + controller.nullCheckTemporaryPage())
                         //controller.indicateServerCommunicationFailure(getString(R.string.error_empty_sitemap_list))
                         if (controller.nullCheckTemporaryPage())
@@ -800,7 +800,7 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
         if (info != null && prefs.getConfiguredServerIds().isEmpty()) {
             info.addToPrefs(this)
         } else {
-            Log.d(TAG, "Failed to discover e-Safe server")
+            Log.d(TAG, "Failed to discover e-SAFE server")
             controller.indicateMissingConfiguration(resolveAttempted = true, wouldHaveUsedOfficialServer = false)
         }
     }
@@ -1030,7 +1030,7 @@ class MainActivity : AbstractBaseActivity(), ConnectionFactory.UpdateListener {
             drawerServerNameView.text = getString(R.string.settings_openhab_demomode)
         } else {
             //val activeConfig = ServerConfiguration.load(prefs, getSecretPrefs(), prefs.getActiveServerId())
-            drawerServerNameView.text = "e-Safe"
+            drawerServerNameView.text = "e-SAFE"
         }
     }
 

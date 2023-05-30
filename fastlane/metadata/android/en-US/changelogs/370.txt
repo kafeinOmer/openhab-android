@@ -1,2 +1,2 @@
 ## Added
-* Shortcuts to HABPanel and e-Safe 3 UI now open the subpage where they have been created (#2494)
+* Shortcuts to HABPanel and e-SAFE 3 UI now open the subpage where they have been created (#2494)

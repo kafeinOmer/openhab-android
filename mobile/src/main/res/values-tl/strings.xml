@@ -13,9 +13,9 @@
     <string name="settings_connection_title">Koneksyon</string>
     <string name="settings_misc_title">Samut-sari</string>
     <string name="settings_openhab_url">URL ng lokal server</string>
-    <string name="settings_openhab_url_summary">Ang URL ng e-Safe dashboard (batay sa hostname o IP). Kung ito man ay na-configure, ang autodiscovery ay hindi gagana. Kasalukuyang setting: %s</string>
+    <string name="settings_openhab_url_summary">Ang URL ng e-SAFE dashboard (batay sa hostname o IP). Kung ito man ay na-configure, ang autodiscovery ay hindi gagana. Kasalukuyang setting: %s</string>
     <string name="settings_openhab_alturl">URL ng Malayuang server</string>
-    <string name="settings_openhab_alturl_summary">Ang URL ng e-Safe dashboard ay ginamit habang ang lokal na address ay hindi magagamit. Kasalukuyang setting</string>
+    <string name="settings_openhab_alturl_summary">Ang URL ng e-SAFE dashboard ay ginamit habang ang lokal na address ay hindi magagamit. Kasalukuyang setting</string>
     <string name="settings_openhab_username">Pangalan ng gumagamit</string>
     <string name="settings_openhab_sslclientcert">SSL sertipiko ng kliente</string>
     <string name="settings_openhab_sslclientcert_howto_summary">Tapikin ito para makakuha ng mga pahiwatig at eksplanasyon ukol sa kung paano mag set-up ng pagpapatunay sa sertipiko ng kliente sa SSL</string>
@@ -27,7 +27,7 @@
     <string name="settings_openhab_connection">Lokal</string>
     <!-- %1$s: URL, %2$s: Reason why connection is insecure -->
     <!-- App messages strings -->
-    <string name="info_voice_input"> e-Safe , sa utos mo!</string>
+    <string name="info_voice_input"> e-SAFE , sa utos mo!</string>
     <string name="info_voice_recognized_text">Tinanggap na utos: %1$s</string>
     <string name="info_demo_mode_short">Tumatakbo sa demo mode</string>
     <!-- Please try to keep the string as short as possible -->
@@ -91,10 +91,10 @@
     <string name="content_description_color_up">I-on o hawakan para tumaas ang liwanag</string>
     <string name="content_description_color_down">I-off o hawakan para bumaba ang liwanag</string>
     <string name="content_description_open_number_picker">Buksan ang number picker</string>
-    <string name="content_description_open_openhab">Buksan ang  e-Safe </string>
+    <string name="content_description_open_openhab">Buksan ang  e-SAFE </string>
     <!-- Intro strings -->
     <string name="app_intro">Panimula</string>
-    <string name="intro_welcome">Maligayang pagdating sa  e-Safe </string>
+    <string name="intro_welcome">Maligayang pagdating sa  e-SAFE </string>
     <string name="intro_whatis">Isang vendor at teknolohiyang agnostika na may bukas na pinagmulan awtomasyong software para sainyong tirahan</string>
     <!-- Intro "SKIP" button -->
     <string name="app_intro_skip_button">Laktawan</string>

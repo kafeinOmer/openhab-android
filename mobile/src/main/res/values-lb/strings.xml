@@ -7,7 +7,7 @@
     <string name="save">Späicheren</string>
     <string name="discard">Annuléieren</string>
     <string name="delete">Läschen</string>
-    <string name="attribution_tag_discover_server">Nom e-Safe Server sichen</string>
+    <string name="attribution_tag_discover_server">Nom e-SAFE Server sichen</string>
     <string name="attribution_tag_select_server_wifi">Server baséierend um Wi-Fi auswielen</string>
     <string name="attribution_tag_suggest_turn_on_wifi">Virschloen Wi-Fi ze aktivéieren</string>
     <!-- Main menu items -->
@@ -18,7 +18,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Notifikatiounen</string>
     <string name="habpanel_error">Beim Lueden vum HABPanel ass e Feeler opgetrueden</string>
-    <string name="frontail_error">Beim Luede vu Frontail ass e Feeler geschitt. Beuecht wgl. dass Frontail net via e-Safe Cloud verfügbar ass.</string>
+    <string name="frontail_error">Beim Luede vu Frontail ass e Feeler geschitt. Beuecht wgl. dass Frontail net via e-SAFE Cloud verfügbar ass.</string>
     <string name="mainmenu_openhab_selectsitemap">Standard Sitemap auswielen</string>
     <string name="mainmenu_openhab_clearcache">Biller Cache eidel maachen</string>
     <!-- App settings strings -->
@@ -27,9 +27,9 @@
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Verschiddenes</string>
     <string name="settings_openhab_url">URL vum lokale Server</string>
-    <string name="settings_openhab_url_summary">D´ URL vum e-Safe Dashboard (baséierend um Hostname oder IP). Wa konfiguréiert ass déi automatesch Erkennung desaktivéiert. Aktuell Astellung: %s</string>
+    <string name="settings_openhab_url_summary">D´ URL vum e-SAFE Dashboard (baséierend um Hostname oder IP). Wa konfiguréiert ass déi automatesch Erkennung desaktivéiert. Aktuell Astellung: %s</string>
     <string name="settings_openhab_alturl">Server URL</string>
-    <string name="settings_openhab_alturl_summary">D´ URL vum e-Safe Dashboard déi benotzt gëtt wann déi lokal Adress net verfügbar ass. Aktuell Astellung: %s</string>
+    <string name="settings_openhab_alturl_summary">D´ URL vum e-SAFE Dashboard déi benotzt gëtt wann déi lokal Adress net verfügbar ass. Aktuell Astellung: %s</string>
     <string name="settings_openhab_username">Benotzernumm</string>
     <string name="settings_openhab_password">Passwuert</string>
     <string name="settings_openhab_password_summary_weak">Schwaacht Passwuert gesat</string>
@@ -38,7 +38,7 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Tipp heihinner fir Hiweiser an Erklärungen iwwer d´ Authentifizéierung per SSL Client Certificat ze kréien</string>
     <string name="settings_openhab_sslclientcert_not_supported">SSL Client-Zertifikater sinn vun dengem Gerät net ennerstetzt</string>
     <string name="settings_openhab_demomode">Demo Modus</string>
-    <string name="settings_openhab_demomode_summary">Wann s de keen e-Safe Server hues, schalt den Demo Modus an fir eng Iddi ze kréien wat e-Safe kann.</string>
+    <string name="settings_openhab_demomode_summary">Wann s de keen e-SAFE Server hues, schalt den Demo Modus an fir eng Iddi ze kréien wat e-SAFE kann.</string>
     <string name="start_page_title">Startsäit</string>
     <string name="settings_openhab_theme">Design</string>
     <string name="settings_openhab_fullscreen">Vollbild</string>
@@ -81,7 +81,7 @@
     <string name="settings_screen_lock_off_summary">Zougrëff op d‘ App ass net gespaart</string>
     <string name="settings_screen_lock_kiosk_summary">Zougrëff op d‘ App Astellungen ass mat der Android Display Spär oder Fangerofdrock gespaart</string>
     <string name="settings_screen_lock_on_summary">Zougrëff op d‘ App Astellungen ass mat der Android Display Spär oder Fangerofdrock gespaart\nHiwäis: Widgets kennen trotzdeem benotzt ginn</string>
-    <string name="screen_lock_unlock_screen_description">Entspären fir Zougrëff op e-Safe ze kréien</string>
+    <string name="screen_lock_unlock_screen_description">Entspären fir Zougrëff op e-SAFE ze kréien</string>
     <string name="screen_lock_unlock_preferences_description">Entspär fir Zougrëff op d‘ Astellungen ze kréien</string>
     <string name="settings_screen_lock_off">Aus</string>
     <string name="settings_screen_lock_kiosk">Kiosk Modus</string>
@@ -98,7 +98,7 @@
     <string name="settings_server_primary_title">Hapt Server</string>
     <string name="settings_server_primary_summary_is_primary">Dësen ass den Hapt Server.\nMomentan ass nëmmen den Hapt Server ënnerstëtzt. Klick op den Hëllef Knäppchen fir méi Informatiounen.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" ass den Hapt Server. Klick fir dësen als Hapt Server ze wielen.\nMomentan ënnerstëtzt nëmmen den Hapt Server all Funktionalitéiten vun dëser App. Klick op den Hëllef Knäppchen fir méi Informatiounen.</string>
-    <string name="settings_server_default_name"> e-Safe  %d</string>
+    <string name="settings_server_default_name"> e-SAFE  %d</string>
     <string name="settings_advanced">Avancéiert</string>
     <string name="click_here_for_more_information">Klick hei fir méi Informatiounen</string>
     <string name="device_control_subtitle_location">Lag</string>
@@ -109,7 +109,7 @@
     <string name="title_voice_widget">Sproochbefeeler</string>
     <string name="voice_command">Sproochbefeel</string>
     <string name="title_voice_widget_icon">Sproochbefeeler an App Shortcut</string>
-    <string name="info_voice_input"> e-Safe , zu dengen Déngscht!</string>
+    <string name="info_voice_input"> e-SAFE , zu dengen Déngscht!</string>
     <string name="info_voice_recognized_text">Erkannte Befeel: %1$s</string>
     <string name="info_demo_mode_short">Leeft am Demo Modus</string>
     <!-- Please try to keep the string as short as possible -->
@@ -123,12 +123,12 @@
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <string name="copied_item_name">\"%s\" kopéiert</string>
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list"> e-Safe  huet eng eidel Sitemap Lescht geschéckt</string>
+    <string name="error_empty_sitemap_list"> e-SAFE  huet eng eidel Sitemap Lescht geschéckt</string>
     <string name="error_sitemap_generic_load_error">D‘ Sitemap konnt net geluede ginn. Folgende Feeler ass opgetrueden: %1$s</string>
     <string name="error_network_not_available">D\'Netzwierk ass net verfügbar</string>
     <string name="error_wifi_not_available">Wi-Fi ass ausgeschalt</string>
     <!-- %1$s: Server label, %2$s: List of Wi-Fi names -->
-    <string name="error_http_connection_failed">Connectioun ass feelgeschloen. Et ass eng onerwaarten Äntwert ukomm, beim Versuch sech un den konfiguréierten e-Safe Server ze verbannen (Empfaangenen HTTP Äntwert Code: %d).</string>
+    <string name="error_http_connection_failed">Connectioun ass feelgeschloen. Et ass eng onerwaarten Äntwert ukomm, beim Versuch sech un den konfiguréierten e-SAFE Server ze verbannen (Empfaangenen HTTP Äntwert Code: %d).</string>
     <string name="error_invalid_url">Gëff w.e.g. eng valid URL an der \'http(s)://host(:port)/\' Form an</string>
     <string name="error_invalid_https_url">Gëff w.e.g. eng valid URL an der \'https://host(:port)/\' Form an</string>
     <string name="error_port_seems_invalid">De Port deen s du uginn schéngt net valid fir den ausgewielten Protokoll</string>
@@ -152,13 +152,13 @@
     <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
     <string name="error_http_code_495" tools:keep="@string/error_http_code_495">Authentifizéierung feelgeschloen. Iwwerpréif w.e.g. d‘ SSL Client-Zertifikat (HTTP Äntwert Code %d).</string>
     <string name="error_http_code_496" tools:keep="@string/error_http_code_496">Et gëtt en SSL Client-Zertifika gebraucht (HTTP Äntwert Code %d)</string>
-    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Däi Reverse-Proxy huet eng invalid Äntwert vum e-Safe Server kritt (HTTP Äntwert Code %d)</string>
-    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Den e-Safe Server ass temporär net verfügbar (HTTP Äntwert Code %d)</string>
-    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway Time-out. Et gesäit sou aus wei wann däin Reverse-Proxy leeft mä keng Äntwert vum e-Safe Server krut (HTTP Äntwert Code %d).</string>
-    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">Den e-Safe Server huet net genuch fräie Späicher (HTTP Äntwert Code %d)</string>
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Däi Reverse-Proxy huet eng invalid Äntwert vum e-SAFE Server kritt (HTTP Äntwert Code %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">Den e-SAFE Server ass temporär net verfügbar (HTTP Äntwert Code %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway Time-out. Et gesäit sou aus wei wann däin Reverse-Proxy leeft mä keng Äntwert vum e-SAFE Server krut (HTTP Äntwert Code %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">Den e-SAFE Server huet net genuch fräie Späicher (HTTP Äntwert Code %d)</string>
     <string name="error_http_code_511" tools:keep="@string/error_http_code_511">Netzwierk-Authentifizéierung erfuerderlech (HTTP Äntwert Code %d)</string>
     <!-- Short error strings without hints how to fix it, e.g. for notification -->
-    <string name="error_short_openhab_offline"> e-Safe  ass offline</string>
+    <string name="error_short_openhab_offline"> e-SAFE  ass offline</string>
     <string name="error_short_http_connection_failed">HTTP Code %d</string>
     <string name="error_short_unable_to_resolve_hostname">Feeler beim opléisen vum Hostnumm</string>
     <string name="error_short_unknown">Onbekannte Feeler: %s</string>
@@ -177,12 +177,12 @@
     <string name="error_short_http_code_426" tools:keep="@string/error_short_http_code_426">HTTPS erfuerderlech (HTTP Code %d)</string>
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Authentifikatioun ass feelgeschloen (HTTP Code %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">Et gëtt en SSL Client-Certificat gebraucht (HTTP Code %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Däi Reverse-Proxy huet eng invalid Äntwert vum e-Safe Server kritt (HTTP Code %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">Den e-Safe Server ass temporär net verfügbar (HTTP Code %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Däi Reverse-Proxy huet eng invalid Äntwert vum e-SAFE Server kritt (HTTP Code %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">Den e-SAFE Server ass temporär net verfügbar (HTTP Code %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Gateway Time-out (HTTP Code %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Et ass net genuch fräie Späicher um Server (HTTP Code %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Netzwierk-Authentifizéierung erfuerderlech (HTTP Äntwert Code %d)</string>
-    <string name="error_openhab_offline">Däin e-Safe Server ass Offline, mä d‘ Cloud Instanz leeft</string>
+    <string name="error_openhab_offline">Däin e-SAFE Server ass Offline, mä d‘ Cloud Instanz leeft</string>
     <string name="error_no_browser_found">Es ass kee Browser op dengem Gerät fonnt ginn</string>
     <string name="error_no_speech_to_text_app_found">Keng Sproocherkennungs App fonnt</string>
     <string name="error_video_player">%s kann net geluede ginn</string>
@@ -344,9 +344,9 @@
     <string name="about_issues">E Problem mellen</string>
     <string name="about_docs">Dokumentatioun</string>
     <string name="about_community_forum">Community-Forum</string>
-    <string name="about_foundation"> e-Safe  Fondatioun</string>
-    <string name="about_community"> e-Safe -Community</string>
-    <string name="about_translation">Hëllef eis e-Safe ze iwwersetzen</string>
+    <string name="about_foundation"> e-SAFE  Fondatioun</string>
+    <string name="about_community"> e-SAFE -Community</string>
+    <string name="about_translation">Hëllef eis e-SAFE ze iwwersetzen</string>
     <string name="about_privacy_policy">Dateschutzerklärung</string>
     <string name="about_rate_this_app">Des App bewäerten</string>
     <string name="settings_debug_messages_title">Weis Informatiounen zur Léisung vun Problemer</string>
@@ -356,9 +356,9 @@
     <string name="enable_wifi_button">Wi-Fi u maachen</string>
     <string name="go_to_settings_button">Bei d\' Astellungen goen</string>
     <string name="enable_demo_mode_button">Demo Modus umaachen</string>
-    <string name="configuration_missing">Mir hu keen e-Safe Server an dengem Netzwierk fonnt. Wann s du schonn en Server hues, dann konfiguréier d\'IP Adress oder den Hostname, an den Server Astellungen. Wann s du nach keen Server hues, kanns du den Demo Modus aktivéieren fir ze gesinn wat den e-Safe System kann.</string>
+    <string name="configuration_missing">Mir hu keen e-SAFE Server an dengem Netzwierk fonnt. Wann s du schonn en Server hues, dann konfiguréier d\'IP Adress oder den Hostname, an den Server Astellungen. Wann s du nach keen Server hues, kanns du den Demo Modus aktivéieren fir ze gesinn wat den e-SAFE System kann.</string>
     <string name="no_remote_server">D\'Verbindung zum lokalen Server ass schif gaangen an du hues keen Remote Server konfiguréiert</string>
-    <string name="resolving_openhab">Versichen d\' e-Safe  Server Instanz \u2026 ze fannen</string>
+    <string name="resolving_openhab">Versichen d\' e-SAFE  Server Instanz \u2026 ze fannen</string>
     <string name="waiting_for_wifi">Waarden op d\'Hierstellung vun der Wi-Fi Verbindung \u2026</string>
     <string name="visit_status_openhab_org">Gei op status.openhab.org</string>
     <!-- Log -->
@@ -383,15 +383,15 @@
     <string name="content_description_color_down">Aus oder halen fir d\'Hellegkeet erof ze setzen</string>
     <string name="content_description_open_number_picker">Nummer Auswiel opmaachen</string>
     <string name="content_description_video">Video</string>
-    <string name="content_description_open_openhab"> e-Safe  opmaachen</string>
+    <string name="content_description_open_openhab"> e-SAFE  opmaachen</string>
     <string name="content_description_increase_item_value">Wäert vum Item eropsetzen</string>
     <string name="content_description_decrease_item_value">Wäert vum Item erofsetzen</string>
     <string name="swipe_to_refresh_description">D\'App aktualiséiert sech automatesch, Du brauchs et net manuell ze maachen</string>
     <string name="got_it">Verstanen!</string>
     <!-- Intro strings -->
     <string name="app_intro">Introduktioun</string>
-    <string name="intro_welcome">Wëllkomm bei  e-Safe </string>
-    <string name="intro_welcome_back">Wëllkomm zeréck bei  e-Safe </string>
+    <string name="intro_welcome">Wëllkomm bei  e-SAFE </string>
+    <string name="intro_welcome_back">Wëllkomm zeréck bei  e-SAFE </string>
     <string name="intro_app_restored">Bis op d‘ Server Login Informatiounen, sinn di meescht vun dengen Astellungen sinn erëm hiergestallt</string>
     <string name="intro_whatis">Eng Verkeefer an Technik agnostescht Open-Source Automatiséierungs Software fir Äert Haus</string>
     <string name="intro_voice_description">Kontrolléiert Äert Haus mat Ärer Stemm</string>
@@ -507,7 +507,7 @@
     <string name="tile_label_11">Block 11</string>
     <string name="tile_label_12">Block 12</string>
     <!-- Tile icon names -->
-    <string name="tile_icon_openhab"> e-Safe  Icon</string>
+    <string name="tile_icon_openhab"> e-SAFE  Icon</string>
     <string name="tile_icon_tv">Tëlee</string>
     <string name="tile_icon_radio">Radio</string>
     <string name="tile_icon_bulb">Bier</string>

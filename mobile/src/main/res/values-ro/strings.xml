@@ -7,7 +7,7 @@
     <string name="save">Salvează</string>
     <string name="discard">Elimină</string>
     <string name="delete">Șterge</string>
-    <string name="attribution_tag_discover_server">Descoperă serverul  e-Safe </string>
+    <string name="attribution_tag_discover_server">Descoperă serverul  e-SAFE </string>
     <string name="attribution_tag_select_server_wifi">Selectați serverul bazat pe Wi-Fi</string>
     <string name="attribution_tag_suggest_turn_on_wifi">Este sugerat să activați Wi-Fi</string>
     <!-- Main menu items -->
@@ -18,7 +18,7 @@
     <!-- %1$s: Name of a UI, %2$s: Server name. Example: HABPanel (House). Use the source string as translation if the punctuation rules are the same as in English. -->
     <string name="app_notifications">Notificări</string>
     <string name="habpanel_error">O eroare a avut loc la încărcarea HABPanel</string>
-    <string name="frontail_error">A apărut o eroare în timpul încărcării Frontail. Rețineți că nu este disponibil prin e-Safe Cloud.</string>
+    <string name="frontail_error">A apărut o eroare în timpul încărcării Frontail. Rețineți că nu este disponibil prin e-SAFE Cloud.</string>
     <string name="mainmenu_openhab_selectsitemap">Selecteaza fisierul Sitemap implicit</string>
     <string name="mainmenu_openhab_clearcache">Șterge imaginile din cache</string>
     <!-- App settings strings -->
@@ -27,9 +27,9 @@
     <string name="settings_sitemap_title">Sitemap</string>
     <string name="settings_misc_title">Diverse</string>
     <string name="settings_openhab_url">Adresa URL a serverului local</string>
-    <string name="settings_openhab_url_summary">Adresa URL pentru panoul de control e-Safe (pe baza numelui sau a adresei IP). Daca este configurat, functia de autodescoperire este dezactivata. Setarea curenta: %s</string>
+    <string name="settings_openhab_url_summary">Adresa URL pentru panoul de control e-SAFE (pe baza numelui sau a adresei IP). Daca este configurat, functia de autodescoperire este dezactivata. Setarea curenta: %s</string>
     <string name="settings_openhab_alturl">Adresa URL a serverului distant</string>
-    <string name="settings_openhab_alturl_summary">Adresa URL pentru panoul de control e-Safe pentru cazul in care adresa locala nu este disponibila. Setarea curenta: %s</string>
+    <string name="settings_openhab_alturl_summary">Adresa URL pentru panoul de control e-SAFE pentru cazul in care adresa locala nu este disponibila. Setarea curenta: %s</string>
     <string name="settings_openhab_username">Nume utilizator</string>
     <string name="settings_openhab_password">Parola</string>
     <string name="settings_openhab_password_summary_weak">Ati ales o parola slaba</string>
@@ -39,9 +39,9 @@
     <string name="settings_openhab_sslclientcert_howto_summary">Apasati aici pentru cateva instructiuni si explicatii descpre cum se seteaza autentificarea clientului prin certificat SSL</string>
     <string name="settings_openhab_sslclientcert_not_supported">Certificatele client SSL nu sunt acceptate de dispozitiv</string>
     <string name="settings_openhab_screentimeroff">Dezactivează expirarea ecranului</string>
-    <string name="settings_openhab_screentimeroff_summary">Ecranul nu se oprește atunci când e-Safe este pornit</string>
+    <string name="settings_openhab_screentimeroff_summary">Ecranul nu se oprește atunci când e-BEMS este pornit</string>
     <string name="settings_openhab_demomode">Modul demonstrativ</string>
-    <string name="settings_openhab_demomode_summary">Dacă nu aveţi un server  e-Safe , activaţi modul demo pentru a vă face o idee de ce este capabil  e-Safe .</string>
+    <string name="settings_openhab_demomode_summary">Dacă nu aveţi un server  e-SAFE , activaţi modul demo pentru a vă face o idee de ce este capabil  e-SAFE .</string>
     <string name="start_page_title">Pagină de start</string>
     <string name="drawer_entries">Intrări în meniul lateral</string>
     <string name="settings_openhab_theme">Tema</string>
@@ -87,7 +87,7 @@
     <string name="settings_screen_lock_off_summary">Accesul la aplicație nu este blocat</string>
     <string name="settings_screen_lock_kiosk_summary">Accesul la setările aplicației este blocat prin blocarea ecranului Android sau amprentă digitală</string>
     <string name="settings_screen_lock_on_summary">Accesul la aplicației este blocat prin blocarea ecranului Android sau amprentă digitală\nNotă: Widget-urile pot fi totuși utilizate</string>
-    <string name="screen_lock_unlock_screen_description">Deblocați pentru a avea acces la  e-Safe </string>
+    <string name="screen_lock_unlock_screen_description">Deblocați pentru a avea acces la  e-SAFE </string>
     <string name="screen_lock_unlock_preferences_description">Deblocați pentru a avea acces la setări</string>
     <string name="settings_screen_lock_off">Oprit</string>
     <string name="settings_screen_lock_kiosk">Modul Kiosk</string>
@@ -104,13 +104,13 @@
     <string name="settings_server_primary_title">Server principal</string>
     <string name="settings_server_primary_summary_is_primary">Acest server este cel principal.\nÎn prezent doar serverul principal este acceptat de toate funcțiile acestei aplicații. Atingeți butonul de ajutor pentru mai multe informații.</string>
     <string name="settings_server_primary_summary_is_not_primary">\"%s\" este serverul primar. Atingeți pentru a face acest server cel principal.\nÎn prezent, numai serverul primar este acceptat de toate funcțiile acestei aplicații. Atingeți butonul de ajutor pentru mai multe informații.</string>
-    <string name="settings_server_default_name"> e-Safe  %d</string>
+    <string name="settings_server_default_name"> e-SAFE  %d</string>
     <string name="settings_advanced">Avansat</string>
     <string name="device_control_subtitle_item_name">Nume Item</string>
     <!-- App messages strings -->
     <string name="title_voice_widget">Comandă vocală</string>
     <string name="title_voice_widget_icon">Comenzi vocale şi scurtătură aplicaţie</string>
-    <string name="info_voice_input"> e-Safe , la comanda ta!</string>
+    <string name="info_voice_input"> e-SAFE , la comanda ta!</string>
     <string name="info_voice_recognized_text">Comandă recunoscută: %1$s</string>
     <string name="info_demo_mode_short">Rulează în modul demonstrativ</string>
     <!-- Please try to keep the string as short as possible -->
@@ -122,7 +122,7 @@
     <string name="app_shortcut_disabled_voice_recognition">Dispozitivul dvs. nu are instalată o aplicație de recunoaștere vocală</string>
     <!-- An Item name has been copied to clipboard, e.g. Copied "GF_Lights" -->
     <!-- Error messages -->
-    <string name="error_empty_sitemap_list"> e-Safe  a returnat lista Sitemap goală</string>
+    <string name="error_empty_sitemap_list"> e-SAFE  a returnat lista Sitemap goală</string>
     <string name="error_sitemap_generic_load_error">Sitemap-ul nu a putut fi încărcat. A apărut următoarea eroare: %1$s</string>
     <string name="error_network_not_available">Rețeaua nu este disponibilă</string>
     <string name="error_wifi_not_available">Wi-Fi este dezactivat</string>
@@ -147,12 +147,12 @@
     <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
     <string name="error_short_http_code_495" tools:keep="@string/error_short_http_code_495">Autentificare eșuată (cod HTTP %d)</string>
     <string name="error_short_http_code_496" tools:keep="@string/error_short_http_code_496">Certificat client SSL necesar (cod HTTP %d)</string>
-    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Proxy-ul invers a primit un răspuns invalid de la e-Safe (cod HTTP %d)</string>
-    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-Safe  indisponibil temporar (cod HTTP %d)</string>
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Proxy-ul invers a primit un răspuns invalid de la e-SAFE (cod HTTP %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503"> e-SAFE  indisponibil temporar (cod HTTP %d)</string>
     <string name="error_short_http_code_504" tools:keep="@string/error_short_http_code_504">Gateway time-out (HTTP code %d).</string>
     <string name="error_short_http_code_507" tools:keep="@string/error_short_http_code_507">Nu există suficient spațiu liber pe server (cod HTTP %d)</string>
     <string name="error_short_http_code_511" tools:keep="@string/error_short_http_code_511">Autentificarea prin rețea este necesară (cod HTTP %d)</string>
-    <string name="error_openhab_offline">Serverul dumneavoastră e-Safe este offline în timp ce instanța cloud este pornită</string>
+    <string name="error_openhab_offline">Serverul dumneavoastră e-SAFE este offline în timp ce instanța cloud este pornită</string>
     <string name="error_no_browser_found">Nu a fost găsit nici un browser pe dispozitivul tău</string>
     <string name="error_no_speech_to_text_app_found">Nu a fost găsită nicio aplicație de recunoaștere vocală</string>
     <string name="error_sse_failed">Abonamentul evenimentului a eșuat, reîmprospătarea widgetului poate fi afectată</string>
@@ -257,17 +257,17 @@
     <string name="about_issues">Raportaţi o problemă</string>
     <string name="about_docs">Documentație</string>
     <string name="about_community_forum">Forum-ul comunității</string>
-    <string name="about_foundation">Fundația  e-Safe </string>
-    <string name="about_community">Comunitatea  e-Safe </string>
-    <string name="about_translation">Ajutați-ne să traducem  e-Safe </string>
+    <string name="about_foundation">Fundația  e-SAFE </string>
+    <string name="about_community">Comunitatea  e-SAFE </string>
+    <string name="about_translation">Ajutați-ne să traducem  e-SAFE </string>
     <string name="about_privacy_policy">Politica de confidențialitate</string>
     <string name="try_again_button">Încearcă din nou</string>
     <string name="enable_wifi_button">Activează Wi-Fi</string>
     <string name="go_to_settings_button">Mergi la setări</string>
     <string name="enable_demo_mode_button">Activează modul demonstrativ</string>
-    <string name="configuration_missing">Nu găsim un server e-Safe în reţea. Dacă aveţi deja un server, vă rugăm să configuraţi adresa IP sau host name-ul în setările de server. Dacă nu aveți încă un server, activaţi modul demo pentru a vedea ce de ce este capabil  e-Safe .</string>
+    <string name="configuration_missing">Nu găsim un server e-SAFE în reţea. Dacă aveţi deja un server, vă rugăm să configuraţi adresa IP sau host name-ul în setările de server. Dacă nu aveți încă un server, activaţi modul demo pentru a vedea ce de ce este capabil  e-SAFE .</string>
     <string name="no_remote_server">Conectarea la serverul local nu a reuşit şi nu aţi configurat un server pentru accesul de la distanţă</string>
-    <string name="resolving_openhab">Se încearcă găsirea unui server  e-Safe \u2026</string>
+    <string name="resolving_openhab">Se încearcă găsirea unui server  e-SAFE \u2026</string>
     <string name="waiting_for_wifi">Se aşteptă Wi-Fi pentru a stabili conexiunea\u2026</string>
     <!-- Log -->
     <string name="log">Jurnal</string>
@@ -290,13 +290,13 @@
     <string name="content_description_color_up">Pornit sau ține apăsat pentru a crește luminozitatea</string>
     <string name="content_description_color_down">Oprit sau ține apăsat pentru a diminua luminozitatea</string>
     <string name="content_description_open_number_picker">Deschide selectorul de numere</string>
-    <string name="content_description_open_openhab">Deschide  e-Safe </string>
+    <string name="content_description_open_openhab">Deschide  e-SAFE </string>
     <string name="swipe_to_refresh_description">Aplicația se actualizează automat, în mod normal nu este necesar să faceți actualizarea manual</string>
     <string name="got_it">Am înțeles!</string>
     <!-- Intro strings -->
     <string name="app_intro">Introducere</string>
-    <string name="intro_welcome">Bine ați venit la  e-Safe </string>
-    <string name="intro_welcome_back">Bine ați revenit la  e-Safe </string>
+    <string name="intro_welcome">Bine ați venit la  e-SAFE </string>
+    <string name="intro_welcome_back">Bine ați revenit la  e-SAFE </string>
     <string name="intro_app_restored">Majoritatea setărilor au fost restaurate, cu excepția datelor de acces la server</string>
     <string name="intro_whatis">Un software open source de automatizare pentru locuința dumneavoastră, independent de producători și tehnologii</string>
     <string name="intro_voice_description">Controlați-vă locuința cu vocea</string>

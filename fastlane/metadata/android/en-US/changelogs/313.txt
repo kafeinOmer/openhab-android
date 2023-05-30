@@ -2,6 +2,6 @@
 * Add loading indicator to webviews (#2130)
 
 ## Fixed
-* Fix myopenhab access for e-Safe 3 (#2149)
+* Fix myopenhab access for e-SAFE 3 (#2149)
 * Fix flickering when loading uncached icons (#2154)
 * Various fixes for video elements (#2138)

@@ -1,5 +1,5 @@
 ## Fixed
-* Fix webviews to e-Safe server with untrusted certificate (#1191)
+* Fix webviews to e-SAFE server with untrusted certificate (#1191)
 * Fix crash on startup on Android Kitkat (#1206)
 
 ## Added
